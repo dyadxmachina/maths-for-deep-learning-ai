@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Mathematics for Deep Learning and Artificial Intelligence"
+author: "Christian Ramsey & Haohan Wang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
