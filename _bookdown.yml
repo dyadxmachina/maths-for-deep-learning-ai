@@ -1,0 +1,29 @@
+book_filename: "Mathematics for Deep Learning and Artificial Intelligence"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Table '
+    eq: 'Equation '
+    thm: 'Theorem '
+    lem: 'Lemma '
+    cor: 'Corollary '
+    prp: 'Proposition '
+    cnj: 'Conjecture '
+    def: 'Definition '
+    exm: 'Example '
+    exr: 'Exercise '
+    proof: 'Proof. '
+    remark: 'Remark. '
+    solution: 'Solution. '
+  ui:
+    edit: Edit
+    chapter_name: ''
+
+output: ["html_document", "word_document"]bookdown::gitbook:
+    split_by: "section"
+    split_bib: no
+link-citations: yes
