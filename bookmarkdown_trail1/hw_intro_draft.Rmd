@@ -1,0 +1,71 @@
+---
+title: "hw_firstmarkdown"
+output: ["html_document", "word_document"]bookdown::gitbook:
+    split_by: "section"
+    split_bib: no
+link-citations: yes
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Introduction 
+## Why Mathematics 
+
+```{python}
+x = 'Hello, Python World!'
+print(x.split(' '))
+```
+```{r}
+```
+
+# Philosophical Root
+
+## Artificial Intelligence 
+- Characteristica Universalis
++ all science could in principle be translated.
+- Calculus ratiocinator 
+
+Alan Turing 1936 created a machine that can accept different instructions for different tasks.
+
+
+# Logic: 
+The journey towards deep learning continues with 2 classical 19th century works in Logic: 
+1. John Stuart Mill's <System of Logic> from 1843 - **Logic psychologism**
++ where he illustrated the logic in terms of a manifestation of a mental process.
+
+2. George Boole
+
+
+
+
+
+
+
+
+
+
+
+
