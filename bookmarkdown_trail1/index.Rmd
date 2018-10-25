@@ -7,6 +7,8 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
+github-repo: https://github.com/dyadxmachina/maths-for-deep-learning-ai
+url: 'http\://dyadxmachina.com/math-for-deep-learning-and-ai'
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
