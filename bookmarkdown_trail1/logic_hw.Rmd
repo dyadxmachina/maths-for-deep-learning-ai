@@ -33,3 +33,5 @@ In turn, he showed that the Aristotelian syllogism which had been regarded as pr
 
 
 # Definition: it is the most basic branch of mathematical logic. It is also called propositional calculus (PC)
+
+** 
