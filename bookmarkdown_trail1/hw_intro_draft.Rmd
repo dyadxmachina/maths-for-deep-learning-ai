@@ -1,7 +1,7 @@
 ---
 title: "hw_firstmarkdown"
 output: ["html_document", "word_document"]bookdown::gitbook:
-    split_by: "section"
+    split_by: "chunk"
     split_bib: no
 link-citations: yes
 
