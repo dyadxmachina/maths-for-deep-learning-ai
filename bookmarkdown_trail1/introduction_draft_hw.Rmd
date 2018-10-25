@@ -35,9 +35,16 @@ The journey towards deep learning continues with 2 classical 19th century works 
 
 He and Walter Pitts published a paper titled "[A Logical Calculus of Ideas Immanent in Nervous Activity](http://www.cs.cmu.edu/~epxing/Class/10715/reading/McCulloch.and.Pitts.pdf)"
 
-
+In this paper, they introduced the idea of artificial neural network. 
 
 
 
 Reference: 
 1. [Introduction to Deep Learning](https://www.springer.com/us/book/9783319730035) 
+
+
+```{r}
+ext_var <- "test.html"
+bookdown::render_book("index.Rmd", output_file = ext_var, clean_envir = FALSE)
+```
+

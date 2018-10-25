@@ -1,0 +1,35 @@
+---
+title: "Propositional Logic"
+author: "hw"
+date: "October 26, 2018"
+output: html_document
+---
+> History of Propositional Logic 
+
+#  Aristotle to George Boole 
+* Logic was developed by Aristotle (384-322 BCE). Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
+
+## Branches of logics: 
+1. Classical Logic - Aristotelian logic 
+2. Symbolic Logic - Mathematical logic 
+
+* Common Ground
+"model symbolic logic is a development of the concepts and techniques which were implicit in the work of Aristotle.." - Bassoon and O'conner
+
+In a sense, it agress that the modern symboloic logic is just a development and the extension of the concepts and techniques of Aristotlian logic. 
+
+## Next Moves
+### G.W Leibnitz (1646-1716)
+
+He put forward a 2 fold plan that helped reform the logic. 
+1. He suggested the establishment of a universal basic ideograms, in which all the scientific concepts could be represented by a combination of basic ideograms. 
+2. he also suggested that a unversial calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressed in the universal language. 
+
+### George Boole (1815-1864)
+He formulated a system of algebra. Boole applied his algebra to several branches of logic including the syllogism of the classical logic. 
+In turn, he showed that the Aristotelian syllogism which had been regarded as practically co-extensive with deductive logic could be shown to be a special case of kind of logical algebra.
+
+> Propositional Logic 
+
+
+# Definition: it is the most basic branch of mathematical logic. It is also called propositional calculus (PC)
