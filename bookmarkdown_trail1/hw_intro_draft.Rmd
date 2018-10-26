@@ -40,6 +40,29 @@ print(x.split(' '))
 ```
 ```{r}
 ```
+```{r}
+
+install.packages("bookdown")
+
+
+```
+```{r}
+install.packages("webshot")
+
+
+webshot::install_phantomjs()
+
+
+```
+
+```{r}
+bookdown::publish_book()
+```
+
+```{r}
+publish_book(name = NULL, account = NULL, server = NULL, 
+  render = c("none", "local", "server"))
+```
 
 # Philosophical Root
 
