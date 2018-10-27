@@ -1,10 +1,10 @@
-# Introduction to Logic {#intro}
+# Introduction to Logic {#introtologicfz}
 
 ## From propositional logic to boolean algebra
 ## From Aristotle to George Boole to Claude Shannon
 
 Books
-The Mathematical Analysis of Logic
+Mathematical for Analysis of Logic
 An Investigation of the Laws of Thought 
 
 
@@ -40,7 +40,7 @@ plot(pressure, type = 'b', pch = 19)
 
 Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
 
-```{r nice-tab, tidy=FALSE}
+```{r nicd-tab, tidy=FALSE}
 knitr::kable(
   head(iris, 20), caption = 'Here is a nice table!',
   booktabs = TRUE
