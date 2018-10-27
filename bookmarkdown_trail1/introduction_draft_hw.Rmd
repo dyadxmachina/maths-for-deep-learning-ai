@@ -1,0 +1,78 @@
+---
+title: "Introduction_draft_hw"
+output: html_document
+---
+
+# Philosophical Root
+
+> Artificial Intelligence 
+
+- Characteristica Universalis
++ all science could in principle be translated.
+- Calculus ratiocinator 
+
+*Alan Turing
+- the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper. In the paper, he introduced the Turing test to determine whether a computer can be regarde intelligent. 
+
+* Dartmouth Summer Research Project on Artificial Intelligence
+- the conference was to 'proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be amde to simulate it.
+
+
+
+> Logic
+
+The journey towards deep learning continues with 2 classical 19th century works in Logic: 
+1. John Stuart Mill's <System of Logic> from 1843 - **Logic psychologism**
++ where he illustrated the logic in terms of a manifestation of a mental process.
+
+2. George Boole
+- presented logic as a system of formal rules and it has reshaped the logic into a formal science. 
+
+
+> Neural Network 
+
+*Warren McCulloch was a phylosopher, psychologist and psychiatrist by degree, but he would work in neurophysiology and cybernetics. 
+
+He and Walter Pitts published a paper titled "[A Logical Calculus of Ideas Immanent in Nervous Activity](http://www.cs.cmu.edu/~epxing/Class/10715/reading/McCulloch.and.Pitts.pdf)"
+
+In this paper, they introduced the idea of artificial neural network. 
+
+
+
+#
+Propositional logic 
+
+Godel (mathematics + limit of mathematics) + Alan Turing --> intelligent machine 
+
+
+McCulloch + Pitts --> first neural network 
+
+Minkey Perceptron 
+
+McCulloch + Pitts --> first neural network 
+
+
+Limiatation of the neunral network --> Logic 
+
+
+> Chapter Struture 
+
+1. Chapter 1:  Logic - Propositional Logic 
+Workfolow: 
+ * Haohan & CHristian split and to do their own exploratory research on this topic us
+ ** History + Basic Math + Applied to Deep Learning 
+ 
+ 
+2. 
+
+
+
+
+
+
+Reference: 
+1. [Introduction to Deep Learning](https://www.springer.com/us/book/9783319730035) 
+
+
+
+
