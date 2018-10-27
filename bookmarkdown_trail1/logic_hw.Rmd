@@ -34,7 +34,7 @@ In turn, he showed that the Aristotelian syllogism which had been regarded as pr
 What he did to replace Aristotelian syllogistic logic is by employing the numeral '1' for the universal class, the numeral '0' for the empty class, the multiplication notation 'xy' for the intersection of classes x and y, the addition 'x+y' for the union of classes x and y, etc. 
 
 So that statements of syllogistic logic could be treated in quasi-mathematical fashion as equation: 
-i.e. 'Not x or y' --> xy = 0
+i.e. 'Not A or B' --> AB = 0
 
 
 > Propositional Logic 
