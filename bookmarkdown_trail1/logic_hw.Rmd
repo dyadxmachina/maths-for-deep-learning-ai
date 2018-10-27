@@ -33,5 +33,6 @@ In turn, he showed that the Aristotelian syllogism which had been regarded as pr
 
 
 # Definition: it is the most basic branch of mathematical logic. It is also called propositional calculus (PC)
-
-** 
+In PC, the truth or falsity of a 'proposition' can be 'counted' determined using 'truth table'.
+** Definition 3.1 **
+A declarative sentence in a sentence which is true or false, but not both, is called a Proposition (or statement). Statements which are exclamatory, interrogative or 
