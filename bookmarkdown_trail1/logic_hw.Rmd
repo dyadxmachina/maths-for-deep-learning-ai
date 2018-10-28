@@ -11,6 +11,19 @@ output: html_document
 
 He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
 
+***
+## Syllogism 
+All Aristotle's logic revolves around one notion: the deduction (syllogism). Aristotle says: 
+" A deduction is speech in which, certain things having been supposed, somehing different from those supposed results of necessity because of their being so."
+
+Each of the 'things supposed' is a premise of the argument and what 'results of necessity' is the conclusion. 
+
+
+***
+
+
+
+
 ## Branches of logics: 
 1. Classical Logic - Aristotelian logic 
 2. Symbolic Logic - Mathematical logic 
@@ -36,6 +49,10 @@ What he did to replace Aristotelian syllogistic logic is by employing the numera
 So that statements of syllogistic logic could be treated in quasi-mathematical fashion as equation: 
 i.e. 'Not A or B' --> AB = 0
 
+***
+Symbolic Logic 
+
+***
 
 > Propositional Logic 
 
@@ -64,6 +81,57 @@ It is the propostion which do not contain any of the logical operators or connec
 
 ## Compound Propositions or Molecular propositions
 are those which contain one or more atomic statements using connectives 
+
+
+
+> Perceptron 
+## Perceving and recognizing automaton - Rossenplant (create perceptron : perceive and recognize patterns)
+
+> neuro physiology
+## Find Grandmather neurons Wiesel 
+
+
+> Back Propagation 
+## Control Theory - Henry Kelley 1960
+
+> First working deep neural network 
+## Ivakhnenko made first working neural network - 8 layers deep network 
+
+
+>  First visual pattern recognition 
+## Kunihiko 1969-80 recognize patten machine - visual pattern 
+(hand-written)
+
+> Hopfield Network 
+## Recurrent Neural network -- memory system (1982)
+
+> English Pronounce Machine 
+## Pronounce english works -- 1885
+
+> 1986
+## Hinton - Learning Representation by Back-propagated errors (paper)
+
+
+>1989
+## LeCUnn make the machine recognize digits 
+* Cash check by machine 
+
+> 1989 Q-learning 
+
+> 1993 thousand layer RNN 
+
+> 1995 SVM  Vapnik (against deep learning)
+
+> 1997 LSTM proposed 
+
+> 1998 Gradient based learning by Yunn LeCunn (gradient based learning applied to document recognition)
+
+> 2009 launch of Image net by Fei fei li 
+
+> 2014 GANs GoodFellow + Yunn LeCunn
+
+>
+
 
 References: 
 1. [Propositional Logic](file:///home/haohanlovesfanli/Downloads/PropositionalLogic.pdf)
