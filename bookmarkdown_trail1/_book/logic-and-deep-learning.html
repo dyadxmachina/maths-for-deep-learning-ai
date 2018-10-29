@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="logic-and-deep-learning.html">
-<link rel="next" href="can-machines-think.html">
+<link rel="prev" href="introtologicfz.html">
+<link rel="next" href="propositions-can-be-true-or-false.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -165,196 +165,34 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="propositions-can-be-true-or-false" class="section level1">
-<h1><span class="header-section-number">12</span> Propositions can be TRUE or FALSE</h1>
-<div id="propositions-can-be-compounded" class="section level2">
-<h2><span class="header-section-number">12.1</span> Propositions can be compounded</h2>
-<p>Wikipedia</p>
-<p>Logic sentences that can be expressed in classical propositional calculus have an equivalent expression in Boolean algebra.</p>
-<p>In the 1930s, while studying switching circuits, Claude Shannon observed that one could also apply the rules of Boole’s algebra in this setting, and he introduced switching algebra as a way to analyze and design circuits by algebraic means in terms of logic gates. Shannon already had at his disposal the abstract mathematical apparatus, thus he cast his switching algebra as the two-element Boolean algebra. In circuit engineering settings today, there is little need to consider other Boolean algebras, thus “switching algebra” and “Boolean algebra” are often used interchangeably.[6][7][8] Efficient implementation of Boolean functions is a fundamental problem in the design of combinational logic circuits. Modern electronic design automation tools for VLSI circuits often rely on an efficient representation of Boolean functions known as (reduced ordered) binary decision diagrams (BDD) for logic synthesis and formal verification.[9]</p>
-<p>Logic sentences that can be expressed in classical propositional calculus have an equivalent expression in Boolean algebra. Thus, Boolean logic is sometimes used to denote propositional calculus performed in this way.[10][11][12] Boolean algebra is not sufficient to capture logic formulas using quantifiers, like those from first order logic. Although the development of mathematical logic did not follow Boole’s program, the connection between his algebra and logic was later put on firm ground in the setting of algebraic logic, which also studies the algebraic systems of many other logics.[5] The problem of determining whether the variables of a given Boolean (propositional) formula can be assigned in such a way as to make the formula evaluate to true is called the Boolean satisfiability problem (SAT), and is of importance to theoretical computer science, being the first problem shown to be NP-complete. The closely related model of computation known as a Boolean circuit relates time complexity (of an algorithm) to circuit complexity.</p>
-<div id="operations" class="section level3">
-<h3><span class="header-section-number">12.1.1</span> Operations</h3>
-<p>AND (conjunction) OR (disjunction) NOT (negation)</p>
+<div id="logic-and-deep-learning" class="section level1">
+<h1><span class="header-section-number">11</span> Logic and Deep Learning</h1>
+<p>Artificial intelligence is harder to describe in finite terms than are the algorithms we create that represent them. This is because it is fundamentally tied up with some of our deepest queries</p>
+<p>What does it mean to be human? What is the difference between humans and other animals? Is there another species that is more intelligent than we are? Will humans be surpassed by a more intelligent species?</p>
+<p>The question as to whether these questions are valid or not is beyond the scope of this book but the questions themselves do provide us with a view into the history of logic.</p>
+<p>Rene Descartes stated “Cogito, ergo sum” which translated means “I think therefore I am”. He arrived at this statement after trying to use pure “reason” to find what was fundamentally true without any doubt. Although he couldn’t complete his project, his value of “reason” was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body.</p>
+<p>Reasoning starts with logic.</p>
+<p>Aristotle.</p>
+<p>So let us begin with reasoning.</p>
+<p>The branch and discipline titled logic was originally focused on finding absolute truths from statements that could be found in everyday discourse. Logic is fundamentally tied up with questions around how one can reason correctly. How one is able to deduce the correct answer given a set of statement or propositions.</p>
+<div id="what-is-the-connection-between-logic-and-ai-in-history-and-maths" class="section level2">
+<h2><span class="header-section-number">11.1</span> What is the connection between logic and AI in history and maths?</h2>
 </div>
-<div id="laws" class="section level3">
-<h3><span class="header-section-number">12.1.2</span> Laws</h3>
-<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">2</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="methods.html#methods">4</a>.</p>
-<p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))
-<span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</code></pre></div>
-<p><img src="Mathematics_for_Deep_Learning_and_Artificial_Intelligence_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro.html#fig:nice-fig">2.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro.html#tab:nice-tab">2.1</a>.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">kable</span>(
-  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,
-  <span class="dt">booktabs =</span> <span class="ot">TRUE</span>
-)</code></pre></div>
-<table>
-<caption><span id="tab:nicd-tab">Table 12.1: </span>Here is a nice table!</caption>
-<thead>
-<tr class="header">
-<th align="right">Sepal.Length</th>
-<th align="right">Sepal.Width</th>
-<th align="right">Petal.Length</th>
-<th align="right">Petal.Width</th>
-<th align="left">Species</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.7</td>
-<td align="right">3.2</td>
-<td align="right">1.3</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.6</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.0</td>
-<td align="right">3.6</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.7</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.6</td>
-<td align="right">3.4</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.0</td>
-<td align="right">3.4</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.4</td>
-<td align="right">2.9</td>
-<td align="right">1.4</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.9</td>
-<td align="right">3.1</td>
-<td align="right">1.5</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.7</td>
-<td align="right">1.5</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.8</td>
-<td align="right">3.4</td>
-<td align="right">1.6</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">4.8</td>
-<td align="right">3.0</td>
-<td align="right">1.4</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">4.3</td>
-<td align="right">3.0</td>
-<td align="right">1.1</td>
-<td align="right">0.1</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.8</td>
-<td align="right">4.0</td>
-<td align="right">1.2</td>
-<td align="right">0.2</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.7</td>
-<td align="right">4.4</td>
-<td align="right">1.5</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.4</td>
-<td align="right">3.9</td>
-<td align="right">1.3</td>
-<td align="right">0.4</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.5</td>
-<td align="right">1.4</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="odd">
-<td align="right">5.7</td>
-<td align="right">3.8</td>
-<td align="right">1.7</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-<tr class="even">
-<td align="right">5.1</td>
-<td align="right">3.8</td>
-<td align="right">1.5</td>
-<td align="right">0.3</td>
-<td align="left">setosa</td>
-</tr>
-</tbody>
-</table>
-<p>You can write citations, too. For example, we are using the <strong>bookdown</strong> package <span class="citation">(Xie <a href="#ref-R-bookdown">2018</a>)</span> in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">(Xie <a href="#ref-xie2015">2015</a>)</span>.</p>
-
+<div id="difference-between-propositional-logic-and-symbolic-logic" class="section level2">
+<h2><span class="header-section-number">11.2</span> Difference between propositional logic and symbolic logic</h2>
 </div>
+<div id="where-do-we-use-logic-in-deep-learning" class="section level2">
+<h2><span class="header-section-number">11.3</span> Where do we use logic in deep learning</h2>
 </div>
+<div id="where-does-boolean-logic-end-up-in-designing-circuitsj" class="section level2">
+<h2><span class="header-section-number">11.4</span> Where does boolean logic end up ? In designing circuitsj</h2>
 </div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-R-bookdown">
-<p>Xie, Yihui. 2018. <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown" class="uri">https://CRAN.R-project.org/package=bookdown</a>.</p>
+<div id="from-propositional-logic-to-boolean-algebra" class="section level2">
+<h2><span class="header-section-number">11.5</span> From propositional logic to boolean algebra</h2>
 </div>
-<div id="ref-xie2015">
-<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/" class="uri">http://yihui.name/knitr/</a>.</p>
+<div id="from-aristotle-to-george-boole-to-claude-shannon" class="section level2">
+<h2><span class="header-section-number">11.6</span> From Aristotle to George Boole to Claude Shannon</h2>
+<p>Books Mathematical for Analysis of Logic An Investigation of the Laws of Thought</p>
 </div>
 </div>
             </section>
@@ -362,8 +200,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-<a href="logic-and-deep-learning.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="can-machines-think.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="introtologicfz.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="propositions-can-be-true-or-false.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
