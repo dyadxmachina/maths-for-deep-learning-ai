@@ -49,7 +49,7 @@ Each of the 'things supposed' is a premise of the argument and what 'results of 
 Following Greek's tradition in logic, Cicero (106-43 BCE) introduced the term 'proposition' for which we will discuss in depth later. 
 Alexander of Aphrodisias (3rd century A.D.) used the term 'logic' in the modern sense of distinguishing correct from incorrect reasoning. 
 
-In the early twelfth centry, Peter Abelard wrote extensive commentaries attempting to articulate issues like opposition, conversion, opposition, quantity, and quality, and composed his treatise, 'the Dialectica'.
+In the early twelfth centure, Peter Abelard wrote extensive commentaries attempting to articulate issues like opposition, conversion, opposition, quantity, and quality, and composed his treatise, 'the Dialectica'.
 
 Later, William of Sherwood developed mnemonic verse as an aid in mastering the syllogisms. Jean Buridan elaborated a theory of conseqences which somewhere discussed the rules of inference.
 
