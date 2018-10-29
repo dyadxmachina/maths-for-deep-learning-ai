@@ -2,7 +2,6 @@ bookdown::gitbook:
   includes:
     in_header: ana.html
   css: style.css
-  output_dir: orangtun
   config:
     toc:
     download: ["pdf", "epub"]
