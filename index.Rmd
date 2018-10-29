@@ -22,7 +22,4 @@ url: 'http\://dyadxmachina.com/math-for-deep-learning-and-ai'
 
 ![Our new book](https://66.media.tumblr.com/74aa26e98a8a815a4d29472bc0049419/tumblr_inline_ph0verhZgD1sxa6gj_1280.png)
 
-
-The **bookdown** package can be installed from CRAN or Github:
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+This will be updated daily so check back for new chapters
