@@ -1,5 +1,11 @@
 # Introduction to Logic {#introtologicfz}
 
+
+## What is the connection between logic and AI in history and maths?
+## Difference between propositional logic and symbolic logic
+## Where do we use logic in deep learning
+## Where does boolean logic end up ? In designing circuitsj
+
 ## From propositional logic to boolean algebra
 ## From Aristotle to George Boole to Claude Shannon
 

@@ -4,11 +4,36 @@ author: "hw"
 date: "October 26, 2018"
 output: html_document
 ---
+
+```{r}
+library(reticulate)
+use_python("/usr/local/bin/python3")
+use_virtualenv('tf')
+Sys.which("python3")
+
+```
+
+
+# Can Machines Think
+## Imitation Game
+
+```{python}
+import pandas
+```
+
+
+```{python}
+import pandas
+import tensorflow as tf
+
+
+```
+
 > History of Propositional Logic 
 
 
 #  Aristotle to George Boole 
-* Logic was developed by Aristotle (384-322 BCE). He introduced the formal study of what is now known as 'formal logic', the logic that is concerned with the form, not the content, of statements or propositions. Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
+Logic was developed by Aristotle (384-322 BCE). He introduced the formal study of what is now known as 'formal logic', the logic that is concerned with the form, not the content, of statements or propositions. Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
 
 He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
 
