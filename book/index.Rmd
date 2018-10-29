@@ -10,6 +10,7 @@ link-citations: yes
 github-repo: https://github.com/dyadxmachina/maths-for-deep-learning-ai
 url: 'http\://dyadxmachina.com/math-for-deep-learning-and-ai'
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+
 ---
 
 # Prerequisites
@@ -27,10 +28,3 @@ install.packages("bookdown")
 Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
 To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
