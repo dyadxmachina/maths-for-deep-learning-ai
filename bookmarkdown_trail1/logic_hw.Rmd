@@ -35,6 +35,8 @@ import tensorflow as tf
 #  Aristotle to George Boole 
 * Logic was developed by Aristotle (384-322 BCE). Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
 
+He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
+
 ## Branches of logics: 
 1. Classical Logic - Aristotelian logic 
 2. Symbolic Logic - Mathematical logic 
@@ -55,10 +57,40 @@ He put forward a 2 fold plan that helped reform the logic.
 He formulated a system of algebra. Boole applied his algebra to several branches of logic including the syllogism of the classical logic. 
 In turn, he showed that the Aristotelian syllogism which had been regarded as practically co-extensive with deductive logic could be shown to be a special case of kind of logical algebra.
 
+What he did to replace Aristotelian syllogistic logic is by employing the numeral '1' for the universal class, the numeral '0' for the empty class, the multiplication notation 'xy' for the intersection of classes x and y, the addition 'x+y' for the union of classes x and y, etc. 
+
+So that statements of syllogistic logic could be treated in quasi-mathematical fashion as equation: 
+i.e. 'Not A or B' --> AB = 0
+
+
 > Propositional Logic 
 
+# Definition: it is the most basic branch of mathematical logic. It is also called propositional calculus (PC).
+It is a branch of logic that studies ways of joining and/or modifying entire propositions, statements or sentences to form more complicaed propositions, statements or sentences, as well as the logical relationships and properties that are derived from these methods of combining or altering statements.
 
-# Definition: it is the most basic branch of mathematical logic. It is also called propositional calculus (PC)
 In PC, the truth or falsity of a 'proposition' can be 'counted' determined using 'truth table'.
+
+
 ** Definition 3.1 **
-A declarative sentence in a sentence which is true or false, but not both, is called a Proposition (or statement). Statements which are exclamatory, interrogative or 
+"A declarative sentence in a sentence which is true or false, but not both, is called a Proposition (or statement). Statements which are exclamatory, interrogative or imperative in nature are not propositions.
+
+Example: 
+(1) 1 + 1 = 2 is a propostion while 1+1 is not a proposition 
+(2) 1 + n = 2 is not a proposition either. We would instead call this kind of statement **propositional functions **
+(3) Which color do you like the most?
+(4) This flower is beautiful.
+(5) Paris is the capital of France. 
+(3) and (4) are not propositions since they are not declarative in nature. While (5) is a propositional statment since it is defined as a declarative sentence that is capable of having a truth value, such as being True or False.
+
+If a proposition is True, we say that the truth value of the proposition is True denoted by T or 1;
+If a proposition is False, the truth value will be False, denoted by F or 0.
+
+## Atomic Propositions or primitive/simple sentence
+It is the propostion which do not contain any of the logical operators or connectives i.e. Not, And, Or, If-the, If-and-Only-If)
+
+## Compound Propositions or Molecular propositions
+are those which contain one or more atomic statements using connectives 
+
+References: 
+1. [Propositional Logic](file:///home/haohanlovesfanli/Downloads/PropositionalLogic.pdf)
+2. 
