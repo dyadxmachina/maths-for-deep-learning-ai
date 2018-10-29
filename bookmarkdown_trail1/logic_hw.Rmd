@@ -6,8 +6,9 @@ output: html_document
 ---
 > History of Propositional Logic 
 
+
 #  Aristotle to George Boole 
-* Logic was developed by Aristotle (384-322 BCE). Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
+* Logic was developed by Aristotle (384-322 BCE). He introduced the formal study of what is now known as 'formal logic', the logic that is concerned with the form, not the content, of statements or propositions. Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
 
 He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
 
@@ -18,9 +19,19 @@ All Aristotle's logic revolves around one notion: the deduction (syllogism). Ari
 
 Each of the 'things supposed' is a premise of the argument and what 'results of necessity' is the conclusion. 
 
-
 ***
 
+Following Greek's tradition in logic, Cicero (106-43 BCE) introduced the term 'proposition' for which we will discuss in depth later. 
+Alexander of Aphrodisias (3rd century A.D.) used the term 'logic' in the modern sense of distinguishing correct from incorrect reasoning. 
+
+In the early twelfth centry, Peter Abelard wrote extensive commentaries attempting to articulate issues like opposition, conversion, opposition, quantity, and quality, and composed his treatise, 'the Dialectica'.
+
+Later, William of Sherwood developed mnemonic verse as an aid in mastering the syllogisms. Jean Buridan elaborated a theory of conseqences which somewhere discussed the rules of inference.
+
+Around the same time, Scholastic logician Raymond Lully used logic to prove the Christian faith. He also remarkably designed machines that would perform logical calculations, and is thus arguably considered as the father of computer programming.
+
+# Early Modern Time 
+In 1662, Antoine Am
 
 
 
@@ -50,8 +61,8 @@ So that statements of syllogistic logic could be treated in quasi-mathematical f
 i.e. 'Not A or B' --> AB = 0
 
 ***
-Symbolic Logic 
-
+##Symbolic Logic 
+Symbolic logi is by far the simplest kind of logic. It is the method of representing logical expression through the use of symbols and variables, rather than in ordinary language. 
 ***
 
 > Propositional Logic 
@@ -135,4 +146,4 @@ are those which contain one or more atomic statements using connectives
 
 References: 
 1. [Propositional Logic](file:///home/haohanlovesfanli/Downloads/PropositionalLogic.pdf)
-2. 
+2. [A short history of Logic](https://ourhappyschool.com/philosophy/short-history-logic)
