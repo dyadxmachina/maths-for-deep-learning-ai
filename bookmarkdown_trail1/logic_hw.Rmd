@@ -6,6 +6,32 @@ output: html_document
 ---
 > History of Propositional Logic 
 
+```{r}
+library(reticulate)
+use_python("/usr/local/bin/python3")
+use_virtualenv('tf')
+Sys.which("python3")
+
+```
+
+
+# Can Machines Think
+## Imitation Game
+
+```{python}
+import pandas
+```
+
+
+```{python}
+import pandas
+import tensorflow as tf
+
+
+```
+
+
+
 #  Aristotle to George Boole 
 * Logic was developed by Aristotle (384-322 BCE). Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
 
