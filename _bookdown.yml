@@ -2,11 +2,6 @@ book_filename: "Mathematics for Deep Learning and Artificial Intelligence"
 delete_merged_file: true
 site: "bookdown::bookdown_site"
 output_dir: docs
-config:
-  fontsettings:
-        theme: white
-        family: sans
-        size: 255
 output:
   bookdown::gitbook:
     lib_dir: assets
@@ -18,4 +13,5 @@ output:
     keep_tex: yes
   bookdown::html_book:
     css: toc.css
+  bookdown::epub_book: default
 documentclass: document
