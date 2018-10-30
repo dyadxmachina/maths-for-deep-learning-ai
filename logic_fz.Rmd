@@ -1,0 +1,84 @@
+# Introduction to Logic {#introtologicfz}
+
+
+# Logic and Deep Learning
+
+Artificial intelligence is harder to describe in finite terms than are the algorithms we create that represent them. This is because it is fundamentally tied up with some of our deepest queries
+
+What does it mean to be human?
+What is the difference between humans and other animals?
+Is there another species that is more intelligent than we are?
+Will humans be surpassed by a more intelligent species?
+
+
+The question as to whether these questions are valid or not is beyond the scope of this book but the questions themselves do provide us with a view into the history of logic.
+
+Rene Descartes stated "Cogito, ergo sum" which translated means "I think therefore I am". He arrived at this statement after trying to use pure "reason" to find what was fundamentally true without any doubt. Although he couldn't complete his project, his value of "reason" was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body. 
+
+Reasoning starts with logic. 
+
+Aristotle.
+
+
+
+
+So let us begin with reasoning.
+
+The branch and discipline titled logic was originally focused on finding absolute truths from statements that could be found in everyday discourse. Logic is fundamentally tied up with questions around how one can reason correctly. How one is able to deduce the correct answer given a set of statement or propositions.
+
+
+
+
+## What is the connection between logic and AI in history and maths?
+## Difference between propositional logic and symbolic logic
+## Where do we use logic in deep learning
+## Where does boolean logic end up ? In designing circuitsj
+
+## From propositional logic to boolean algebra
+## From Aristotle to George Boole to Claude Shannon
+
+Books
+Mathematical for Analysis of Logic
+An Investigation of the Laws of Thought 
+
+
+# Propositions can be TRUE or FALSE
+## Propositions can be compounded
+
+
+Wikipedia
+
+Logic sentences that can be expressed in classical propositional calculus have an equivalent expression in Boolean algebra. 
+
+In the 1930s, while studying switching circuits, Claude Shannon observed that one could also apply the rules of Boole's algebra in this setting, and he introduced switching algebra as a way to analyze and design circuits by algebraic means in terms of logic gates. Shannon already had at his disposal the abstract mathematical apparatus, thus he cast his switching algebra as the two-element Boolean algebra. In circuit engineering settings today, there is little need to consider other Boolean algebras, thus "switching algebra" and "Boolean algebra" are often used interchangeably.[6][7][8] Efficient implementation of Boolean functions is a fundamental problem in the design of combinational logic circuits. Modern electronic design automation tools for VLSI circuits often rely on an efficient representation of Boolean functions known as (reduced ordered) binary decision diagrams (BDD) for logic synthesis and formal verification.[9]
+
+Logic sentences that can be expressed in classical propositional calculus have an equivalent expression in Boolean algebra. Thus, Boolean logic is sometimes used to denote propositional calculus performed in this way.[10][11][12] Boolean algebra is not sufficient to capture logic formulas using quantifiers, like those from first order logic. Although the development of mathematical logic did not follow Boole's program, the connection between his algebra and logic was later put on firm ground in the setting of algebraic logic, which also studies the algebraic systems of many other logics.[5] The problem of determining whether the variables of a given Boolean (propositional) formula can be assigned in such a way as to make the formula evaluate to true is called the Boolean satisfiability problem (SAT), and is of importance to theoretical computer science, being the first problem shown to be NP-complete. The closely related model of computation known as a Boolean circuit relates time complexity (of an algorithm) to circuit complexity.
+
+
+### Operations
+
+AND (conjunction) OR (disjunction) NOT (negation)
+
+
+### Laws
+
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r }
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nicd-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].

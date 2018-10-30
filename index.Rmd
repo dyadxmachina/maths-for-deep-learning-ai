@@ -3,16 +3,16 @@ title: "Mathematics for Deep Learning and Artificial Intelligence"
 author: "Christian Ramsey & Haohan Wang"
 date: "`r Sys.Date()`"
 output: bookdown
-description: ''
+description: "learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt\'s Perceptron"
 documentclass: book
-github-repo: 'https://github.com/dyadxmachina/maths-for-deep-learning-ai'
+github-repo: https://github.com/dyadxmachina/maths-for-deep-learning-ai
 link-citations: yes
 bibliography:
 - book.bib
 - packages.bib
 site: bookdown::bookdown_site
 biblio-style: apalike
-url: 'http://dyadxmachina.com/math-for-deep-learning-and-ai'
+url: https://m4dl.com
 ---
 
 
@@ -21,5 +21,7 @@ url: 'http://dyadxmachina.com/math-for-deep-learning-and-ai'
 # Our new upcoming book
 
 ![Our new book](https://66.media.tumblr.com/74aa26e98a8a815a4d29472bc0049419/tumblr_inline_ph0verhZgD1sxa6gj_1280.png)
+
+# What's next?
 
 This will be updated daily so check back for new chapters
