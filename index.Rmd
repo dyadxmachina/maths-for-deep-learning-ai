@@ -20,7 +20,7 @@ url: https://m4dl.com
 
 # Our new upcoming book
 
-<!-- ![Our new book](docs/images/maths of deep learning.png) -->
+![Our new book](docs/images/maths of deep learning.png)
 
 # What's next?
 
