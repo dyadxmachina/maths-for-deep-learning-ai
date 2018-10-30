@@ -13,6 +13,11 @@ bibliography:
 site: bookdown::bookdown_site
 biblio-style: apalike
 url: https://m4dl.com
+config:
+  fontsettings:
+        theme: dark
+        family: sans
+        size: 255
 ---
 
 

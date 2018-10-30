@@ -5,6 +5,9 @@ bookdown::gitbook:
   config:
     toc:
     download: ["pdf", "epub"]
+    fontsettings:
+      theme: night
+      family: serif
 bookdown::pdf_book:
   latex_engine: xelatex
   citation_package: natbib
