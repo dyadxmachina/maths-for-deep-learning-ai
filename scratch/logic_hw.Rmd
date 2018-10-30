@@ -66,6 +66,9 @@ The next wave of the logic can be called the 'mathematical school'. This traditi
 In 1889 Peano published the first version of the logical axiomatization of arithmetic. Five of the nine axioms he came up with are now known as the Peano axioms. One of these axioms was a formalized statement of the principle of mathematical induction.
 
 
+Ernst Zermelo's axiomatic set theory was also an attempt to escape Russell's Paradox. His axioms went well beyond Frege's axioms of extensionality and unlimited set abstraction, and evolved into the now-canonical Zermelo-Fraenkel set theory. 
+
+Gradually, logic became the branch of mathematics that was to be brought within the axiomatic methodology. Jan Lukasiewicz worked on multi-valued logics. His three-valued propositional calculus, introduced in 1917, was the first explicitly axiomatized non-classical logical calculus.
 
 
 The famous Ludwig Wittgenstein (1819-1951) entered the list of significant logician by being oen of the developers of the 'truth tables'. 
@@ -73,8 +76,14 @@ The famous Ludwig Wittgenstein (1819-1951) entered the list of significant logic
 
 This intensive work on mathematical issues culminated in the work of Kurt Godel (1906-1978), a logician of the caliber of Aristotle and Frege. Using many applications of the rules of logic, Kurt Godel proved his 'incompleteness theorem', which proposes that some parts of mathematics are based on ideas that cannot be proved within the system of mathematics. 
 
+Godel was also one of the central figures in the study of computability. Others included Alonzo Church (1903-1995), Alan Turing (1912-1954), and others. 
 
 
+There are plenty of other advances in logic. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
+
+Logical positivist [A.J. Ayer](), on the other hand, wrote in 1936 his 'Language, Truth, and Logic' in which he focused on the role of language as the medium through which knowledge is understood and verified. 
+
+In 1965, [Lofti Zadeh]() developed 'fuzzy logic' which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence. 
 
 ## Branches of logics: 
 1. Classical Logic - Aristotelian logic 
