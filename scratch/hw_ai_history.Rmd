@@ -1,0 +1,54 @@
+---
+title: "AI_hisory"
+author: "hw"
+date: "October 30, 2018"
+output: html_document
+---
+
+> Perceptron 
+## Perceving and recognizing automaton - Rossenplant (create perceptron : perceive and recognize patterns)
+
+> neuro physiology
+## Find Grandmather neurons Wiesel 
+
+
+> Back Propagation 
+## Control Theory - Henry Kelley 1960
+
+> First working deep neural network 
+## Ivakhnenko made first working neural network - 8 layers deep network 
+
+
+>  First visual pattern recognition 
+## Kunihiko 1969-80 recognize patten machine - visual pattern 
+(hand-written)
+
+> Hopfield Network 
+## Recurrent Neural network -- memory system (1982)
+
+> English Pronounce Machine 
+## Pronounce english works -- 1885
+
+> 1986
+## Hinton - Learning Representation by Back-propagated errors (paper)
+
+
+>1989
+## LeCUnn make the machine recognize digits 
+* Cash check by machine 
+
+> 1989 Q-learning 
+
+> 1993 thousand layer RNN 
+
+> 1995 SVM  Vapnik (against deep learning)
+
+> 1997 LSTM proposed 
+
+> 1998 Gradient based learning by Yunn LeCunn (gradient based learning applied to document recognition)
+
+> 2009 launch of Image net by Fei fei li 
+
+> 2014 GANs GoodFellow + Yunn LeCunn
+
+>
