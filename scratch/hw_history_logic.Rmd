@@ -12,7 +12,9 @@ Then you may ask "How should we define intelligence? Why are we human intelligen
 As we go through the history of logic later, you will see how this the search of this question has started thousand years. Based on this journey of 'intelligent' search, we can now shed some light on how and why ai was developed. 
 
 
-We human have long been regarded as intelligent due to our ability to think or reason. And this is the exact start of logic. The attempt that we human took to discover intelligence.
+We human have long been regarded as intelligent due to our ability to think or reason. And this is the exact start of logic.
+
+First, let's begin the journey together to uncover the attempt that we human took to discover intelligence.
 
 Logic was developed by Aristotle (384-322 BCE). He introduced the formal study of what is now known as 'formal logic', the logic that is concerned with the form, not the content, of statements or propositions. Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
 
@@ -82,12 +84,31 @@ This intensive work on mathematical issues culminated in the work of Kurt Godel 
 
 Godel was also one of the central figures in the study of computability. Others included Alonzo Church (1903-1995), Alan Turing (1912-1954), and others. 
 
+Let's pause here for a while and take a close look at the progress that made by Alan Turing and Kurt Godel during this period. 
 
-There are plenty of other advances in logic. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
+As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper. In the paper, he introduced the Turing test to determine whether a computer can be regarde intelligent. Turing's initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics
+1. *complete* in a sense that any mathematical assertion could either be proved or disproval
+2. *consistent* in the sense that false statements could not be drived by a sequence of valid steps and 
+3. *decidable* in the sense that there exists a definite method to decide the truth of falsity of every mathematical assertion.
+
+Within 3 years, Kurt Godel had proved that the axioms of arithematic are both not complete and consistent. By 1937 both Alonzo Church and Alan Turing 
+
+There are plenty of other advances in logic afterwards as well. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
 
 Logical positivist [A.J. Ayer](), on the other hand, wrote in 1936 his 'Language, Truth, and Logic' in which he focused on the role of language as the medium through which knowledge is understood and verified. 
 
 In 1965, [Lofti Zadeh]() developed 'fuzzy logic' which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence. 
 
 
-Now let's go back to our initial question about AI. AI has been heavily 
+
+
+Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in at least some central areas of AI research.
+
+
+Logic in AI currently is still a large and rapidly growing field.
+
+
+* Knowledge representation and reasoning: representing information about the world in a form that a machine can utilize to solve complex tasks. It was inspired by psychology and neurobiology about how humans solve problems and represent knowledge in order to design formalisms that can make a complex concept easier o learn and design. Actually, knowledge representation starts from logic and then moved to automate various kinds of reasoning i.e. the application of rules or the relations of sets and subsets. 
+
+
+*LISP: logic programming language  1958
