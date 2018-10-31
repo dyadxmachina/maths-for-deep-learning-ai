@@ -91,7 +91,7 @@ As we all know that, Alan Turing, the father of computing, created a machine tha
 2. *consistent* in the sense that false statements could not be drived by a sequence of valid steps and 
 3. *decidable* in the sense that there exists a definite method to decide the truth of falsity of every mathematical assertion.
 
-Within 3 years, Kurt Godel had proved that the axioms of arithematic are both not complete and consistent. By 1937 both Alonzo Church and Alan Turing 
+Within 3 years, Kurt Godel had proved that the axioms of arithematic are both not complete and consistent. By 1937 both Alonzo Church and Alan Turing had 
 
 There are plenty of other advances in logic afterwards as well. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
 
