@@ -1,27 +1,22 @@
 --- 
-title: "Mathematics for Deep Learning and Artificial Intelligence"
+title: "m4dl: Mathematics for Deep Learning and Artificial Intelligence"
 author: "Christian Ramsey & Haohan Wang"
+knit: "bookdown::render_book"
 date: "`r Sys.Date()`"
 output: pdf_document
-description: learn the foundational mathematics required to learn and apply cutting
-  edge deep learning techniques. From Aristolean logic to Jaynes theory of probability
-  to Rosenblatt's Perceptron
+description: learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt's Perceptron
 documentclass: book
-github-repo: https://github.com/dyadxmachina/maths-for-deep-learning-ai
 link-citations: yes
 bibliography:
 - book.bib
 - packages.bib
 site: bookdown::bookdown_site
+colorlinks: yes
 biblio-style: apalike
-url: https://m4dl.com
+url: 'https\://m4dl.com'
+github-repo: dyadxmachina/maths-for-deep-learning-ai
+cover-image: artwork/m4dl.png
 ---
-
-
 # Our new upcoming book
 
 ![Our new book](artwork/maths of deep learning.png)
-
-# What's next?
-
-This will be updated daily so check back for new chapters
