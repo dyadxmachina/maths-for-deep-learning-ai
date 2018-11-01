@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mathematics for Deep Learning and Artificial Intelligence</title>
+  <meta name="description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://m4dl.com" />
+  <meta property="og:image" content="https://m4dl.comartwork/m4dl.png" />
+  <meta property="og:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron" />
+  <meta name="github-repo" content="dyadxmachina/maths-for-deep-learning-ai" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  
+  <meta name="twitter:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron" />
+  <meta name="twitter:image" content="https://m4dl.comartwork/m4dl.png" />
+
+<meta name="author" content="Christian Ramsey &amp; Haohan Wang">
+
+
+<meta name="date" content="2018-11-01">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="intro.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128379860-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-128379860-1');
+</script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mathematics for Deep Learning and AI</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction to Artificial Intelligence</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#what-is-it-to-think"><i class="fa fa-check"></i><b>1.1</b> What is it to think?</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#reasoning-and-logic"><i class="fa fa-check"></i><b>1.2</b> Reasoning and Logic</a></li>
+<li class="chapter" data-level="1.3" data-path="intro.html"><a href="intro.html#dealing-with-uncertainty"><i class="fa fa-check"></i><b>1.3</b> Dealing with Uncertainty</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="intro.html"><a href="intro.html#probability"><i class="fa fa-check"></i><b>1.3.1</b> Probability</a></li>
+<li class="chapter" data-level="1.3.2" data-path="intro.html"><a href="intro.html#information-theory"><i class="fa fa-check"></i><b>1.3.2</b> Information Theory</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="intro.html"><a href="intro.html#the-neurobiology-and-cognitive-science"><i class="fa fa-check"></i><b>1.4</b> The Neurobiology and Cognitive Science</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="intro.html"><a href="intro.html#cortexes"><i class="fa fa-check"></i><b>1.4.1</b> Cortexes</a></li>
+<li class="chapter" data-level="1.4.2" data-path="intro.html"><a href="intro.html#neurons"><i class="fa fa-check"></i><b>1.4.2</b> Neurons</a></li>
+<li class="chapter" data-level="1.4.3" data-path="intro.html"><a href="intro.html#perceptrons-and-perception"><i class="fa fa-check"></i><b>1.4.3</b> Perceptrons and Perception</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="intro.html"><a href="intro.html#representions-and-the-rise-of-pattern-recognition"><i class="fa fa-check"></i><b>1.5</b> Representions and the Rise of Pattern Recognition</a></li>
+<li class="chapter" data-level="1.6" data-path="intro.html"><a href="intro.html#the-mathematics-needed"><i class="fa fa-check"></i><b>1.6</b> The Mathematics Needed</a><ul>
+<li class="chapter" data-level="1.6.1" data-path="intro.html"><a href="intro.html#logic"><i class="fa fa-check"></i><b>1.6.1</b> Logic</a></li>
+<li class="chapter" data-level="1.6.2" data-path="intro.html"><a href="intro.html#calculus"><i class="fa fa-check"></i><b>1.6.2</b> Calculus</a></li>
+<li class="chapter" data-level="1.6.3" data-path="intro.html"><a href="intro.html#probability-1"><i class="fa fa-check"></i><b>1.6.3</b> Probability</a></li>
+<li class="chapter" data-level="1.6.4" data-path="intro.html"><a href="intro.html#geometry"><i class="fa fa-check"></i><b>1.6.4</b> Geometry</a></li>
+<li class="chapter" data-level="1.6.5" data-path="intro.html"><a href="intro.html#information-theory-1"><i class="fa fa-check"></i><b>1.6.5</b> Information Theory</a></li>
+<li class="chapter" data-level="1.6.6" data-path="intro.html"><a href="intro.html#statistical-learning-theory"><i class="fa fa-check"></i><b>1.6.6</b> Statistical Learning Theory</a></li>
+<li class="chapter" data-level="1.6.7" data-path="intro.html"><a href="intro.html#representation-learning"><i class="fa fa-check"></i><b>1.6.7</b> Representation Learning</a></li>
+<li class="chapter" data-level="1.6.8" data-path="intro.html"><a href="intro.html#optimization"><i class="fa fa-check"></i><b>1.6.8</b> Optimization</a></li>
+<li class="chapter" data-level="1.6.9" data-path="intro.html"><a href="intro.html#graph-theory-not-sure-we-will-cover-this"><i class="fa fa-check"></i><b>1.6.9</b> Graph Theory (not sure we will cover this)</a></li>
+<li class="chapter" data-level="1.6.10" data-path="intro.html"><a href="intro.html#reinforcement-learning-not-sure-we-will-cover-this"><i class="fa fa-check"></i><b>1.6.10</b> Reinforcement Learning (not sure we will cover this)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html"><i class="fa fa-check"></i><b>2</b> Intro to Logic and Reasoning</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#history-of-logic"><i class="fa fa-check"></i><b>2.1</b> History of Logic</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#medieval-logic"><i class="fa fa-check"></i><b>2.1.1</b> Medieval Logic</a></li>
+<li class="chapter" data-level="2.1.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#traditional-logic"><i class="fa fa-check"></i><b>2.1.2</b> Traditional Logic</a></li>
+<li class="chapter" data-level="2.1.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#modern-and-contemporary-period-1850---present"><i class="fa fa-check"></i><b>2.1.3</b> Modern and Contemporary Period (1850 - Present)</a></li>
+<li class="chapter" data-level="2.1.4" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#the-end-of-logic"><i class="fa fa-check"></i><b>2.1.4</b> The End of Logic?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#elements-of-logic"><i class="fa fa-check"></i><b>2.2</b> Elements of Logic</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#propositional-logic"><i class="fa fa-check"></i><b>2.2.1</b> Propositional Logic</a></li>
+<li class="chapter" data-level="2.2.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#operators"><i class="fa fa-check"></i><b>2.2.2</b> Operators</a></li>
+<li class="chapter" data-level="2.2.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#definitions"><i class="fa fa-check"></i><b>2.2.3</b> Definitions</a></li>
+<li class="chapter" data-level="2.2.4" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#first-orderpredicate-logic"><i class="fa fa-check"></i><b>2.2.4</b> First-Order/Predicate Logic</a></li>
+<li class="chapter" data-level="2.2.5" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#boolean-algebra"><i class="fa fa-check"></i><b>2.2.5</b> Boolean Algebra</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#godel-and-turings-theorems"><i class="fa fa-check"></i><b>2.3</b> Godel and Turing’s theorems</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/dyadxmachina/maths-for-deep-learning-ai" target="blank">Github</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mathematics for Deep Learning and Artificial Intelligence</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="intro-to-logic-and-reasoning" class="section level1">
+<h1><span class="header-section-number">2</span> Intro to Logic and Reasoning</h1>
+<div id="history-of-logic" class="section level2">
+<h2><span class="header-section-number">2.1</span> History of Logic</h2>
+<p>As we all know that Artificial Intelligence (‘AI’) is the field of computer science that was developed to enable computers/machines to display behavior that can be characterized as intelligent.</p>
+<p>Then you may ask “How should we define intelligence? Why are we human intelligent?”</p>
+<p>As we go through the history of logic later, you will see how this the search of this question has started thousand years. Based on this journey of ‘intelligent’ search, we can now shed some light on how and why ai was developed.</p>
+<p>We human have long been regarded as intelligent due to our ability to think or reason. And this is the exact start of logic.</p>
+<p>First, let’s begin the journey together to uncover the attempt that we human took to discover intelligence.</p>
+<p>Logic was developed by Aristotle (384-322 BCE). He introduced the formal study of what is now known as ‘formal logic’, the logic that is concerned with the form, not the content, of statements or propositions. Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic.</p>
+<p>He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality.</p>
+<p>All Aristotle’s logic revolves around one notion: the deduction (syllogism). Aristotle says: &quot; A deduction is speech in which, certain things having been supposed, somehing different from those supposed results of necessity because of their being so.&quot;</p>
+<p>Each of the ‘things supposed’ is a premise of the argument and what ‘results of necessity’ is the conclusion.</p>
+<p>Following Greek’s tradition in logic, Cicero (106-43 BCE) introduced the term ‘proposition’ for which we will discuss in depth later. Alexander of Aphrodisias (3rd century A.D.) used the term ‘logic’ in the modern sense of distinguishing correct from incorrect reasoning.</p>
+<p>In the early twelfth centure, Peter Abelard wrote extensive commentaries attempting to articulate issues like opposition, conversion, opposition, quantity, and quality, and composed his treatise, ‘the Dialectica’.</p>
+<p>Later, William of Sherwood developed mnemonic verse as an aid in mastering the syllogisms. Jean Buridan elaborated a theory of conseqences which somewhere discussed the rules of inference.</p>
+<p>Around the same time, Scholastic logician Raymond Lully used logic to prove the Christian faith. He also remarkably designed machines that would perform logical calculations, and is thus arguably considered as the father of computer programming.</p>
+<div id="medieval-logic" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Medieval Logic</h3>
+<p>Medieval Logic generally means the form of Aristotelian logic developed in medieval Occident throughout the period c. 1200-1600.</p>
+</div>
+<div id="traditional-logic" class="section level3">
+<h3><span class="header-section-number">2.1.2</span> Traditional Logic</h3>
+<p>It starts with Antonine Arnauld and Pierre Nicole’s Logic, or the Art of Thinking published in 1662 or the Port Royal Logic in which the logic is defined as the ‘art of managing one’s reason right in the knowledge of things, both for the instruction of oneself and of others’. It was the most influential work on logic in England until John Stuart Mill’s System of Logic in 1825.</p>
+<p>Having invented calculus, Wilhelm Leibniz (1646-1716) concluded that the whole of logic actually depends on mathematics and thus worked on reducing scientific and philosophical speculation to computation. He also suggested that a unversial calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressed in the universal language. The current understanding of the power of Leibniz’s discoveries did not emerge until the 1980s.</p>
+</div>
+<div id="modern-and-contemporary-period-1850---present" class="section level3">
+<h3><span class="header-section-number">2.1.3</span> Modern and Contemporary Period (1850 - Present)</h3>
+<p>During this period, logicians in the modern period ‘rediscovered’ the Stoic logic of proposition.</p>
+<p>People like Augustus De Morgan (1806-1864) proposed some theorem in that logic which now bear his name. Considered the founder of symbolic logic and Boolean Algebra, which is the basis of all modern computer arithmetic.</p>
+<p>George Boole (1815-1864) gave us Boolean Logic which treats propositions as either true or false. His use of numbers to express the truth values of compound statements have significantly influenced the development of computers and he is regarded as being one of the founders of the field of computer science. Until today, programmers still use his principle to test the trugh of program results or user feedback.</p>
+<p>John Venn (1834-1923) was a Cambridge logician who published 3 standard texts in logic, <em>The Logic of Chance 1866</em>, <em>symbolic Logic</em> 1881, and <em>The Principles of Empirical Logic</em> 1889. He is remembered for introducing the circular diagrams as a tool to test the validity of syllogisms, known as Venn Diagrams.</p>
+<p>Around the same time, John Stuart Mill (1806-1873) made a thorough study about inductive reasoning and introduced methods for checking such arguments now known as ‘Mill’s Methods’. And Charles Sanders Peirce (1839-1914) introduced Pragmatism, at the core of which he argued that ideas should be evaluated solely by their practical effects and not by any intrinsic qualities of reason or logic.</p>
+<p>Gottlob Frege (1848-1925) pronounced that logic is the basis of methematics and that arithmetic and analysis are part of logic. He has been called the greatest logician since Aristotle. By developing the predicate calculus (Quantification Theory), he had combined Aristotelian and Stoic’s logics and his work was the foundation or beginning point for an enormous outpouring of work in formal logic.</p>
+<p>In 1903, Bertrand Russell (1872-1970) started his project ‘The Principles of Mathematics’ in which he purposed to prove that ‘all pure mathematics deals exclusively with concepts definable in terms of a very small number of logic principles.’ Russel also continued the development of the predicate calculus and he alos found the inconsistency in Ferge’s system (because Russell’s Paradox could be derived within Frege’s system).</p>
+<p>The next wave of the logic can be called the ‘mathematical school’. This tradition or school includes the work of Richard Dedekind (1831-1916), Giuseppe Peano (1858-1932), David Hibert (1862-1943). Ernst Zermelo (1871-1953), and many ohter since then. Its goal was the axiomatization of particular branches of mathematics, including geometry, arithetic, analysis, and set theory.</p>
+<p>In 1889 Peano published the first version of the logical axiomatization of arithmetic. Five of the nine axioms he came up with are now known as the Peano axioms. One of these axioms was a formalized statement of the principle of mathematical induction.</p>
+<p>Ernst Zermelo’s axiomatic set theory was also an attempt to escape Russell’s Paradox. His axioms went well beyond Frege’s axioms of extensionality and unlimited set abstraction, and evolved into the now-canonical Zermelo-Fraenkel set theory.</p>
+<p>Gradually, logic became the branch of mathematics that was to be brought within the axiomatic methodology. Jan Lukasiewicz worked on multi-valued logics. His three-valued propositional calculus, introduced in 1917, was the first explicitly axiomatized non-classical logical calculus.</p>
+<p>The famous Ludwig Wittgenstein (1819-1951) entered the list of significant logician by being oen of the developers of the ‘truth tables’.</p>
+<p>This intensive work on mathematical issues culminated in the work of Kurt Godel (1906-1978), a logician of the caliber of Aristotle and Frege. Using many applications of the rules of logic, Kurt Godel proved his ‘incompleteness theorem’, which proposes that some parts of mathematics are based on ideas that cannot be proved within the system of mathematics.</p>
+<p>Godel was also one of the central figures in the study of computability. Others included Alonzo Church (1903-1995), Alan Turing (1912-1954), and others.</p>
+<p>There are plenty of other advances in logic afterwards as well. Logical empiricist <a href="">Rudolph Carnap</a> (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable.</p>
+<p>Logical positivist <a href="">A.J. Ayer</a>, on the other hand, wrote in 1936 his ‘Language, Truth, and Logic’ in which he focused on the role of language as the medium through which knowledge is understood and verified.</p>
+<p>In 1965, <a href="">Lofti Zadeh</a> developed ‘fuzzy logic’ which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence.</p>
+<p>Let’s pause here for a while and take a close look at the progress that made by Alan Turing and Kurt Godel during this period.</p>
+<p>As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper.Turing’s initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics</p>
+<ol style="list-style-type: decimal">
+<li><p><em>complete</em> in a sense that any mathematical assertion could either be proved or disproval</p></li>
+<li><p><em>consistent</em> in the sense that false statements could not be drived by a sequence of valid steps and</p></li>
+<li><p><em>decidable</em> in the sense that there exists a definite method to decide the truth of falsity of every mathematical assertion.</p></li>
+</ol>
+<p>Within 3 years, Kurt Godel had proved that the axioms of arithematic are both not complete and consistent. By 1937 both Alonzo Church and Alan Turing had demonstrated that undecidability of particular mathematical assertions. Interestingly, as Godel and Church had depended on demonstrating their results using purely mathematical calculi. Turing chose to take an unusual route of considering mathematical proof as an artifact of human reasoning. He even generalized this notion to a physical machine that he believes it could emulate a human mathematician and in turn there could be a universal machine that can emulate all other computing machines. Then he used this construct to show that certain functions cannot be computed by such a universal machine and in turn, demonstrated the undecidability of assertions associated with such functions.</p>
+<p>As we can easily tell, at the heart of Turing’s universl machine is a model of human reasoning and calculation. After putting his idea into the practice during the second World War, he came up with a comprehensive paper that provided a philosophical framework for answering the question ‘Can machine think?’ i.e. the invention of the ‘Turing test’ and universality of digital computers. He also goes on to discuss 2 distinct strategies that might be considered possible of achieving a thinking machine:</p>
+<blockquote>
+<p>AI by programming</p>
+</blockquote>
+<blockquote>
+<p>Ai by machine learning</p>
+</blockquote>
+<blockquote>
+<p>AI using logic, probabilities, learning and background knowledge</p>
+</blockquote>
+<p>As you can see from the history, the endeavors of implementing these strategies have been carrying on simulatenously in the last few decades. Here let’s just take a close look at the last one <em>AI using logic, probabilities, learning and backgroud knowledge</em>.</p>
+<blockquote>
+<p>“It is necessary there to have some other ‘unemotional’ channels of communication. If there are available it is possible to teach a machine by punishments and rewrads to obey orders given in some language, e.g. a symbolic language. There orders are to be trainsmitted through the ‘unemotional’ channels. The use of this language will diminish greatly the number of punishment and reward required.” - Alan Turing</p>
+</blockquote>
+<p>As for how to achieve it, he said:</p>
+<blockquote>
+<p>“Opinions may vary as to the complexity which is suitable in the child machine. One might try to make it as simple as possible consistent with the general principles. Alternatively, one might have a complete system of logical inference ‘built in’. In the latter case, the store would be largely occupied with definitions and propostions.”</p>
+</blockquote>
+<p>After the introduction of resolution-based automatic theorem introduced by Alan Robinson in 1965. The interest of using first-order predicate calculus as a representation for reasoning within AI systems has been skyrockted. Also, as introduced in Gordon Plotkin’s thesis, it is possible to use resolution theorem to proving to investigate a form of machine learning that involves hypothesising logical axioms from oberservations to background knowledge.</p>
+<p>Now let’s go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we are trying to compute our reasoning process, the ultimate goal of a thinking machine is to be able to formalize <em>common</em> <em>sense</em> <em>reasoning</em>, the prescientific reasoning that is used in handling everyday problems. In order to take on this mission, we just created a whole new set of problems for ourselves to deal with i.e. knowledge representation and reasonining for which we will discuss more in depth in the later chapter. In short, inspired by psychology and neurobiology about how we humans solve problems and represent knowlege of the world. We started to realize the fact that the knowlege is not within ourselves our reasoning process or our mind but instead, it exists in the world. This new realization brought a whole new paradigm shift in the development of AI.</p>
+<p>Logic in AI currently is still a large and rapidly growing field. One of the most influential figure in logical AI is John MccCarthy. McCarthy was also one of the founders of AI, and consistenly advocated a research methodology that uses logical techniques to formalize the reasoning problems that AI needs to solve. You may wonder, what motivated them to continue integrating logic with AI. The motivation for using logic is that a logical formalization helps us to understand the reasoning problem itself. However, as we currently know, the key to solve a problem may not need an thorough understanding of what the reasoning problems are. It is in fact quite controversial in the context of AI, an alternative methodology would seek to learn or evolve the desired behaviors.</p>
+</div>
+<div id="the-end-of-logic" class="section level3">
+<h3><span class="header-section-number">2.1.4</span> The End of Logic?</h3>
+<p>The intellectual project to capture thinking in terms of logic was at first thought to solve the problem of reasoning only to find out later that what makes human intelligent isn’t just reasoning, but reasoning under uncertain conditions as well as learning not just from rules but from the world itself.</p>
+<p>So it is not the end of logic, for it powers so much of modern computing, but like any grand theory that takes on something as complex as human level thinking it has found it’s practical place as a tool forever in our intellectual and computational toolbelt.</p>
+</div>
+</div>
+<div id="elements-of-logic" class="section level2">
+<h2><span class="header-section-number">2.2</span> Elements of Logic</h2>
+<div id="propositional-logic" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> Propositional Logic</h3>
+</div>
+<div id="operators" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Operators</h3>
+</div>
+<div id="definitions" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> Definitions</h3>
+</div>
+<div id="first-orderpredicate-logic" class="section level3">
+<h3><span class="header-section-number">2.2.4</span> First-Order/Predicate Logic</h3>
+</div>
+<div id="boolean-algebra" class="section level3">
+<h3><span class="header-section-number">2.2.5</span> Boolean Algebra</h3>
+</div>
+</div>
+<div id="godel-and-turings-theorems" class="section level2">
+<h2><span class="header-section-number">2.3</span> Godel and Turing’s theorems</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/02-logic.Rmd",
+"text": "Edit"
+},
+"download": ["Mathematics for Deep Learning and Artificial Intelligence.pdf", "Mathematics for Deep Learning and Artificial Intelligence.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
