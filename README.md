@@ -4,4 +4,4 @@ written by Haohan Wang and Christian Ramsey for teaching and learning purposes.
 
 > “The person who says he knows what he thinks but cannot express it usually does not know what he thinks.” - Mortimer Adler
 
-![Image of Book Cover](artwork/maths of deep learning.png)
+![Image of Book Cover](artwork/m4dl.png)
