@@ -14,7 +14,6 @@ Logic was developed by Aristotle (384-322 BCE). He introduced the formal study o
 He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
 
 ***
-## Syllogism 
 All Aristotle's logic revolves around one notion: the deduction (syllogism). Aristotle says: 
 " A deduction is speech in which, certain things having been supposed, somehing different from those supposed results of necessity because of their being so."
 

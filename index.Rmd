@@ -8,8 +8,8 @@ description: learn the foundational mathematics required to learn and apply cutt
 documentclass: book
 link-citations: yes
 bibliography:
-- book.bib
-- packages.bib
+# - book.bib
+# - packages.bib
 site: bookdown::bookdown_site
 colorlinks: yes
 biblio-style: apalike
@@ -23,4 +23,5 @@ cover-image: artwork/m4dl.png
 
 ```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://www.crcpress.com/product/isbn/9781138700109'}
 knitr::include_graphics('images/cover.jpg', dpi = NA)
+
 ```
