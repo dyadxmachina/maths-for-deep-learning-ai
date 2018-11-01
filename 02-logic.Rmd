@@ -1,4 +1,4 @@
-#Into to Logic and Reasoning
+# Intro to Logic and Reasoning
 
 ## History of Logic
 As we all know that Artificial Intelligence ('AI') is the field of computer science that was developed to enable computers/machines to display behavior that can be characterized as intelligent. 
@@ -78,9 +78,15 @@ This intensive work on mathematical issues culminated in the work of Kurt Godel 
 
 Godel was also one of the central figures in the study of computability. Others included Alonzo Church (1903-1995), Alan Turing (1912-1954), and others. 
 
+There are plenty of other advances in logic afterwards as well. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
+
+Logical positivist [A.J. Ayer](), on the other hand, wrote in 1936 his 'Language, Truth, and Logic' in which he focused on the role of language as the medium through which knowledge is understood and verified. 
+
+In 1965, [Lofti Zadeh]() developed 'fuzzy logic' which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence.
+
 Let's pause here for a while and take a close look at the progress that made by Alan Turing and Kurt Godel during this period. 
 
-As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper. In the paper, he introduced the Turing test to determine whether a computer can be regarde intelligent. Turing's initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics
+As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper.Turing's initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics
 
 1. *complete* in a sense that any mathematical assertion could either be proved or disproval
 
@@ -111,14 +117,7 @@ As for how to achieve it, he said:
 
 >"Opinions may vary as to the complexity which is suitable in the child machine. One might try to make it as simple as possible consistent with the general principles. Alternatively, one might have a complete system of logical inference 'built in'. In the latter case, the store would be largely occupied with definitions and propostions."
 
-After the introduction of resolution-based automatic theorem introduced by Alan Robinson in 1965. The interest of using first-order predicate calculus as a representation for reasoning within AI systems has been skyrockted. 
-
-
-There are plenty of other advances in logic afterwards as well. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
-
-Logical positivist [A.J. Ayer](), on the other hand, wrote in 1936 his 'Language, Truth, and Logic' in which he focused on the role of language as the medium through which knowledge is understood and verified. 
-
-In 1965, [Lofti Zadeh]() developed 'fuzzy logic' which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence. 
+After the introduction of resolution-based automatic theorem introduced by Alan Robinson in 1965. The interest of using first-order predicate calculus as a representation for reasoning within AI systems has been skyrockted. Also, as introduced in Gordon Plotkin's thesis, it is possible to use resolution theorem to proving to investigate a form of machine learning that involves hypothesising logical axioms from oberservations to background knowledge. 
 
 
 Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we are trying to compute our reasoning process, the ultimate goal of a thinking machine is to be able to formalize _common_ _sense_ _reasoning_, the prescientific reasoning that is used in handling everyday problems.
