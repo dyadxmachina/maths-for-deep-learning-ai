@@ -4,11 +4,18 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
+      before: |
+        <li><a href="./">Mathematics for Deep Learning and AI</a></li>
+      after: |
+        <li><a href="https://github.com/dyadxmachina/maths-for-deep-learning-ai" target="blank">Github</a></li>
+    edit: https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/%s
     download: ["pdf", "epub"]
     fontsettings:
       theme: night
-      family: serif
+      family: serif    
 bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
