@@ -67,4 +67,15 @@ Propositions can be compounded
 
 ## The Mathematics Needed
 
+### Logic
+### Calculus
+### Probability
+### Geometry
+### Information Theory
+### Statistical Learning Theory
+### Representation Learning
+### Optimization
+### Graph Theory (not sure we will cover this)
+### Reinforcement Learning (not sure we will cover this)
+
 
