@@ -103,6 +103,16 @@ As we can easily tell, at the heart of Turing's universl machine is a model of h
 
 > AI using logic, probabilities, learning and background knowledge
 
+As you can see from the history, the endeavors of implementing these strategies have been carrying on simulatenously in the last few decades. Here let's just take a close look at the last one *AI using logic, probabilities, learning and backgroud knowledge*.
+
+> "It is necessary there to have some other 'unemotional' channels of communication. If there are available it is possible to teach a machine by punishments and rewrads to obey orders given in some language, e.g. a symbolic language. There orders are to be trainsmitted through the 'unemotional' channels. The use of this language will diminish greatly the number of punishment and reward required." - Alan Turing 
+
+As for how to achieve it, he said:
+
+>"Opinions may vary as to the complexity which is suitable in the child machine. One might try to make it as simple as possible consistent with the general principles. Alternatively, one might have a complete system of logical inference 'built in'. In the latter case, the store would be largely occupied with definitions and propostions."
+
+After the introduction of resolution-based automatic theorem introduced by Alan Robinson in 1965. The interest of using first-order predicate calculus as a representation for reasoning within AI systems has been skyrockted. 
+
 
 There are plenty of other advances in logic afterwards as well. Logical empiricist [Rudolph Carnap]() (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable. 
 
@@ -111,13 +121,11 @@ Logical positivist [A.J. Ayer](), on the other hand, wrote in 1936 his 'Language
 In 1965, [Lofti Zadeh]() developed 'fuzzy logic' which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence. 
 
 
-
-Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we want to me
+Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we are trying to compute our reasoning process, the ultimate goal of a thinking machine is to be able to formalize _common_ _sense_ _reasoning_, the prescientific reasoning that is used in handling everyday problems.
+In order to take on this mission, we just created a whole new set of problems for ourselves to deal with i.e. knowledge representation and reasonining for which we will discuss more in depth in the later chapter. In short, inspired by psychology and neurobiology about how we humans solve problems and represent knowlege of the world. We started to realize the fact that the knowlege is not within ourselves our reasoning process or our mind but instead, it exists in the world. This new realization brought a whole new paradigm shift in the development of AI. 
 
 
 Logic in AI currently is still a large and rapidly growing field. One of the most influential figure in logical AI is John MccCarthy. McCarthy was also one of the founders of AI, and consistenly advocated a research methodology that uses logical techniques to formalize the reasoning problems that AI needs to solve. You may wonder, what motivated them to continue integrating logic with AI. The motivation for using logic is that a logical formalization helps us to understand the reasoning problem itself. However, as we currently know, the key to solve a problem may not need an thorough understanding of what the reasoning problems are. It is in fact quite controversial in the context of AI, an alternative methodology would seek to learn or evolve the desired behaviors.  
-
-* Knowledge representation and reasoning: representing information about the world in a form that a machine can utilize to solve complex tasks. It was inspired by psychology and neurobiology about how humans solve problems and represent knowledge in order to design formalisms that can make a complex concept easier o learn and design. Actually, knowledge representation starts from logic and then moved to automate various kinds of reasoning i.e. the application of rules or the relations of sets and subsets. 
 
 ### The End of Logic?
 
