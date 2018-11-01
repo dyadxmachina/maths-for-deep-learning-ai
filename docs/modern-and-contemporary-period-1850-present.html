@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mathematics for Deep Learning and Artificial Intelligence</title>
+  <meta name="description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://m4dl.com" />
+  <meta property="og:image" content="https://m4dl.comartwork/m4dl.png" />
+  <meta property="og:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron" />
+  <meta name="github-repo" content="dyadxmachina/maths-for-deep-learning-ai" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  
+  <meta name="twitter:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron" />
+  <meta name="twitter:image" content="https://m4dl.comartwork/m4dl.png" />
+
+<meta name="author" content="Christian Ramsey &amp; Haohan Wang">
+
+
+<meta name="date" content="2018-11-01">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="traditional-logic.html">
+<link rel="next" href="twologic.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128379860-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-128379860-1');
+</script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction to Artificial Intelligence</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#what-is-it-to-think"><i class="fa fa-check"></i><b>1.1</b> What is it to think?</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#reasoning-and-logic"><i class="fa fa-check"></i><b>1.2</b> Reasoning and Logic</a></li>
+<li class="chapter" data-level="1.3" data-path="intro.html"><a href="intro.html#perceptrons-and-perception"><i class="fa fa-check"></i><b>1.3</b> Perceptrons and Perception</a></li>
+<li class="chapter" data-level="1.4" data-path="intro.html"><a href="intro.html#representions-and-the-rise-of-pattern-recognition"><i class="fa fa-check"></i><b>1.4</b> Representions and the Rise of Pattern Recognition</a></li>
+<li class="chapter" data-level="1.5" data-path="intro.html"><a href="intro.html#the-mathematics-needed"><i class="fa fa-check"></i><b>1.5</b> The Mathematics Needed</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="into-to-logic-and-reasoning.html"><a href="into-to-logic-and-reasoning.html"><i class="fa fa-check"></i><b>2</b> Into to Logic and Reasoning</a><ul>
+<li class="chapter" data-level="2.1" data-path="into-to-logic-and-reasoning.html"><a href="into-to-logic-and-reasoning.html#history-of-logic"><i class="fa fa-check"></i><b>2.1</b> History of Logic</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="medieval-logic.html"><a href="medieval-logic.html"><i class="fa fa-check"></i><b>3</b> Medieval Logic</a></li>
+<li class="chapter" data-level="4" data-path="traditional-logic.html"><a href="traditional-logic.html"><i class="fa fa-check"></i><b>4</b> Traditional Logic</a></li>
+<li class="chapter" data-level="5" data-path="modern-and-contemporary-period-1850-present.html"><a href="modern-and-contemporary-period-1850-present.html"><i class="fa fa-check"></i><b>5</b> Modern and Contemporary Period (1850 - Present)</a></li>
+<li class="chapter" data-level="6" data-path="twologic.html"><a href="twologic.html"><i class="fa fa-check"></i><b>6</b> Introduction to Logic</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mathematics for Deep Learning and Artificial Intelligence</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="modern-and-contemporary-period-1850---present" class="section level1">
+<h1><span class="header-section-number">5</span> Modern and Contemporary Period (1850 - Present)</h1>
+<p>During this period, logicians in the modern period ‘rediscovered’ the Stoic logic of proposition.</p>
+<p>People like Augustus De Morgan (1806-1864) proposed some theorem in that logic which now bear his name. Considered the founder of symbolic logic and Boolean Algebra, which is the basis of all modern computer arithmetic.</p>
+<p>George Boole (1815-1864) gave us Boolean Logic which treats propositions as either true or false. His use of numbers to express the truth values of compound statements have significantly influenced the development of computers and he is regarded as being one of the founders of the field of computer science. Until today, programmers still use his principle to test the trugh of program results or user feedback.</p>
+<p>John Venn (1834-1923) was a Cambridge logician who published 3 standard texts in logic, <em>The Logic of Chance 1866</em>, <em>symbolic Logic</em> 1881, and <em>The Principles of Empirical Logic</em> 1889. He is remembered for introducing the circular diagrams as a tool to test the validity of syllogisms, known as Venn Diagrams.</p>
+<p>Around the same time, John Stuart Mill (1806-1873) made a thorough study about inductive reasoning and introduced methods for checking such arguments now known as ‘Mill’s Methods’. And Charles Sanders Peirce (1839-1914) introduced Pragmatism, at the core of which he argued that ideas should be evaluated solely by their practical effects and not by any intrinsic qualities of reason or logic.</p>
+<p>Gottlob Frege (1848-1925) pronounced that logic is the basis of methematics and that arithmetic and analysis are part of logic. He has been called the greatest logician since Aristotle. By developing the predicate calculus (Quantification Theory), he had combined Aristotelian and Stoic’s logics and his work was the foundation or beginning point for an enormous outpouring of work in formal logic.</p>
+<p>In 1903, Bertrand Russell (1872-1970) started his project ‘The Principles of Mathematics’ in which he purposed to prove that ‘all pure mathematics deals exclusively with concepts definable in terms of a very small number of logic principles.’ Russel also continued the development of the predicate calculus and he alos found the inconsistency in Ferge’s system (because Russell’s Paradox could be derived within Frege’s system).</p>
+<p>The next wave of the logic can be called the ‘mathematical school’. This tradition or school includes the work of Richard Dedekind (1831-1916), Giuseppe Peano (1858-1932), David Hibert (1862-1943). Ernst Zermelo (1871-1953), and many ohter since then. Its goal was the axiomatization of particular branches of mathematics, including geometry, arithetic, analysis, and set theory.</p>
+<p>In 1889 Peano published the first version of the logical axiomatization of arithmetic. Five of the nine axioms he came up with are now known as the Peano axioms. One of these axioms was a formalized statement of the principle of mathematical induction.</p>
+<p>Ernst Zermelo’s axiomatic set theory was also an attempt to escape Russell’s Paradox. His axioms went well beyond Frege’s axioms of extensionality and unlimited set abstraction, and evolved into the now-canonical Zermelo-Fraenkel set theory.</p>
+<p>Gradually, logic became the branch of mathematics that was to be brought within the axiomatic methodology. Jan Lukasiewicz worked on multi-valued logics. His three-valued propositional calculus, introduced in 1917, was the first explicitly axiomatized non-classical logical calculus.</p>
+<p>The famous Ludwig Wittgenstein (1819-1951) entered the list of significant logician by being oen of the developers of the ‘truth tables’.</p>
+<p>This intensive work on mathematical issues culminated in the work of Kurt Godel (1906-1978), a logician of the caliber of Aristotle and Frege. Using many applications of the rules of logic, Kurt Godel proved his ‘incompleteness theorem’, which proposes that some parts of mathematics are based on ideas that cannot be proved within the system of mathematics.</p>
+<p>Godel was also one of the central figures in the study of computability. Others included Alonzo Church (1903-1995), Alan Turing (1912-1954), and others.</p>
+<p>Let’s pause here for a while and take a close look at the progress that made by Alan Turing and Kurt Godel during this period.</p>
+<p>As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper. In the paper, he introduced the Turing test to determine whether a computer can be regarde intelligent. Turing’s initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics 1. <em>complete</em> in a sense that any mathematical assertion could either be proved or disproval 2. <em>consistent</em> in the sense that false statements could not be drived by a sequence of valid steps and 3. <em>decidable</em> in the sense that there exists a definite method to decide the truth of falsity of every mathematical assertion.</p>
+<p>Within 3 years, Kurt Godel had proved that the axioms of arithematic are both not complete and consistent. By 1937 both Alonzo Church and Alan Turing had demonstrated that undecidability of particular mathematical assertions. Interestingly, as Godel and Church had depended on demonstrating their results using purely mathematical calculi. Turing chose to take an unusual route of considering mathematical proof as an artifact of human reasoning. He even generalized this notion to a physical machine that he believes it could emulate a human mathematician and in turn there could be a universal machine that can emulate all other computing machines. Then he used this construct to show that certain functions cannot be computed by such a universal machine and in turn, demonstrated the undecidability of assertions associated with such functions.</p>
+<p>As we can easily tell, at the heart of Turing’s universl machine is a model of human reasoning and calculation. After putting his idea into the practice during the second World War, he came up with a comprehensive paper that provided a philosophical framework for answering the question ‘Can machine think?’ i.e. the invention of the ‘Turing test’ and universality of digital computers. He also goes on to discuss 2 distinct strategies that might be considered possible of achieving a thinking machine: * AI by programming * Ai by machine learning * AI using logic, probabilities, learning and background knowledge</p>
+<p>There are plenty of other advances in logic afterwards as well. Logical empiricist <a href="">Rudolph Carnap</a> (1891-1970) was associated with the famous verfiability principle, according to which a synthetic statement is meaninful only if it is verificable.</p>
+<p>Logical positivist <a href="">A.J. Ayer</a>, on the other hand, wrote in 1936 his ‘Language, Truth, and Logic’ in which he focused on the role of language as the medium through which knowledge is understood and verified.</p>
+<p>In 1965, <a href="">Lofti Zadeh</a> developed ‘fuzzy logic’ which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence.</p>
+<p>Now let’s go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in some central areas of AI research.</p>
+<p>Logic in AI currently is still a large and rapidly growing field. One of the most influential figure in logical AI is John MccCarthy. McCarthy was also one of the founders of AI, and consistenly advocated a research methodology that uses logical techniques to formalize the reasoning problems that AI needs to solve. You may wonder, what motivated them to continue integrating logic with AI. The motivation for using logic is that a logical formalization helps us to understand the reasoning problem itself. However, as we currently know, the key to solve a problem may not need an thorough understanding of what the reasoning problems are. It is in fact quite controversial in the context of AI, an alternative methodology would seek to learn or evolve the desired behaviors.</p>
+<ul>
+<li>Knowledge representation and reasoning: representing information about the world in a form that a machine can utilize to solve complex tasks. It was inspired by psychology and neurobiology about how humans solve problems and represent knowledge in order to design formalisms that can make a complex concept easier o learn and design. Actually, knowledge representation starts from logic and then moved to automate various kinds of reasoning i.e. the application of rules or the relations of sets and subsets.</li>
+</ul>
+<p>*LISP: logic programming language 1958</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="traditional-logic.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="twologic.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["Mathematics for Deep Learning and Artificial Intelligence.pdf", "Mathematics for Deep Learning and Artificial Intelligence.epub"]
+});
+});
+</script>
+
+</body>
+
+</html>
