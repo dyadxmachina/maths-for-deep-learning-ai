@@ -20,8 +20,3 @@ cover-image: artwork/m4dl.png
 # Preface {-}
 ![Our new book](artwork/maths of deep learning.png)
 
-
-```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://www.crcpress.com/product/isbn/9781138700109'}
-knitr::include_graphics('images/cover.jpg', dpi = NA)
-
-```
