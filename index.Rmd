@@ -1,5 +1,5 @@
 --- 
-title: "m4dl: Mathematics for Deep Learning and Artificial Intelligence"
+title: "Mathematics for Deep Learning and Artificial Intelligence"
 author: "Christian Ramsey & Haohan Wang"
 knit: "bookdown::render_book"
 date: "`r Sys.Date()`"
@@ -17,6 +17,10 @@ url: 'https\://m4dl.com'
 github-repo: dyadxmachina/maths-for-deep-learning-ai
 cover-image: artwork/m4dl.png
 ---
-# Our new upcoming book
-
+# Preface {-}
 ![Our new book](artwork/maths of deep learning.png)
+
+
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://www.crcpress.com/product/isbn/9781138700109'}
+knitr::include_graphics('images/cover.jpg', dpi = NA)
+```

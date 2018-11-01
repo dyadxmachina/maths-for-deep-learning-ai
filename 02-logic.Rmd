@@ -1,4 +1,4 @@
-# Introduction to Logic {#introtologicfz}
+# Introduction to Logic {#twologic}
 Some _significant_ applications are demonstrated in this chapter.
 ## Logic and Deep Learning
 
