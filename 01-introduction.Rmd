@@ -52,7 +52,16 @@ An Investigation of the Laws of Thought
 Propositions can be TRUE or FALSE
 Propositions can be compounded
 
-## Perceptrons and Perception
+## Dealing with Uncertainty
+
+### Probability
+### Information Theory
+
+## The Neurobiology and Cognitive Science
+### Cortexes
+### Neurons
+
+### Perceptrons and Perception
 
 ## Representions and the Rise of Pattern Recognition
 
