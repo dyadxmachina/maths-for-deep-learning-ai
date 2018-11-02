@@ -4,7 +4,7 @@ author: "Christian Ramsey & Haohan Wang"
 knit: "bookdown::render_book"
 date: "`r Sys.Date()`"
 output: pdf_document
-description: learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt's Perceptron to Vapnik\'s Statistical Learning Theory
+description: learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt's Perceptron and Vapnik\'s Statistical Learning Theory
 documentclass: book
 link-citations: yes
 bibliography:
