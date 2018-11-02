@@ -3,61 +3,58 @@
 ## History of Logic
 As we all know that Artificial Intelligence ('AI') is the field of computer science that was developed to enable computers/machines to display behavior that can be characterized as intelligent. 
 
-Then you may ask "How should we define intelligence? Why are we human intelligent?"
+Then you may ask "How should we define intelligence? Why are we human considered as intelligent?"
 
-As we go through the history of logic later, you will see how this the search of this question has started thousand years. Based on this journey of 'intelligent' search, we can now shed some light on how and why ai was developed. 
+As I walk you through the history of logic, you will see our thousands years of search for the answer of this question. Based on this journey of 'intelligent' search, we can now shed some light on how and why AI was developed. 
 
 
-We human have long been regarded as intelligent due to our ability to think or reason. And this is the exact start of logic.
+As you probably already know we human have long been regarded as intelligent due to our ability to think or reason. And this is the exact start of logic.
 
-First, let's begin the journey together to uncover the attempt that we human took to discover intelligence.
+Now, let's begin the journey together to uncover the attempt that we human made to unconver the truth of intelligence.
 
 Logic was developed by Aristotle (384-322 BCE). He introduced the formal study of what is now known as 'formal logic', the logic that is concerned with the form, not the content, of statements or propositions. Basically, Aristotles system of logic introduced hypothetical syllogism, temporal model logic and the inductive logic. 
 
-He holds that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
+He claims that a propositon is a complex involving 2 terms, a subject and a predicate. Each of them are represented with a noun. The logic form of a proposition is determined by its quantity and by its quality. 
 
 All Aristotle's logic revolves around one notion: the deduction (syllogism). Aristotle says: 
-" A deduction is speech in which, certain things having been supposed, somehing different from those supposed results of necessity because of their being so."
+
+>" A deduction is speech in which, certain things having been supposed, somehing different from those supposed results of necessity because of their being so."
 
 Each of the 'things supposed' is a premise of the argument and what 'results of necessity' is the conclusion. 
 
+Following Greek's tradition in logic, Cicero (106-43 BCE) introduced the term 'proposition' for which we will discuss more in depth later. 
 
-Following Greek's tradition in logic, Cicero (106-43 BCE) introduced the term 'proposition' for which we will discuss in depth later. 
 Alexander of Aphrodisias (3rd century A.D.) used the term 'logic' in the modern sense of distinguishing correct from incorrect reasoning. 
 
-In the early twelfth centure, Peter Abelard wrote extensive commentaries attempting to articulate issues like opposition, conversion, opposition, quantity, and quality, and composed his treatise, 'the Dialectica'.
+In the early twelfth centure, Peter Abelard wrote extensive commentaries attempting to articulate issues like opposition, conversion, quantity, and quality, and composed his treatise, 'the Dialectica'.
 
 Later, William of Sherwood developed mnemonic verse as an aid in mastering the syllogisms. Jean Buridan elaborated a theory of conseqences which somewhere discussed the rules of inference.
 
 Around the same time, Scholastic logician Raymond Lully used logic to prove the Christian faith. He also remarkably designed machines that would perform logical calculations, and is thus arguably considered as the father of computer programming.
 
 
-The traditional logic period starts with Antonine Arnauld and Pierre Nicole's Logic, or the Art of Thinking published in 1662 or the Port Royal Logic in which the logic is defined as the 'art of managing one's reason right in the knowledge of things, both for the instruction of oneself and of others'. It was the most influential work on logic in England until John Stuart Mill's System of Logic in 1825.
-
+The traditional logic period starts with Antonine Arnauld and Pierre Nicole's Logic, or the *Art of Thinking* published in 1662 or the Port Royal Logic in which the logic is defined as the 'art of managing one's reason right in the knowledge of things, both for the instruction of oneself and of others'. It was the most influential work on logic in England until John Stuart Mill's System of Logic in 1825.
 
 Having invented calculus, Wilhelm Leibniz (1646-1716) concluded that the whole of logic actually depends on mathematics and thus worked on reducing scientific and philosophical speculation to computation. He also suggested that a unversial calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressed in the universal language. The current understanding of the power of Leibniz's discoveries did not emerge until the 1980s. 
 
-During the modern and Contemporary Period  (1850 - Present) period, logicians in the modern period 'rediscovered' the Stoic logic of proposition. 
+During the modern and Contemporary Period  (1850 - Present), logicians in the modern period 'rediscovered' the Stoic logic of proposition. 
 
 People like Augustus De Morgan (1806-1864) proposed some theorem in that logic which now bear his name. 
 Considered the founder of symbolic logic and Boolean Algebra, which is the basis of all modern computer arithmetic. 
 
-George Boole (1815-1864) gave us Boolean Logic which treats propositions as either true or false. His use of numbers to express the truth values of compound statements have significantly influenced the development of computers and he is regarded as being one of the founders of the field of computer science. Until today, programmers still use his principle to test the trugh of program results or user feedback. 
+George Boole (1815-1864) gave us Boolean Logic which treats propositions as either true or false. His use of numbers to express the truth values of compound statements have significantly influenced the development of computers and he is regarded as being one of the founders of the field of computer science. Until today, programmers still use his principles to test the truth of program results or user feedback. 
  
-John Venn (1834-1923) was a Cambridge logician who published 3 standard texts in logic, *The Logic of Chance 1866*, *symbolic Logic* 1881, and *The Principles of Empirical Logic* 1889. He is remembered for introducing the circular diagrams as a tool to test the validity of syllogisms, known as Venn Diagrams. 
+John Venn (1834-1923) was a Cambridge logician who published 3 standard texts in logic, *The Logic of Chance 1866*, *symbolic Logic* 1881, and *The Principles of Empirical Logic* 1889. He is remembered for introducing the circular diagrams as a tool to test the validity of syllogisms, known as **Venn Diagrams**. 
 
 Around the same time, John Stuart Mill (1806-1873) made a thorough study about inductive reasoning and introduced methods for checking such arguments now known as 'Mill's Methods'. And Charles Sanders Peirce (1839-1914) introduced Pragmatism, at the core of which he argued that ideas should be evaluated solely by their practical effects and not by any intrinsic qualities of reason or logic. 
 
+Gottlob Frege (1848-1925) pronounced that logic is the basis of methematics and that arithmetic and analysis are part of logic. He has been called the greatest logician since Aristotle. By developing the **predicate calculus** (Quantification Theory), he had combined Aristotelian and Stoic's logics. His work was the foundation and the beginning point for an enormous outpouring of work in formal logic. 
 
-Gottlob Frege (1848-1925) pronounced that logic is the basis of methematics and that arithmetic and analysis are part of logic. He has been called the greatest logician since Aristotle. By developing the predicate calculus (Quantification Theory), he had combined Aristotelian and Stoic's logics and his work was the foundation or beginning point for an enormous outpouring of work in formal logic. 
-
-In 1903, Bertrand Russell (1872-1970) started his project 'The Principles of Mathematics' in which he purposed to prove that 'all pure mathematics deals exclusively with concepts definable in terms of a very small number of logic principles.' Russel also continued the development of the predicate calculus and he alos found the inconsistency in Ferge's system (because Russell's Paradox could be derived within Frege's system).
-
+In 1903, Bertrand Russell (1872-1970) started his project 'The Principles of Mathematics' in which he purposed to prove that 'all pure mathematics deals exclusively with concepts definable in terms of a very small number of logic principles.' Russel also continued the development of the predicate calculus and he found the inconsistency in Ferge's system (because Russell's Paradox could be derived within Frege's system).
 
 The next wave of the logic can be called the 'mathematical school'. This tradition or school includes the work of Richard Dedekind (1831-1916), Giuseppe Peano (1858-1932), David Hibert (1862-1943). Ernst Zermelo (1871-1953), and many ohter since then. Its goal was the axiomatization of particular branches of mathematics, including geometry, arithetic, analysis, and set theory. 
 
 In 1889 Peano published the first version of the logical axiomatization of arithmetic. Five of the nine axioms he came up with are now known as the Peano axioms. One of these axioms was a formalized statement of the principle of mathematical induction.
-
 
 Ernst Zermelo's axiomatic set theory was also an attempt to escape Russell's Paradox. His axioms went well beyond Frege's axioms of extensionality and unlimited set abstraction, and evolved into the now-canonical Zermelo-Fraenkel set theory. 
 
@@ -65,7 +62,6 @@ Gradually, logic became the branch of mathematics that was to be brought within 
 
 
 The famous Ludwig Wittgenstein (1819-1951) entered the list of significant logician by being oen of the developers of the 'truth tables'. 
-
 
 This intensive work on mathematical issues culminated in the work of Kurt Godel (1906-1978), a logician of the caliber of Aristotle and Frege. Using many applications of the rules of logic, Kurt Godel proved his 'incompleteness theorem', which proposes that some parts of mathematics are based on ideas that cannot be proved within the system of mathematics. 
 
@@ -77,9 +73,9 @@ Logical positivist [A.J. Ayer](), on the other hand, wrote in 1936 his 'Language
 
 In 1965, [Lofti Zadeh]() developed 'fuzzy logic' which allows imprecise answers to questions in addition to being either clear-cut true or false. This logic now serves as the basis of computer programming designed to mimic human intelligence.
 
-Let's pause here for a while and take a close look at the progress that made by Alan Turing and Kurt Godel during this period. 
+Let's pause here for a while and take a close look at the progress that made by Alan Turing, Alonzo Church and Kurt Godel during this period. 
 
-As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper.Turing's initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics
+As we all know that, Alan Turing, the father of computing, created a machine that can accept different instructions for different tasks in 1936 and marked the first step of the AI with his seminal 1950 paper. Turing's initial investigation of computation stemmed from the programme set out by David Hilbert in 1928. Hibert presented 3 open questions for logi and mathematics. Was mathematics
 
 1. *complete* in a sense that any mathematical assertion could either be proved or disproval
 
@@ -110,10 +106,10 @@ As for how to achieve it, he said:
 
 >"Opinions may vary as to the complexity which is suitable in the child machine. One might try to make it as simple as possible consistent with the general principles. Alternatively, one might have a complete system of logical inference 'built in'. In the latter case, the store would be largely occupied with definitions and propostions."
 
-After the introduction of resolution-based automatic theorem introduced by Alan Robinson in 1965. The interest of using first-order predicate calculus as a representation for reasoning within AI systems has been skyrockted. Also, as introduced in Gordon Plotkin's thesis, it is possible to use resolution theorem to proving to investigate a form of machine learning that involves hypothesising logical axioms from oberservations to background knowledge. 
+After the introduction of resolution-based automatic theorem introduced by Alan Robinson in 1965. The interest of using first-order predicate calculus as a representation for reasoning within AI systems has been skyrockted. Also, as introduced in Gordon Plotkin's thesis, it became possible for us to use resolution theorem proving to investigate a form of machine learning that involves hypothesising logical axioms from oberservations to background knowledge. 
 
 
-Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas and undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we are trying to compute our reasoning process, the ultimate goal of a thinking machine is to be able to formalize _common_ _sense_ _reasoning_, the prescientific reasoning that is used in handling everyday problems.
+Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas. Undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we are trying to compute our reasoning process, the ultimate goal of a thinking machine is to be able to formalize _common_ _sense_ _reasoning_, the prescientific reasoning that is used in handling everyday problems.
 In order to take on this mission, we just created a whole new set of problems for ourselves to deal with i.e. knowledge representation and reasonining for which we will discuss more in depth in the later chapter. In short, inspired by psychology and neurobiology about how we humans solve problems and represent knowlege of the world. We started to realize the fact that the knowlege is not within ourselves our reasoning process or our mind but instead, it exists in the world. This new realization brought a whole new paradigm shift in the development of AI. 
 
 
