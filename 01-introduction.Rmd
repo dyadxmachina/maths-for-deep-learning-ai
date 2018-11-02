@@ -18,7 +18,7 @@ The question as to whether these questions are valid or not is beyond the scope 
 
 Let us still consider the questions, since they themselves  provide us with a view into the history of artificial intelligence; Artificial intelligence is by nature, multidisciplinary; there have been logicians, mathematicians, neuroscientists, theologians, philosophers, computer scientists, statisticians, ethicists, roboticist, cognitive psychologists, ethnologists, who have, in different ways, contributed to what AI is today. 
 
-# Reasoning and Intelligence
+## Reasoning and Intelligence
 
 The design of intelligent machines has always been serious philosophical business. For many the question started with the question 
 
@@ -53,7 +53,7 @@ So let us begin with reasoning.
 
 The branch and discipline titled logic was originally focused on finding absolute truths from statements that could be found in everyday discourse. Logic is fundamentally tied up with questions around how one can reason correctly. How one is able to deduce the correct answer given a set of statement or propositions.
 
-# Logic and Biology
+## Logic and Biology
 
 ## Dealing with Uncertainty
 
