@@ -34,7 +34,7 @@ Let us think about the context of such questions.
 
 The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the uniqueness of humans may be uncovered by emulating the brain directly. As we began to understand an infinitesimally small amount about how very basic elements called neurons (Pitts, McCulloch) give rise to basic intelligence in simpler species like fruitflies to the advanced intelligence to that of the great apes.
 
-Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
+Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
 
 
 
