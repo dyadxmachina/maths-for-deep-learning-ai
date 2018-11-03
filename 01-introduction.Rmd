@@ -3,7 +3,13 @@
 
 ## Just what is artificial intelligence?
 
-Artificial intelligence is harder to describe in finite terms than it is to recreate many of the most popular algorithms that serve to represent it. The definition, if we can say that there is such a thing, is a moving socio-cultural target and just as we get closer to it's said definition, it once again slips further. This is a feature and not a bug. This is because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress, we again redefine what makes us human and therefore intelligence. 
+Artificial intelligence is harder to describe in finite terms than it is to recreate many of the most popular algorithms that serve to represent it. 
+
+>The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it once again slips further.
+
+This is because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress, we again redefine what makes us human and therefore intelligence. 
+
+> Nothing that we may know or learn about the functioning of the organism can give, without ‘microscopic,’ cytological work any clues regarding the further details of the neural mechanism.” - Von Neumann
 
 Generation after generation, we've asked ourselves related existential questions that AI touches upon:
 
