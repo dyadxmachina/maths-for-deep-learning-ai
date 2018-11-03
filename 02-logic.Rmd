@@ -113,13 +113,11 @@ After the introduction of resolution-based automatic theorem introduced by Alan 
 Now let's go back to our initial question about AI. As we can see from the above journey, AI has been heavily influenced by some of these logical ideas. Undoubtedly, logic has played an crutial role in some central areas of AI research. As much as we are trying to compute our reasoning process, the ultimate goal of a thinking machine is to be able to formalize _common_ _sense_ _reasoning_, the prescientific reasoning that is used in handling everyday problems.
 In order to take on this mission, we just created a whole new set of problems for ourselves to deal with i.e. knowledge representation and reasonining for which we will discuss more in depth in the later chapter. In short, inspired by psychology and neurobiology about how we humans solve problems and represent knowlege of the world. 
 
-Talking about the connection of AI, logic and neurophysiology, we have brought up these 2 men. [Warren Sturgis McCulloch](https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch) and [Walter Pitts](https://en.wikipedia.org/wiki/Walter_Pitts). McCulloch was a psychologist, psychiatrist and philosopher by degree, but he had been thinking about how to apply neurophysiology and logic to model the brain. Upon the time he met Pitts, a homeless young man who had been hanging around the University of Chicago, they realized that they shared a same hero in common: Gottfried Leibniz
+Talking about the connection of AI, logic and neurophysiology, we have brought up these 2 men. [Warren Sturgis McCulloch](https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch) and [Walter Pitts](https://en.wikipedia.org/wiki/Walter_Pitts). McCulloch was a psychologist, psychiatrist and philosopher by degree, but he had been thinking about how to apply neurophysiology and logic to model the brain. Upon the time he met Pitts, a homeless young man who had been hanging around the University of Chicago, they realized that they shared a same hero in common: Gottfried Leibniz. As what have mentioned before, Leibniz is the inventor of calculus and he also had attempted to create a computing system that can replicate human thoughts, in which each letter represented a concept and they could be combined and manipulated according to a set of logical rules. As a numerous logicians and philosophers had tried, it is an attempt and a vision that promised to transform the chaotic outside world into the rational and organized system.
 
+As you probably have had predicted, these two men started to work on this idea of capturing reasoning with a logical calculus. But this time, they also tried a novel approach which is to combine the knowledge of biological neurons.
 
-
-
-
-
+By strining the simple neurons into chains and loops, they had shown that it is possible for brian to implement every possible logical operation and outputing anything that could be calculated by one of Turing's hypothetical machines. 
 
 We started to come to a realization that the knowlege of the world is not within ourselves, our reasoning process or our mind but instead, it exists out there in the world. This new realization brought a whole new paradigm shift in the development of AI. 
 
