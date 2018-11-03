@@ -89,8 +89,9 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2018-11-01}
+    \date{2018-11-02}
 
+\usepackage{booktabs}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -127,17 +128,21 @@
 
 Some \emph{significant} applications are demonstrated in this chapter.
 
-..draft.7..
+..draft.8..
 
-\section{What is it to think?}\label{what-is-it-to-think}
+\section{Just what is artificial
+intelligence?}\label{just-what-is-artificial-intelligence}
 
 Artificial intelligence is harder to describe in finite terms than it is
-to recreate many of the popular algorithms that serve to represent it.
-This is because AI has always been fundamentally tied up with some of
-our species deepest philosophical queries, possibly more than any other
-discipline.
+to recreate many of the most popular algorithms that serve to represent
+it. This is because AI has always been fundamentally tied up with some
+of our deepest philosophical queries and the definition, if we can call
+it that, it is a moving socio-cultural target. As we get closer to it's
+said definition, it once again slips further. This is a feature and not
+a bug.
 
-We ask ourselves many questions such as:
+Generation after generation, we've asked ourselves such existential
+questions:
 
 What does it mean to be human? What makes us different or similar? What
 is the difference between humans and other animals? Is there another
@@ -198,18 +203,7 @@ discourse. Logic is fundamentally tied up with questions around how one
 can reason correctly. How one is able to deduce the correct answer given
 a set of statement or propositions.
 
-What is the connection between logic and AI in history and maths?
-Difference between propositional logic and symbolic logic Where do we
-use logic in deep learning Where does boolean logic end up ? In
-designing circuits
-
-From propositional logic to boolean algebra From Aristotle to George
-Boole to Claude Shannon
-
-Books Mathematical for Analysis of Logic An Investigation of the Laws of
-Thought
-
-Propositions can be TRUE or FALSE Propositions can be compounded
+\chapter{Logic and Biology}\label{logic-and-biology}
 
 \section{Dealing with Uncertainty}\label{dealing-with-uncertainty}
 
@@ -217,8 +211,8 @@ Propositions can be TRUE or FALSE Propositions can be compounded
 
 \subsection{Information Theory}\label{information-theory}
 
-\section{The Neurobiology and Cognitive
-Science}\label{the-neurobiology-and-cognitive-science}
+\section{Neurobiology and Cognitive
+Science}\label{neurobiology-and-cognitive-science}
 
 \subsection{Cortexes}\label{cortexes}
 
@@ -255,7 +249,8 @@ this)}\label{graph-theory-not-sure-we-will-cover-this}
 \subsection{Reinforcement Learning (not sure we will cover
 this)}\label{reinforcement-learning-not-sure-we-will-cover-this}
 
-\chapter{Into to Logic and Reasoning}\label{into-to-logic-and-reasoning}
+\chapter{Intro to Logic and
+Reasoning}\label{intro-to-logic-and-reasoning}
 
 \section{History of Logic}\label{history-of-logic}
 
@@ -419,17 +414,30 @@ Godel was also one of the central figures in the study of computability.
 Others included Alonzo Church (1903-1995), Alan Turing (1912-1954), and
 others.
 
+There are plenty of other advances in logic afterwards as well. Logical
+empiricist \href{}{Rudolph Carnap} (1891-1970) was associated with the
+famous verfiability principle, according to which a synthetic statement
+is meaninful only if it is verificable.
+
+Logical positivist \href{}{A.J. Ayer}, on the other hand, wrote in 1936
+his `Language, Truth, and Logic' in which he focused on the role of
+language as the medium through which knowledge is understood and
+verified.
+
+In 1965, \href{}{Lofti Zadeh} developed `fuzzy logic' which allows
+imprecise answers to questions in addition to being either clear-cut
+true or false. This logic now serves as the basis of computer
+programming designed to mimic human intelligence.
+
 Let's pause here for a while and take a close look at the progress that
 made by Alan Turing and Kurt Godel during this period.
 
 As we all know that, Alan Turing, the father of computing, created a
 machine that can accept different instructions for different tasks in
-1936 and marked the first step of the AI with his seminal 1950 paper. In
-the paper, he introduced the Turing test to determine whether a computer
-can be regarde intelligent. Turing's initial investigation of
-computation stemmed from the programme set out by David Hilbert in 1928.
-Hibert presented 3 open questions for logi and mathematics. Was
-mathematics
+1936 and marked the first step of the AI with his seminal 1950
+paper.Turing's initial investigation of computation stemmed from the
+programme set out by David Hilbert in 1928. Hibert presented 3 open
+questions for logi and mathematics. Was mathematics
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -479,25 +487,53 @@ Ai by machine learning
 AI using logic, probabilities, learning and background knowledge
 \end{quote}
 
-There are plenty of other advances in logic afterwards as well. Logical
-empiricist \href{}{Rudolph Carnap} (1891-1970) was associated with the
-famous verfiability principle, according to which a synthetic statement
-is meaninful only if it is verificable.
+As you can see from the history, the endeavors of implementing these
+strategies have been carrying on simulatenously in the last few decades.
+Here let's just take a close look at the last one \emph{AI using logic,
+probabilities, learning and backgroud knowledge}.
 
-Logical positivist \href{}{A.J. Ayer}, on the other hand, wrote in 1936
-his `Language, Truth, and Logic' in which he focused on the role of
-language as the medium through which knowledge is understood and
-verified.
+\begin{quote}
+``It is necessary there to have some other `unemotional' channels of
+communication. If there are available it is possible to teach a machine
+by punishments and rewrads to obey orders given in some language, e.g.~a
+symbolic language. There orders are to be trainsmitted through the
+`unemotional' channels. The use of this language will diminish greatly
+the number of punishment and reward required.'' - Alan Turing
+\end{quote}
 
-In 1965, \href{}{Lofti Zadeh} developed `fuzzy logic' which allows
-imprecise answers to questions in addition to being either clear-cut
-true or false. This logic now serves as the basis of computer
-programming designed to mimic human intelligence.
+As for how to achieve it, he said:
+
+\begin{quote}
+``Opinions may vary as to the complexity which is suitable in the child
+machine. One might try to make it as simple as possible consistent with
+the general principles. Alternatively, one might have a complete system
+of logical inference `built in'. In the latter case, the store would be
+largely occupied with definitions and propostions.''
+\end{quote}
+
+After the introduction of resolution-based automatic theorem introduced
+by Alan Robinson in 1965. The interest of using first-order predicate
+calculus as a representation for reasoning within AI systems has been
+skyrockted. Also, as introduced in Gordon Plotkin's thesis, it is
+possible to use resolution theorem to proving to investigate a form of
+machine learning that involves hypothesising logical axioms from
+oberservations to background knowledge.
 
 Now let's go back to our initial question about AI. As we can see from
 the above journey, AI has been heavily influenced by some of these
 logical ideas and undoubtedly, logic has played an crutial role in some
-central areas of AI research. As much as we want to me
+central areas of AI research. As much as we are trying to compute our
+reasoning process, the ultimate goal of a thinking machine is to be able
+to formalize \emph{common} \emph{sense} \emph{reasoning}, the
+prescientific reasoning that is used in handling everyday problems. In
+order to take on this mission, we just created a whole new set of
+problems for ourselves to deal with i.e.~knowledge representation and
+reasonining for which we will discuss more in depth in the later
+chapter. In short, inspired by psychology and neurobiology about how we
+humans solve problems and represent knowlege of the world. We started to
+realize the fact that the knowlege is not within ourselves our reasoning
+process or our mind but instead, it exists in the world. This new
+realization brought a whole new paradigm shift in the development of AI.
 
 Logic in AI currently is still a large and rapidly growing field. One of
 the most influential figure in logical AI is John MccCarthy. McCarthy
@@ -511,19 +547,6 @@ problem may not need an thorough understanding of what the reasoning
 problems are. It is in fact quite controversial in the context of AI, an
 alternative methodology would seek to learn or evolve the desired
 behaviors.
-
-\begin{itemize}
-\tightlist
-\item
-  Knowledge representation and reasoning: representing information about
-  the world in a form that a machine can utilize to solve complex tasks.
-  It was inspired by psychology and neurobiology about how humans solve
-  problems and represent knowledge in order to design formalisms that
-  can make a complex concept easier o learn and design. Actually,
-  knowledge representation starts from logic and then moved to automate
-  various kinds of reasoning i.e.~the application of rules or the
-  relations of sets and subsets.
-\end{itemize}
 
 \subsection{The End of Logic?}\label{the-end-of-logic}
 
@@ -552,56 +575,6 @@ Logic}\label{first-orderpredicate-logic}
 \subsection{Boolean Algebra}\label{boolean-algebra}
 
 \section{Godel and Turing's theorems}\label{godel-and-turings-theorems}
-
-\chapter{Introduction to Logic}\label{twologic}
-
-Some \emph{significant} applications are demonstrated in this chapter.
-\#\# Logic and Deep Learning
-
-Artificial intelligence is harder to describe in finite terms than are
-the algorithms we create that represent them. This is because it is
-fundamentally tied up with some of our deepest queries
-
-What does it mean to be human? What is the difference between humans and
-other animals? Is there another species that is more intelligent than we
-are? Will humans be surpassed by a more intelligent species?
-
-The question as to whether these questions are valid or not is beyond
-the scope of this book but the questions themselves do provide us with a
-view into the history of logic.
-
-Rene Descartes stated ``Cogito, ergo sum'' which translated means ``I
-think therefore I am''. He arrived at this statement after trying to use
-pure ``reason'' to find what was fundamentally true without any doubt.
-Although he couldn't complete his project, his value of ``reason'' was
-not unpopular and is gaining popularity in much of modern culture and
-can be heard in everyday conversations when we talk about the
-distinction between our thoughts and body.
-
-Reasoning starts with logic.
-
-Aristotle.
-
-So let us begin with reasoning.
-
-The branch and discipline titled logic was originally focused on finding
-absolute truths from statements that could be found in everyday
-discourse. Logic is fundamentally tied up with questions around how one
-can reason correctly. How one is able to deduce the correct answer given
-a set of statement or propositions.
-
-What is the connection between logic and AI in history and maths?
-Difference between propositional logic and symbolic logic Where do we
-use logic in deep learning Where does boolean logic end up ? In
-designing circuitsj
-
-From propositional logic to boolean algebra From Aristotle to George
-Boole to Claude Shannon
-
-Books Mathematical for Analysis of Logic An Investigation of the Laws of
-Thought
-
-Propositions can be TRUE or FALSE Propositions can be compounded
 
 
 \end{document}

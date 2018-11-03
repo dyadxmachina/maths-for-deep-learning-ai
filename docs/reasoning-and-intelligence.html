@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mathematics for Deep Learning and Artificial Intelligence</title>
+  <meta name="description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://m4dl.com" />
+  <meta property="og:image" content="https://m4dl.comartwork/m4dl.png" />
+  <meta property="og:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory" />
+  <meta name="github-repo" content="dyadxmachina/maths-for-deep-learning-ai" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  
+  <meta name="twitter:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory" />
+  <meta name="twitter:image" content="https://m4dl.comartwork/m4dl.png" />
+
+<meta name="author" content="Christian Ramsey &amp; Haohan Wang">
+
+
+<meta name="date" content="2018-11-02">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="intro.html">
+<link rel="next" href="logic-and-biology.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128379860-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-128379860-1');
+</script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mathematics for Deep Learning and AI</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction to Artificial Intelligence</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#just-what-is-artificial-intelligence"><i class="fa fa-check"></i><b>1.1</b> Just what is artificial intelligence?</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="reasoning-and-intelligence.html"><a href="reasoning-and-intelligence.html"><i class="fa fa-check"></i><b>2</b> Reasoning and Intelligence</a><ul>
+<li class="chapter" data-level="2.1" data-path="reasoning-and-intelligence.html"><a href="reasoning-and-intelligence.html#reasoning-and-logic"><i class="fa fa-check"></i><b>2.1</b> Reasoning and Logic</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="logic-and-biology.html"><a href="logic-and-biology.html"><i class="fa fa-check"></i><b>3</b> Logic and Biology</a><ul>
+<li class="chapter" data-level="3.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#dealing-with-uncertainty"><i class="fa fa-check"></i><b>3.1</b> Dealing with Uncertainty</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#probability"><i class="fa fa-check"></i><b>3.1.1</b> Probability</a></li>
+<li class="chapter" data-level="3.1.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#information-theory"><i class="fa fa-check"></i><b>3.1.2</b> Information Theory</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#neurobiology-and-cognitive-science"><i class="fa fa-check"></i><b>3.2</b> Neurobiology and Cognitive Science</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#cortexes"><i class="fa fa-check"></i><b>3.2.1</b> Cortexes</a></li>
+<li class="chapter" data-level="3.2.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#neurons"><i class="fa fa-check"></i><b>3.2.2</b> Neurons</a></li>
+<li class="chapter" data-level="3.2.3" data-path="logic-and-biology.html"><a href="logic-and-biology.html#perceptrons-and-perception"><i class="fa fa-check"></i><b>3.2.3</b> Perceptrons and Perception</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="logic-and-biology.html"><a href="logic-and-biology.html#representions-and-the-rise-of-pattern-recognition"><i class="fa fa-check"></i><b>3.3</b> Representions and the Rise of Pattern Recognition</a></li>
+<li class="chapter" data-level="3.4" data-path="logic-and-biology.html"><a href="logic-and-biology.html#the-mathematics-needed"><i class="fa fa-check"></i><b>3.4</b> The Mathematics Needed</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#logic"><i class="fa fa-check"></i><b>3.4.1</b> Logic</a></li>
+<li class="chapter" data-level="3.4.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#calculus"><i class="fa fa-check"></i><b>3.4.2</b> Calculus</a></li>
+<li class="chapter" data-level="3.4.3" data-path="logic-and-biology.html"><a href="logic-and-biology.html#probability-1"><i class="fa fa-check"></i><b>3.4.3</b> Probability</a></li>
+<li class="chapter" data-level="3.4.4" data-path="logic-and-biology.html"><a href="logic-and-biology.html#geometry"><i class="fa fa-check"></i><b>3.4.4</b> Geometry</a></li>
+<li class="chapter" data-level="3.4.5" data-path="logic-and-biology.html"><a href="logic-and-biology.html#information-theory-1"><i class="fa fa-check"></i><b>3.4.5</b> Information Theory</a></li>
+<li class="chapter" data-level="3.4.6" data-path="logic-and-biology.html"><a href="logic-and-biology.html#statistical-learning-theory"><i class="fa fa-check"></i><b>3.4.6</b> Statistical Learning Theory</a></li>
+<li class="chapter" data-level="3.4.7" data-path="logic-and-biology.html"><a href="logic-and-biology.html#representation-learning"><i class="fa fa-check"></i><b>3.4.7</b> Representation Learning</a></li>
+<li class="chapter" data-level="3.4.8" data-path="logic-and-biology.html"><a href="logic-and-biology.html#optimization"><i class="fa fa-check"></i><b>3.4.8</b> Optimization</a></li>
+<li class="chapter" data-level="3.4.9" data-path="logic-and-biology.html"><a href="logic-and-biology.html#graph-theory-not-sure-we-will-cover-this"><i class="fa fa-check"></i><b>3.4.9</b> Graph Theory (not sure we will cover this)</a></li>
+<li class="chapter" data-level="3.4.10" data-path="logic-and-biology.html"><a href="logic-and-biology.html#reinforcement-learning-not-sure-we-will-cover-this"><i class="fa fa-check"></i><b>3.4.10</b> Reinforcement Learning (not sure we will cover this)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html"><i class="fa fa-check"></i><b>4</b> Intro to Logic and Reasoning</a><ul>
+<li class="chapter" data-level="4.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#history-of-logic"><i class="fa fa-check"></i><b>4.1</b> History of Logic</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#the-end-of-logic"><i class="fa fa-check"></i><b>4.1.1</b> The End of Logic?</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#elements-of-logic"><i class="fa fa-check"></i><b>4.2</b> Elements of Logic</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#propositional-logic"><i class="fa fa-check"></i><b>4.2.1</b> Propositional Logic</a></li>
+<li class="chapter" data-level="4.2.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#operators"><i class="fa fa-check"></i><b>4.2.2</b> Operators</a></li>
+<li class="chapter" data-level="4.2.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#definitions"><i class="fa fa-check"></i><b>4.2.3</b> Definitions</a></li>
+<li class="chapter" data-level="4.2.4" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#first-orderpredicate-logic"><i class="fa fa-check"></i><b>4.2.4</b> First-Order/Predicate Logic</a></li>
+<li class="chapter" data-level="4.2.5" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#boolean-algebra"><i class="fa fa-check"></i><b>4.2.5</b> Boolean Algebra</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#godel-and-turings-theorems"><i class="fa fa-check"></i><b>4.3</b> Godel and Turing’s theorems</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/dyadxmachina/maths-for-deep-learning-ai" target="blank">Github</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mathematics for Deep Learning and Artificial Intelligence</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="reasoning-and-intelligence" class="section level1">
+<h1><span class="header-section-number">2</span> Reasoning and Intelligence</h1>
+<p>The design of intelligent machines has always been serious philosophical business. For many the question started with the question</p>
+<ul>
+<li>what is thinking and reasoning?</li>
+<li>what is it to think and reason well?</li>
+<li>can correct reasoning be mechanized?</li>
+</ul>
+<blockquote>
+<p>Perhaps there is a logic calculus than can mechanise reasoning</p>
+</blockquote>
+<p>These are just some of questions that the likes of Aristotle, Leibniz, Turing, Laplace, Wittgenstein, Gödel, and Boole and others attempted to answer definitively. Aristotle and the Stoics gave us a framework for reasoning and propositional logic respectively. Leibniz gave us logical calculi and a glimpse int’ computers that could do the same. We also have George Boole’s Boolean algebra (1847) would catch up with Claude Shannon to begin the digital revolution and progress artificial intelligence.</p>
+<p>Let us think about the context of such questions.</p>
+<p>The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the uniqueness of humans may be uncovered by emulating the brain directly. As we began to understand an infinitesimally small amount about how very basic elements called neurons (Pitts, McCulloch) give rise to basic intelligence in simpler species like fruitflies to the advanced intelligence to that of the great apes.</p>
+<p>Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz’s logical calculi to Bool’s Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.</p>
+<p>they too had similar questions, “Can machines think?”, “Can the brain be emulated?”. These questions moved away from deductive reasoning and towards emulating our senses and pereptions. Rosenblatt, Hebb, Minsky, and others were able to move towards learning from data as humans do by recognising patterns which birthed the first neural network, the perceptron.</p>
+<p>This dichotomy, between symbolism and perception, like are dichotomies don’t pin down the reality but we hope that it provides a way of thinking abbout our path towards today’s artificial intelligence. We are now at a stage where we are bringing what we have learned in symbolic.</p>
+<div id="reasoning-and-logic" class="section level2">
+<h2><span class="header-section-number">2.1</span> Reasoning and Logic</h2>
+<p>Rene Descartes stated “Cogito, ergo sum” which translated means “I think therefore I am”. He arrived at this statement after trying to use pure “reason” to find what was fundamentally true without any doubt. Although he couldn’t complete his project, his value of “reason” was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body.</p>
+<p>Reasoning starts with logic.</p>
+<p>Aristotle.</p>
+<p>So let us begin with reasoning.</p>
+<p>The branch and discipline titled logic was originally focused on finding absolute truths from statements that could be found in everyday discourse. Logic is fundamentally tied up with questions around how one can reason correctly. How one is able to deduce the correct answer given a set of statement or propositions.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="logic-and-biology.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/01-introduction.Rmd",
+"text": "Edit"
+},
+"download": ["Mathematics for Deep Learning and Artificial Intelligence.pdf", "Mathematics for Deep Learning and Artificial Intelligence.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

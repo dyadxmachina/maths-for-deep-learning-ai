@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mathematics for Deep Learning and Artificial Intelligence</title>
+  <meta name="description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://m4dl.com" />
+  <meta property="og:image" content="https://m4dl.comartwork/m4dl.png" />
+  <meta property="og:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory" />
+  <meta name="github-repo" content="dyadxmachina/maths-for-deep-learning-ai" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
+  
+  <meta name="twitter:description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory" />
+  <meta name="twitter:image" content="https://m4dl.comartwork/m4dl.png" />
+
+<meta name="author" content="Christian Ramsey &amp; Haohan Wang">
+
+
+<meta name="date" content="2018-11-02">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="reasoning-and-intelligence.html">
+<link rel="next" href="intro-to-logic-and-reasoning.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128379860-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-128379860-1');
+</script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mathematics for Deep Learning and AI</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction to Artificial Intelligence</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#just-what-is-artificial-intelligence"><i class="fa fa-check"></i><b>1.1</b> Just what is artificial intelligence?</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="reasoning-and-intelligence.html"><a href="reasoning-and-intelligence.html"><i class="fa fa-check"></i><b>2</b> Reasoning and Intelligence</a><ul>
+<li class="chapter" data-level="2.1" data-path="reasoning-and-intelligence.html"><a href="reasoning-and-intelligence.html#reasoning-and-logic"><i class="fa fa-check"></i><b>2.1</b> Reasoning and Logic</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="logic-and-biology.html"><a href="logic-and-biology.html"><i class="fa fa-check"></i><b>3</b> Logic and Biology</a><ul>
+<li class="chapter" data-level="3.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#dealing-with-uncertainty"><i class="fa fa-check"></i><b>3.1</b> Dealing with Uncertainty</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#probability"><i class="fa fa-check"></i><b>3.1.1</b> Probability</a></li>
+<li class="chapter" data-level="3.1.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#information-theory"><i class="fa fa-check"></i><b>3.1.2</b> Information Theory</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#neurobiology-and-cognitive-science"><i class="fa fa-check"></i><b>3.2</b> Neurobiology and Cognitive Science</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#cortexes"><i class="fa fa-check"></i><b>3.2.1</b> Cortexes</a></li>
+<li class="chapter" data-level="3.2.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#neurons"><i class="fa fa-check"></i><b>3.2.2</b> Neurons</a></li>
+<li class="chapter" data-level="3.2.3" data-path="logic-and-biology.html"><a href="logic-and-biology.html#perceptrons-and-perception"><i class="fa fa-check"></i><b>3.2.3</b> Perceptrons and Perception</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="logic-and-biology.html"><a href="logic-and-biology.html#representions-and-the-rise-of-pattern-recognition"><i class="fa fa-check"></i><b>3.3</b> Representions and the Rise of Pattern Recognition</a></li>
+<li class="chapter" data-level="3.4" data-path="logic-and-biology.html"><a href="logic-and-biology.html#the-mathematics-needed"><i class="fa fa-check"></i><b>3.4</b> The Mathematics Needed</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="logic-and-biology.html"><a href="logic-and-biology.html#logic"><i class="fa fa-check"></i><b>3.4.1</b> Logic</a></li>
+<li class="chapter" data-level="3.4.2" data-path="logic-and-biology.html"><a href="logic-and-biology.html#calculus"><i class="fa fa-check"></i><b>3.4.2</b> Calculus</a></li>
+<li class="chapter" data-level="3.4.3" data-path="logic-and-biology.html"><a href="logic-and-biology.html#probability-1"><i class="fa fa-check"></i><b>3.4.3</b> Probability</a></li>
+<li class="chapter" data-level="3.4.4" data-path="logic-and-biology.html"><a href="logic-and-biology.html#geometry"><i class="fa fa-check"></i><b>3.4.4</b> Geometry</a></li>
+<li class="chapter" data-level="3.4.5" data-path="logic-and-biology.html"><a href="logic-and-biology.html#information-theory-1"><i class="fa fa-check"></i><b>3.4.5</b> Information Theory</a></li>
+<li class="chapter" data-level="3.4.6" data-path="logic-and-biology.html"><a href="logic-and-biology.html#statistical-learning-theory"><i class="fa fa-check"></i><b>3.4.6</b> Statistical Learning Theory</a></li>
+<li class="chapter" data-level="3.4.7" data-path="logic-and-biology.html"><a href="logic-and-biology.html#representation-learning"><i class="fa fa-check"></i><b>3.4.7</b> Representation Learning</a></li>
+<li class="chapter" data-level="3.4.8" data-path="logic-and-biology.html"><a href="logic-and-biology.html#optimization"><i class="fa fa-check"></i><b>3.4.8</b> Optimization</a></li>
+<li class="chapter" data-level="3.4.9" data-path="logic-and-biology.html"><a href="logic-and-biology.html#graph-theory-not-sure-we-will-cover-this"><i class="fa fa-check"></i><b>3.4.9</b> Graph Theory (not sure we will cover this)</a></li>
+<li class="chapter" data-level="3.4.10" data-path="logic-and-biology.html"><a href="logic-and-biology.html#reinforcement-learning-not-sure-we-will-cover-this"><i class="fa fa-check"></i><b>3.4.10</b> Reinforcement Learning (not sure we will cover this)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html"><i class="fa fa-check"></i><b>4</b> Intro to Logic and Reasoning</a><ul>
+<li class="chapter" data-level="4.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#history-of-logic"><i class="fa fa-check"></i><b>4.1</b> History of Logic</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#the-end-of-logic"><i class="fa fa-check"></i><b>4.1.1</b> The End of Logic?</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#elements-of-logic"><i class="fa fa-check"></i><b>4.2</b> Elements of Logic</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#propositional-logic"><i class="fa fa-check"></i><b>4.2.1</b> Propositional Logic</a></li>
+<li class="chapter" data-level="4.2.2" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#operators"><i class="fa fa-check"></i><b>4.2.2</b> Operators</a></li>
+<li class="chapter" data-level="4.2.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#definitions"><i class="fa fa-check"></i><b>4.2.3</b> Definitions</a></li>
+<li class="chapter" data-level="4.2.4" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#first-orderpredicate-logic"><i class="fa fa-check"></i><b>4.2.4</b> First-Order/Predicate Logic</a></li>
+<li class="chapter" data-level="4.2.5" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#boolean-algebra"><i class="fa fa-check"></i><b>4.2.5</b> Boolean Algebra</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="intro-to-logic-and-reasoning.html"><a href="intro-to-logic-and-reasoning.html#godel-and-turings-theorems"><i class="fa fa-check"></i><b>4.3</b> Godel and Turing’s theorems</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/dyadxmachina/maths-for-deep-learning-ai" target="blank">Github</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mathematics for Deep Learning and Artificial Intelligence</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="logic-and-biology" class="section level1">
+<h1><span class="header-section-number">3</span> Logic and Biology</h1>
+<div id="dealing-with-uncertainty" class="section level2">
+<h2><span class="header-section-number">3.1</span> Dealing with Uncertainty</h2>
+<div id="probability" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Probability</h3>
+</div>
+<div id="information-theory" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Information Theory</h3>
+</div>
+</div>
+<div id="neurobiology-and-cognitive-science" class="section level2">
+<h2><span class="header-section-number">3.2</span> Neurobiology and Cognitive Science</h2>
+<div id="cortexes" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Cortexes</h3>
+</div>
+<div id="neurons" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Neurons</h3>
+</div>
+<div id="perceptrons-and-perception" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Perceptrons and Perception</h3>
+</div>
+</div>
+<div id="representions-and-the-rise-of-pattern-recognition" class="section level2">
+<h2><span class="header-section-number">3.3</span> Representions and the Rise of Pattern Recognition</h2>
+</div>
+<div id="the-mathematics-needed" class="section level2">
+<h2><span class="header-section-number">3.4</span> The Mathematics Needed</h2>
+<div id="logic" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> Logic</h3>
+</div>
+<div id="calculus" class="section level3">
+<h3><span class="header-section-number">3.4.2</span> Calculus</h3>
+</div>
+<div id="probability-1" class="section level3">
+<h3><span class="header-section-number">3.4.3</span> Probability</h3>
+</div>
+<div id="geometry" class="section level3">
+<h3><span class="header-section-number">3.4.4</span> Geometry</h3>
+</div>
+<div id="information-theory-1" class="section level3">
+<h3><span class="header-section-number">3.4.5</span> Information Theory</h3>
+</div>
+<div id="statistical-learning-theory" class="section level3">
+<h3><span class="header-section-number">3.4.6</span> Statistical Learning Theory</h3>
+</div>
+<div id="representation-learning" class="section level3">
+<h3><span class="header-section-number">3.4.7</span> Representation Learning</h3>
+</div>
+<div id="optimization" class="section level3">
+<h3><span class="header-section-number">3.4.8</span> Optimization</h3>
+</div>
+<div id="graph-theory-not-sure-we-will-cover-this" class="section level3">
+<h3><span class="header-section-number">3.4.9</span> Graph Theory (not sure we will cover this)</h3>
+</div>
+<div id="reinforcement-learning-not-sure-we-will-cover-this" class="section level3">
+<h3><span class="header-section-number">3.4.10</span> Reinforcement Learning (not sure we will cover this)</h3>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="reasoning-and-intelligence.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="intro-to-logic-and-reasoning.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/01-introduction.Rmd",
+"text": "Edit"
+},
+"download": ["Mathematics for Deep Learning and Artificial Intelligence.pdf", "Mathematics for Deep Learning and Artificial Intelligence.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

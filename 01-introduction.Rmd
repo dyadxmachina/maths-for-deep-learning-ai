@@ -1,26 +1,50 @@
 # Introduction to Artificial Intelligence {#intro}
-Some _significant_ applications are demonstrated in this chapter.
+..draft.8..
 
-..draft.7..
+## Just what is artificial intelligence?
 
-## What is it to think?
+Artificial intelligence is harder to describe in finite terms than it is to recreate many of the most popular algorithms that serve to represent it. 
 
-Artificial intelligence is harder to describe in finite terms than it is to recreate many of the popular algorithms that serve to represent it. This is because AI has always been fundamentally tied up with some of our species deepest philosophical queries, possibly more than any other discipline.
+>The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it once again slips further.
 
-We ask ourselves many questions such as:
+This is because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress, we again redefine what makes us human and therefore intelligence. 
 
-What does it mean to be human? What makes us different or similar?
-What is the difference between humans and other animals?
-Is there another species that is more intelligent than we are (Übermensch)?
-Will humans be surpassed by a more intelligent species?
-```{r}
+> Nothing that we may know or learn about the functioning of the organism can give, without ‘microscopic,’ cytological work any clues regarding the further details of the neural mechanism.” - Von Neumann
 
-```
+Generation after generation, we've asked ourselves related existential questions that AI touches upon:
+
+- What does it mean to be human? 
+- What makes us different or similar?
+- What is the difference between humans and other animals?
+- Is there another species that is more intelligent than we are (Übermensch)?
+- Will humans be surpassed by a more intelligent species?
 
 
-The question as to whether these questions are valid or not is beyond the scope of this book, but the questions themselves do provide us with a view into the history of artificial intelligence. Artificial intelligence is by nature, multidisciplinary; logicians, mathematicians, neuroscientists, theologians, philosophers, computer scientists, statisticians, ethicists, roboticist, cognitive psychologists, ethnologists, are just a few of the titles of those who have made AI what it is today. 
+The question as to whether these questions are valid or not is beyond the scope of this book and the likes of Nietschze, Heidegger, Sapolsky, Dreyfus, and others have attempted to do so with great progress.
 
-The design of intelligent machines has always been serious business. For many the question starts with "what is thinking and reasoning? What is it to think and reason well?" and even before the invention of computers there were questions such as "Can correct reasoning be mechanised?". These are just some of questions that the likes of Aristotle, Leibienitz, Turing, Laplace, Wittengenstein, Godel, and Boole attempted to answer definitively. The second set of questions were just as philosophically motivated, but instead from different disiplines like biology, espeically neurobiology, then called neurophysiology which took on different questions. As we began to understand an infinitesimal amount about  how very basic elements called neurons can give rise to thinking and intelligence, they too had similar questions, "Can machines think?", "Can the brain be emulated?". These questions moved away from deductive reasoning and towards emulating our senses and pereptions. Rosenblatt, Hebb, Minsky, and others were able to move towards learning from data as humans do by recognising patterns which birthed the first neural network, the perceptron. 
+Let us still consider the questions, since they themselves  provide us with a view into the history of artificial intelligence; Artificial intelligence is by nature, multidisciplinary; there have been logicians, mathematicians, neuroscientists, theologians, philosophers, computer scientists, statisticians, ethicists, roboticist, cognitive psychologists, ethnologists, who have, in different ways, contributed to what AI is today. 
+
+## Reasoning and Intelligence
+
+The design of intelligent machines has always been serious philosophical business. For many the question started with the question 
+
+- what is thinking and reasoning? 
+- what is it to think and reason well?
+- can correct reasoning be mechanized?
+
+> Perhaps there is a logic calculus than can mechanise reasoning
+
+These are just some of questions that the likes of Aristotle, Leibniz, Turing, Laplace, Wittgenstein, Gödel, and Boole and others attempted to answer definitively. Aristotle and the Stoics gave us a framework for reasoning and propositional logic respectively. Leibniz gave us logical calculi and a glimpse int' computers that could do the same. We also have George Boole's Boolean algebra (1847) would catch up with Claude Shannon to begin the digital revolution and progress artificial intelligence.
+
+Let us think about the context of such questions. 
+
+The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the uniqueness of humans may be uncovered by emulating the brain directly. As we began to understand an infinitesimally small amount about how very basic elements called neurons (Pitts, McCulloch) give rise to basic intelligence in simpler species like fruitflies to the advanced intelligence to that of the great apes.
+
+Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
+
+
+
+ they too had similar questions, "Can machines think?", "Can the brain be emulated?". These questions moved away from deductive reasoning and towards emulating our senses and pereptions. Rosenblatt, Hebb, Minsky, and others were able to move towards learning from data as humans do by recognising patterns which birthed the first neural network, the perceptron. 
 
 This dichotomy, between symbolism and perception, like are dichotomies don't pin down the reality but we hope that it provides a way of thinking abbout our path towards today's artificial intelligence. We are now at a stage where we are bringing what we have learned in symbolic.
 
@@ -35,29 +59,14 @@ So let us begin with reasoning.
 
 The branch and discipline titled logic was originally focused on finding absolute truths from statements that could be found in everyday discourse. Logic is fundamentally tied up with questions around how one can reason correctly. How one is able to deduce the correct answer given a set of statement or propositions.
 
-
-What is the connection between logic and AI in history and maths?
-Difference between propositional logic and symbolic logic
-Where do we use logic in deep learning
-Where does boolean logic end up ? In designing circuits
-
-From propositional logic to boolean algebra
-From Aristotle to George Boole to Claude Shannon
-
-Books
-Mathematical for Analysis of Logic
-An Investigation of the Laws of Thought 
-
-
-Propositions can be TRUE or FALSE
-Propositions can be compounded
+## Logic and Biology
 
 ## Dealing with Uncertainty
 
 ### Probability
 ### Information Theory
 
-## The Neurobiology and Cognitive Science
+## Neurobiology and Cognitive Science
 ### Cortexes
 ### Neurons
 
