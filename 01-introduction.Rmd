@@ -5,24 +5,27 @@
 
 Artificial intelligence is harder to describe in finite terms than it is to recreate many of the most popular algorithms that serve to represent it. 
 
->The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it once again slips further.
+>The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it again, slips a little bit further.
 
-This is because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress in AI and related sciences, we again are forced to redraw the line of what it means to be human.
+This is partly because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress in AI and related sciences, we again are forced to redraw the line of what it means to be human.
 
 > Nothing that we may know or learn about the functioning of the organism can give, without ‘microscopic,’ cytological work any clues regarding the further details of the neural mechanism.” - Von Neumann
 
 Generation after generation, we've asked ourselves fundamental questions that AI, as a philosophical project, touches upon:
 
 - What does it mean to be human? 
-- What makes us different or similar?
 - What is the difference between humans and other animals?
 - Is there another species that is more intelligent than we are (Übermensch)?
 - Will humans be surpassed by a more intelligent species?
 
-The question as to whether these questions are valid or not is beyond the scope of this book and the likes of Goodall, Nietschze, Heidegger, Sapolsky, Dreyfus, Mead and others have attempted to do so with great progress.
+Neurobiologists like Sapolsky and others, have highlighted that many of the concepts we have held so dearly, empathy, politics, culture, tool usage, are not unique to the human species. It seems that are only true advantage may be in the sheer number of neurons (86 billion) and synaptic connections (100 trillion+) between them that has allowed for more elaborate and subtle ways of those concepts unfolding.
+
+"We have the same nuts-and-bolts physiology, yet we're using it in very novel ways. - Robert Sapolsky"
+
+While scientific discoveries continue to redraw the line of what is truly unique to humans, so does progress in artificial intelligence, the race to design more and more intelligent machines.
 
 
-> “[AI] either the best, or the worst thing, ever to happen to humanity” - Stephen Hawking
+Rather than focus on the takeover, we will focus here on intelligence and it's the different forms it has taken over recorded history. 
 
 I will split the term intelligence into three definitions that map roughly unto three intellectual projects, though not perfectly.
 - Logic-based Intelligence as thinking correctly though logic and reasoning (propositional, Boolean algebra, and Jaynes probability theory)  [Explicit]
@@ -95,4 +98,5 @@ The branch and discipline titled logic was originally focused on finding absolut
 ### Graph Theory (not sure we will cover this)
 ### Reinforcement Learning (not sure we will cover this)
 
-
+### Final Thoughts
+Whatever your motivations for wanting to read the Mathematics of Deep Learning and Artificial Intelligence, we wish you well on your journey.
