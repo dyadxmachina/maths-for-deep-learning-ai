@@ -93,7 +93,7 @@ As we can easily tell, at the heart of Turing's universl machine is a model of h
 > AI by programming
 
 
-> Ai by machine learning
+> AI by machine learning
 
 
 > AI using logic, probabilities, learning and background knowledge
@@ -117,6 +117,8 @@ Talking about the connection of AI, logic and neurophysiology, we have brought u
 
 In their paper [A Logical Calculus of Ideas Immanent in Nervous Activity](http://www.cs.cmu.edu/~epxing/Class/10715/reading/McCulloch.and.Pitts.pdf), they introduced the idea of artificial neural network. Had inspired by Leibnizian logical calculus and [Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica), they created a network that uses logical predicate to compute as they were convinced that the brain was just such a machine that uses logic encoded in neural networks to compute.
 As what they put:"Because of the 'all-or-none' character of nervous activity, neural events and the relations among them can be treated by means of propositional logic.", they divided neurons into 2 groups, *peripheral afferents (or 'input neurons') and the rest ('output neurons) and each neuron can be in 2 states, firing or non-firing. They defined every neuron i a predicate which is true when the neuron is firing at the moment t. As for the solution of this network,
+
+The story of them is also the story of cybernetics which is 
 
 As you probably have had predicted, these two men started to work on this idea of capturing reasoning with a logical calculus. But this time, they also tried a novel approach which is to combine the knowledge of biological neurons.
 
