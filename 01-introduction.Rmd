@@ -1,5 +1,5 @@
 # Introduction to Artificial Intelligence {#intro}
-..draft.9..
+..draft.10..
 
 ## Just what is artificial intelligence?
 
@@ -18,26 +18,29 @@ Generation after generation, we've asked ourselves fundamental questions that AI
 - Is there another species that is more intelligent than we are (Übermensch)?
 - Will humans be surpassed by a more intelligent species?
 
-Neurobiologists like Sapolsky and others, have highlighted that many of the concepts we have held so dearly, empathy, politics, culture, tool usage, are not unique to the human species. It seems that are only true advantage may be in the sheer number of neurons (86 billion) and synaptic connections (100 trillion+) between them that has allowed for more elaborate and subtle ways of those concepts unfolding.
+Neurobiologists like Sapolsky and others, have highlighted that many of the features we have held so dearly, empathy, politics, culture, tool usage, are not unique to the human species. It seems that are only true advantage may be in the sheer number of neurons (86 billion) and synaptic connections (100 trillion+) between them that has allowed for more elaborate and subtle ways of those elements unfolding over time.
 
 "We have the same nuts-and-bolts physiology, yet we're using it in very novel ways. - Robert Sapolsky"
 
-While scientific discoveries continue to redraw the line of what is truly unique to humans, so does progress in artificial intelligence, the race to design more and more intelligent machines.
+While scientific discoveries continue to redraw the line of what is truly unique to humans, so does progress in artificial intelligence. So while it is clear that there is much hype around artificial intelligence, it can not be argued that there shouldn't be at least some concern over it's possible futures. 
+
+Rather than focus on the takeover, we will focus here on intelligence and some of the major categorisations that have played a part in today's AI.
 
 
-Rather than focus on the takeover, we will focus here on intelligence and it's the different forms it has taken over recorded history. 
+Logic and Reasoning - a type of intelligence that implies the ability of mental mechanisms to explicitly reason about phenomenon in the world in a
+Pattern Recognition/Perception - a ty
 
-I will split the term intelligence into three definitions that map roughly unto three intellectual projects, though not perfectly.
-- Logic-based Intelligence as thinking correctly though logic and reasoning (propositional, Boolean algebra, and Jaynes probability theory)  [Explicit]
-- Perception-based Intelligence as advanced intuition and pattern recognition (neural networks, perception, and statistical learning theory) [Implicit]
-- Intelligence as embodied cognition (reinforcement learning)
+<!-- I will split the term intelligence into three definitions that map roughly unto three intellectual projects, though not perfectly. -->
+<!-- - Logic-based Intelligence as thinking correctly though logic and reasoning (propositional, Boolean algebra, and Jaynes probability theory)  [Explicit] -->
+<!-- - Perception-based Intelligence as advanced intuition and pattern recognition (neural networks, perception, and statistical learning theory) [Implicit] -->
+<!-- - Intelligence as embodied cognition (reinforcement learning) -->
 
 We will primarily cover the first two subtypes of intelligence in this book and leave the reader to read more about embodied cognition. 
 
 
 ## Intelligence as logic and reasoning
 
-Before we had anything like the first computer, Aristotle and others were already forming, what we call logic today, the foundations of the  which was primarily concerned with reasoning and thinking well. 
+Before we had anything like the first computer, Aristotle and others were already forming, what we call logic today. Aristotle concerned himself with what
 
 - what is thinking and reasoning? 
 - what is it to think and reason well?
@@ -49,15 +52,6 @@ These are just some of questions that the likes of Aristotle, Leibniz, Turing, L
 
 Let us think about the context of such questions. 
 
-The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the uniqueness of humans may be uncovered by emulating the brain directly. As we began to understand an infinitesimally small amount about how very basic elements called neurons (Pitts, McCulloch) give rise to basic intelligence in simpler species like fruitflies to the advanced intelligence to that of the great apes.
-
-Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
-
-
-
- they too had similar questions, "Can machines think?", "Can the brain be emulated?". These questions moved away from deductive reasoning and towards emulating our senses and pereptions. Rosenblatt, Hebb, Minsky, and others were able to move towards learning from data as humans do by recognising patterns which birthed the first neural network, the perceptron. 
-
-This dichotomy, between symbolism and perception, like are dichotomies don't pin down the reality but we hope that it provides a way of thinking abbout our path towards today's artificial intelligence. We are now at a stage where we are bringing what we have learned in symbolic.
 
 ## Reasoning and Logic
 Rene Descartes stated "Cogito, ergo sum" which translated means "I think therefore I am". He arrived at this statement after trying to use pure "reason" to find what was fundamentally true without any doubt. Although he couldn't complete his project, his value of "reason" was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body. 
@@ -72,31 +66,69 @@ The branch and discipline titled logic was originally focused on finding absolut
 
 ## Logic and Biology
 
-## Dealing with Uncertainty
+## Dealing with Uncertainty and Probability
 
-### Probability
+While Boole was transforming the world of logic, the likes of Komolorov, Laplace, Jaynes and others were setting out to find a way for us to better reason  when we didn't have complete information and especially when we had data from several different places. 
+
+Jaynes even described probability as an extension of logic. But there were others who didn't see them as connected at all.
+
 ### Information Theory
-## Intelligence and 
+While logic and probability were now firmly established, Claude Shannon combined probability, logic, to create the mathematical theory of communication which we now call Information Theory.
+
+While probability allows us to reason under uncertainty, Shannon's information theory allowed us to quantify the uncertainty with a measure called entropy. This has lead to many concepts including mutual information, KL divergence, and even a very popular deep learning loss function. (Encoder-decoder or data compression strategies)
+
+## The Rise of AI and Neuroscience
 ## Neurobiology and Cognitive Science
 ### Cortexes
 ### Neurons
 
 ### Perceptrons and Perception
 
-## Representions and the Rise of Pattern Recognition
 
+The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the intelligence of humans and other species may be uncovered by emulating the central nervous sytem. As we began to understand an infinitesimally small amount about how a given numnber of neurons can give rise to intelligent behaviour.   (Pitts, McCulloch) give rise to basic intelligence in simpler species like fruitflies to the advanced intelligence to that of the great apes.
+
+Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
+
+
+
+ they too had similar questions, "Can machines think?", "Can the brain be emulated?". These questions moved away from deductive reasoning and towards emulating our senses and pereptions. Rosenblatt, Hebb, Minsky, and others were able to move towards learning from data as humans do by recognising patterns which birthed the first neural network, the perceptron. 
+
+This dichotomy, between symbolism and perception, like all dichotomies don't pin down the reality but we hope that it provides a way of thinking abbout our path towards today's artificial intelligence. We are now at a stage where we are bringing what we have learned in symbolic.
+
+
+## The Limits of Logic
+
+Though we don't usally think of logic in neural networks, the perceptron was actually based on logic as you can see from the refrences to Pitts paper are all around logic.
+
+Godel determined that logic couldn't.
+Turing found a limit to such machines.
+Logic isn't how biological neurons work and limit the capacity of a neural networks.
+
+
+## Statistical Learning Theory
+Vapnik, the learnable
+theorems PAC learning
+bounds
+
+## The modern wave of deep neural networks
+
+Bengio, LeCunn
+Andrew Ng
+Hinton, Goodfellow
+
+## Deepmind, OpenAI, and so on
+## Why learn the mathematics of deep learning
 ## The Mathematics Needed
 
-### Logic
-### Calculus
-### Probability
-### Geometry
-### Information Theory
-### Statistical Learning Theory
-### Representation Learning
-### Optimization
-### Graph Theory (not sure we will cover this)
-### Reinforcement Learning (not sure we will cover this)
+- Logic
+- Calculus
+- Probability
+- Geometry (?)
+- Information Theory
+- Statistical Learning Theory
+- Representation Learning
+- Optimization
+
 
 ### Final Thoughts
 Whatever your motivations for wanting to read the Mathematics of Deep Learning and Artificial Intelligence, we wish you well on your journey.
