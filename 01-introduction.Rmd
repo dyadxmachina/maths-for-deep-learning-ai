@@ -96,7 +96,7 @@ Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances
 This dichotomy, between symbolism and perception, like all dichotomies don't pin down the reality but we hope that it provides a way of thinking abbout our path towards today's artificial intelligence. We are now at a stage where we are bringing what we have learned in symbolic.
 
 
-## The Limits of Logic
+##    The Limits of Logic
 
 Though we don't usally think of logic in neural networks, the perceptron was actually based on logic as you can see from the refrences to Pitts paper are all around logic.
 
