@@ -5,7 +5,7 @@
 
 Artificial intelligence is harder to describe in finite terms than it is to recreate many of the most popular algorithms that serve to represent it. 
 
->The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it again, slips a little bit further.
+>The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it again, slips just outside of our grasp.
 
 This is partly because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress in AI and related sciences, we again are forced to redraw the line of what it means to be human.
 
