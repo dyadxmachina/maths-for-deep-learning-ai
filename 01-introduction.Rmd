@@ -125,7 +125,12 @@ Hinton, Goodfellow
 - Probability
 - Geometry (?)
 - Information Theory
+-- entropy
+-- mutual information
+-- bottleneck
 - Statistical Learning Theory
+-- approximation theory
+-- learnable
 - Representation Learning
 - Optimization
 
@@ -146,7 +151,6 @@ Overall I think I like the story and the storyline seems relatively complete. So
 You may also need to cover a little bit more about the following questions: 
 
 - what framework of mental model we are following now? 
-
 -  what is the possible future direction of AI? 
 
 
