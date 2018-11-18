@@ -20,3 +20,10 @@ cover-image: artwork/m4dl.png
 # Preface {-}
 ![Our new book](artwork/maths of deep learning.png)
 
+**Get chapter updates sent to your email.**
+```{r echo=FALSE, results="asis"}
+
+library(readr)
+cat( paste( readLines( "mailchimp.html" , warn = FALSE) ) )
+
+```

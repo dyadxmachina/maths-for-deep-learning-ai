@@ -98,6 +98,43 @@
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us6.list-manage.com","uuid":"e9cb6ddb243f988842739d69a","lid":"d8a4de700f","uniqueMethods":true}) })</script>
 
 
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -115,7 +152,7 @@
 <li><a href="./">Mathematics for Deep Learning and AI</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction to Artificial Intelligence</a><ul>
 <li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#just-what-is-artificial-intelligence"><i class="fa fa-check"></i><b>1.1</b> Just what is artificial intelligence?</a></li>
 <li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#intelligence-as-logic-and-reasoning"><i class="fa fa-check"></i><b>1.2</b> Intelligence as logic and reasoning</a></li>
@@ -175,22 +212,31 @@
 <img src="artwork/maths%20of%20deep%20learning.png" alt="Our new book" />
 <p class="caption">Our new book</p>
 </div>
-<strong>Get chapter updates sent to your email.</strong> <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css"> #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } </style>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(readr)
+<span class="kw">cat</span>( <span class="kw">paste</span>( <span class="kw">readLines</span>( <span class="st">&quot;mailchimp.html&quot;</span> ), <span class="dt">collapse=</span><span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span> ) )</code></pre></div>
+<pre><code>## Warning in readLines(&quot;mailchimp.html&quot;): incomplete final line found on
+## &#39;mailchimp.html&#39;</code></pre>
 <div id="mc_embed_signup">
 <form action="https://thechristianramsey.us6.list-manage.com/subscribe/post?u=e9cb6ddb243f988842739d69a&amp;id=d8a4de700f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-<div style="position: absolute; left: -5000px;" aria-hidden="true">
-<input type="text" name="b_e9cb6ddb243f988842739d69a_d8a4de700f" tabindex="-1" value="">
+<pre><code>&lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;</code></pre>
+<div class="indicates-required">
+<span class="asterisk">*</span> indicates required
 </div>
-<div class="clear">
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+<div class="mc-field-group">
+<pre><code>&lt;label for=&quot;mce-EMAIL&quot;&gt;Email Address  &lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt;</code></pre>
+<p></label> <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></p>
 </div>
-</div>
+<pre><code>&lt;div id=&quot;mce-responses&quot; class=&quot;clear&quot;&gt;
+    &lt;div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_e9cb6ddb243f988842739d69a_d8a4de700f&quot; tabindex=&quot;-1&quot; value=&quot;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
 </form>
 </div>
-
+<p><br />
+<!--chapter:end:index.Rmd--></p>
 </div>
             </section>
 
@@ -228,7 +274,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/index.Rmd",
+"link": "https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/01-introduction.Rmd",
 "text": "Edit"
 },
 "download": ["Mathematics for Deep Learning and Artificial Intelligence.pdf", "Mathematics for Deep Learning and Artificial Intelligence.epub"],
