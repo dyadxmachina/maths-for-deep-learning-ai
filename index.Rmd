@@ -32,11 +32,10 @@ cat( paste( readLines( "mailchimp.html" , warn = FALSE) ) )
 ## About the Authors
 Independent deep learning researchers focused on using machine learning for the good of humanity. Focused on applying deep learning applications in [mental health](http://dyadxmachina.com) (i.e. neuroscience) and [education](https://github.com/dyadxmachina/can-machines-teach).
 
-Haohan Wang
-[LinkedIn](https://www.linkedin.com/in/haohanw)
 
-Fanli Zheng (Christian)
-[LinkedIn](https://www.linkedin.com/in/christianramsey/)
+[Haohan Wang - LinkedIn](https://www.linkedin.com/in/haohanw)
+
+[Fanli Zheng (Christian) - LinkedIn](https://www.linkedin.com/in/christianramsey/)
 
 ## Contact
 Feel free to contact us if you have any questions:
