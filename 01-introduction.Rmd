@@ -35,7 +35,7 @@ Pattern Recognition/Perception - ++a ty +++what is this?
 <!-- - Perception-based Intelligence as advanced intuition and pattern recognition (neural networks, perception, and statistical learning theory) [Implicit] -->
 <!-- - Intelligence as embodied cognition (reinforcement learning) -->
 
-We will primarily cover the first two subtypes of intelligence in this book and leave the reader to read more about embodied cognition. 
+We will primarily cover the first two subtypes of intelligence in this book and leave the reader to discover more about *embodied cognition*. 
 
 
 ## Intelligence as logic and reasoning
@@ -43,7 +43,9 @@ We will primarily cover the first two subtypes of intelligence in this book and 
 Before we had anything like the first computer, Aristotle and others were already forming, what we call logic today. Aristotle concerned himself with what
 
 - what is thinking and reasoning? 
+
 - what is it to think and reason well?
+
 - can correct reasoning be mechanized?
 
 > Perhaps there is a logic calculus than can mechanise reasoning
