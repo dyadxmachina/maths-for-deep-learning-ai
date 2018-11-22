@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Mathematics for Deep Learning and Artificial Intelligence</title>
   <meta name="description" content="learn the foundational mathematics required to learn and apply cutting edge deep learning techniques. From Aristolean logic to Jaynes theory of probability to Rosenblatt’s Perceptron and Vapnik's Statistical Learning Theory">
-  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
   <meta property="og:title" content="Mathematics for Deep Learning and Artificial Intelligence" />
   <meta property="og:type" content="book" />
@@ -25,7 +25,7 @@
 <meta name="author" content="Christian Ramsey &amp; Haohan Wang">
 
 
-<meta name="date" content="2018-11-20">
+<meta name="date" content="2018-11-21">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 <link rel="next" href="intro.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -169,8 +170,8 @@
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">Mathematics for Deep Learning and Artificial Intelligence</h1>
-<h4 class="author"><em>Christian Ramsey &amp; Haohan Wang</em></h4>
-<h4 class="date"><em>2018-11-20</em></h4>
+<p class="author"><em>Christian Ramsey &amp; Haohan Wang</em></p>
+<p class="date"><em>2018-11-21</em></p>
 </div>
 <div id="preface" class="section level1 unnumbered">
 <h1>Preface</h1>
@@ -178,7 +179,8 @@
 <img src="artwork/maths%20of%20deep%20learning.png" alt="Our new book" />
 <p class="caption">Our new book</p>
 </div>
-<strong>Get chapter updates sent to your email.</strong> <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<strong>Get chapter updates sent to your email.</strong>
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css"> #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } </style>
 <div id="mc_embed_signup">
 <form action="https://thechristianramsey.us6.list-manage.com/subscribe/post?u=e9cb6ddb243f988842739d69a&amp;id=d8a4de700f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -202,9 +204,10 @@
 </div>
 <div id="contact" class="section level2">
 <h2><span class="header-section-number">0.2</span> Contact</h2>
-<p>Feel free to contact us if you have any questions: Visit our website <a href="dyadxmachina.com">dyad x machina</a> or email us @ <a href="mailto:two@dyadxmachina.com">two@dyadxmachina.com</a></p>
-<p>Haohan Wang: <a href="mailto:haohan723@gmail.com">haohan723@gmail.com</a></p>
-<p>Fanli Zheng (Christian): <a href="mailto:thechristianramsey@gmail.com">thechristianramsey@gmail.com</a></p>
+<p>Feel free to contact us if you have any questions:
+Visit our website <a href="dyadxmachina.com">dyad x machina</a> or email us @ <a href="mailto:two@dyadxmachina.com" class="email">two@dyadxmachina.com</a></p>
+<p>Haohan Wang: <a href="mailto:haohan723@gmail.com" class="email">haohan723@gmail.com</a></p>
+<p>Fanli Zheng (Christian): <a href="mailto:thechristianramsey@gmail.com" class="email">thechristianramsey@gmail.com</a></p>
 
 </div>
 </div>
@@ -234,7 +237,7 @@ gitbook.start({
 "google": false,
 "linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
 "all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
@@ -246,6 +249,10 @@ gitbook.start({
 "edit": {
 "link": "https://github.com/dyadxmachina/maths-for-deep-learning-ai/edit/master/index.Rmd",
 "text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
 },
 "download": ["Mathematics for Deep Learning and Artificial Intelligence.pdf", "Mathematics for Deep Learning and Artificial Intelligence.epub"],
 "toc": {
@@ -260,8 +267,8 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    var src = "";
-    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:" && /^https?:/.test(src))
       src = src.replace(/^https?:/, '');
     script.src = src;
