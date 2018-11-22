@@ -3,9 +3,9 @@
 
 ## Just what is artificial intelligence?
 
-Artificial intelligence is harder to describe in finite terms than it is to recreate many of the most popular algorithms that serve to represent it. 
+Artificial intelligence is harder to describe infinite terms than it is to recreate many of the most popular algorithms that serve to represent it. 
 
->The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it again, slips just outside of our grasp.
+>The definition, if we can say that such a thing exists, is a moving socio-cultural target and just as we get closer to it's said definition, it again slips just outside of our grasp.
 
 This is partly because AI has always been fundamentally tied up with some of our deepest philosophical queries and as we make further progress in AI and related sciences, we again are forced to redraw the line of what it means to be human.
 
@@ -18,16 +18,16 @@ Generation after generation, we've asked ourselves fundamental questions that AI
 - Is there another species that is more intelligent than we are ++(Übermensch)? +++references
 - Will humans be surpassed by a more intelligent species?
 
-Neurobiologists like Sapolsky and others, have highlighted that many of the features we have held so dearly, empathy, politics, culture, tool usage, are not unique to the human species. It seems that are only true advantage may be in the sheer number of neurons (86 billion) and synaptic connections (100 trillion+) between them that has allowed for more elaborate and subtle ways of those elements unfolding over time.
+Neurobiologists like Sapolsky and others, have highlighted that many of the features we have held so dearly, empathy, politics, culture, tool usage, are not unique to the human species. It seems that is the only true advantage may be in the sheer number of neurons (86 billion) and synaptic connections (100 trillion+) between them that has allowed for more elaborate and subtle ways of those elements unfolding over time.
 
 "We have the same nuts-and-bolts physiology, yet we're using it in very novel ways. - Robert Sapolsky"
 
-While scientific discoveries continue to redraw the line of what is truly unique to humans, so does progress in artificial intelligence. So while it is clear that there is much hype around artificial intelligence, it can not be argued that there shouldn't be at least some concern over it's possible futures. 
+While scientific discoveries continue to redraw the line of what is truly unique to humans, so does progress in artificial intelligence. So while it is clear that there is much hype around artificial intelligence, it can not be argued that there shouldn't be at least some concern over its possible futures. 
 
 Rather than focus on the takeover, we will focus here on intelligence and some of the major categorisations that have played a part in today's AI.
 
 
-Logic and Reasoning - a type of intelligence that implies the ability of mental mechanisms to explicitly reason about phenomenon in the world in a
+Logic and Reasoning - a type of intelligence that implies the ability of mental mechanisms to explicitly reason about a phenomenon in the world in a
 Pattern Recognition/Perception - ++a ty +++what is this?
 
 <!-- I will split the term intelligence into three definitions that map roughly unto three intellectual projects, though not perfectly. -->
@@ -42,21 +42,25 @@ We will primarily cover the first two subtypes of intelligence in this book and 
 
 Before we had anything like the first computer, Aristotle and others were already forming, what we call logic today. Aristotle concerned himself with what
 
+<<<<<<< HEAD
 - what is thinking and reasoning? 
 
+=======
+- what does it mean to think or reason? 
+>>>>>>> 5771178db2f57b54a4338ff3f71e98b88a017003
 - what is it to think and reason well?
 
 - can correct reasoning be mechanized?
 
 > Perhaps there is a logic calculus than can mechanise reasoning
 
-These are just some of questions that the likes of Aristotle, Leibniz, Turing, Laplace, Wittgenstein, Gödel, and Boole and others attempted to answer definitively. Aristotle and the Stoics gave us a framework for reasoning and propositional logic respectively. Leibniz gave us logical calculi and a glimpse into computers that could do the same. We also have George Boole's Boolean algebra (1847) would catch up with Claude Shannon to begin the digital revolution and progress artificial intelligence.
+These are just some of the questions that the likes of Aristotle, Leibniz, Turing, Laplace, Wittgenstein, Gödel, and Boole and others attempted to answer definitively. Aristotle and the Stoics gave us a framework for reasoning and propositional logic respectively. Leibniz gave us logical calculi and a glimpse into computers that could do the same. We also have George Boole's Boolean algebra (1847) would catch up with Claude Shannon to begin the digital revolution and progress artificial intelligence.
 
 Let us think about the context of such questions. 
 
 
 ## Reasoning and Logic
-Rene Descartes stated "Cogito, ergo sum" which translated means "I think therefore I am". He arrived at this statement after trying to use pure "reason" to find what was fundamentally true without any doubt. Although he couldn't complete his project, his value of "reason" was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body. 
+Rene Descartes stated "Cogito, ergo sum" which translated means, "I think therefore I am". He arrived at this statement after trying to use pure "reason" to find what was fundamentally true without any doubt. Although he couldn't complete his project, his value of "reason" was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body. 
 
 Reasoning starts with logic. 
 
@@ -70,7 +74,7 @@ The branch and discipline titled logic was originally focused on finding absolut
 
 ## Dealing with Uncertainty and Probability
 
-While Boole was transforming the world of logic, the likes of Komolorov, Laplace, Jaynes and others were setting out to find a way for us to better reason  when we didn't have complete information and especially when we had data from several different places. 
+While Boole was transforming the world of logic, the likes of Kolmogorov, Laplace, Jaynes and others were setting out to find a way for us to better reason when we didn't have complete information and especially when we had data from several different places. 
 
 Jaynes even described probability as an extension of logic. But there were others who didn't see them as connected at all.
 
@@ -87,9 +91,9 @@ While probability allows us to reason under uncertainty, Shannon's information t
 ### Perceptrons and Perception
 
 
-The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the intelligence of humans and other species may be uncovered by emulating the central nervous sytem. As we began to understand an infinitesimally small amount about how a given numnber of neurons can give rise to intelligent behaviour. ++(Pitts, McCulloch) give rise to basic intelligence in simpler species like fruitflies to the advanced intelligence to that of the great apes. +++reference here 
+The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the intelligence of humans and other species may be uncovered by emulating the central nervous system. As we began to understand an infinitesimally small amount about how a given number of neurons can give rise to intelligent behaviour. ++(Pitts, McCulloch) give rise to basic intelligence in simpler species like fruit flies to the advanced intelligence to that of the great apes. +++reference here 
 
-Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually lead to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
+Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually leads to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
 
 
 
@@ -100,11 +104,11 @@ This dichotomy, between symbolism and perception, like all dichotomies don't pin
 
 ##    The Limits of Logic
 
-Though we don't usally think of logic in neural networks, the perceptron was actually based on logic as you can see from the refrences to Pitts paper are all around logic.
+Though we don't usually think of logic in neural networks, the perceptron was actually based on logic as you can see from the references to Pitts paper are all around logic.
 
 Godel determined that logic couldn't.
 Turing found a limit to such machines.
-Logic isn't how biological neurons work and limit the capacity of a neural networks.
+Logic isn't how biological neurons work and limit the capacity of a neural network.
 
 
 ## Statistical Learning Theory
@@ -127,7 +131,12 @@ Hinton, Goodfellow
 - Probability
 - Geometry (?)
 - Information Theory
+-- entropy
+-- mutual information
+-- bottleneck
 - Statistical Learning Theory
+-- approximation theory
+-- learnable
 - Representation Learning
 - Optimization
 
@@ -143,14 +152,13 @@ Whatever your motivations for wanting to read the Mathematics of Deep Learning a
 +++ is my comment
 
 
-Overall I think I like the story and the storyline seems relatively complete. Somehow the transition from logic to biology is not very well illustrated. I am expecting to see more explanation about how biology or even phiolosopy changes the trajector of AI in the last few decades. 
+Overall I think I like the story and the storyline seems relatively complete. Somehow the transition from logic to biology is not very well illustrated. I am expecting to see more explanation about how biology or even philosophy changes the trajectory of AI in the last few decades. 
 
 You may also need to cover a little bit more about the following questions: 
 
-- what framework of mental model we are following now? 
-
+- what framework or mental model we are following now? 
 -  what is the possible future direction of AI? 
 
 
 
-++++
+++++ 
