@@ -14,6 +14,7 @@ This is partly because AI has always been fundamentally tied up with some of our
 Generation after generation, we've asked ourselves fundamental questions that AI, as a philosophical project, touches upon:
 
 - What does it mean to be human? 
+- what is intelligence?
 - What is the difference between humans and other animals?
 - Is there another species that is more intelligent than we are ++(Übermensch)? +++references
 - Will humans be surpassed by a more intelligent species?
@@ -52,7 +53,7 @@ Before we had anything like the first computer, Aristotle and others were alread
 
 > Perhaps there is a logic calculus than can mechanise reasoning
 
-These are just some of the questions that the likes of Aristotle, Leibniz, Turing, Laplace, Wittgenstein, Gödel, and Boole and others attempted to answer definitively. Aristotle and the Stoics gave us a framework for reasoning and propositional logic respectively. Leibniz gave us logical calculi and a glimpse into computers that could do the same. We also have George Boole's Boolean algebra (1847) would catch up with Claude Shannon to begin the digital revolution and progress artificial intelligence.
+These are just some of the questions that the likes of Aristotle, Leibniz, Turing, Laplace, Wittgenstein, Gödel, and Boole and many others attempted to answer definitively. Aristotle and the Stoics gave us a framework for reasoning and propositional logic respectively. Leibniz gave us logical calculi and a glimpse into computers that could do the same. We also have George Boole's Boolean algebra (1847) would catch up with Claude Shannon to begin the digital revolution and progress artificial intelligence.
 
 Let us think about the context of such questions. 
 
@@ -66,7 +67,7 @@ So let us begin with reasoning.
 
 The branch and discipline titled logic was originally focused on finding absolute truths from statements that could be found in everyday discourse. Logic is fundamentally tied up with questions around how one can reason correctly. How one is able to deduce the correct answer given a set of statements or propositions.
 
-## Logic and Biology +++not sure if it is a proper title I would suggest 'From logic to biology'
+## Logic and Philosophy +++not sure if it is a proper title I would suggest 'From logic to biology'
 
 ## Dealing with Uncertainty and Probability
 
@@ -77,7 +78,7 @@ Jaynes even described probability as an extension of logic. But there were other
 ### Information Theory
 While logic and probability were now firmly established, Claude Shannon combined probability, and logic, to create the mathematical theory of communication which we now call **Information Theory**.
 
-While probability allows us to reason under uncertainty, Shannon's information theory allowed us to quantify the uncertainty with a measure called $entropy$. This has lead to many concepts including mutual information, KL divergence, and even a very popular deep learning loss function. (Encoder-decoder or data compression strategies)   
+While probability allows us to reason under uncertainty, Shannon's information theory allowed us to quantify the uncertainty with a measure called $entropy$. This has laid the foundation of many other important concepts including mutual information, KL divergence, and even a very popular deep learning loss function. (Encoder-decoder or data compression strategies)   
 
 ## The Rise of AI and Neuroscience
 ## Neurobiology and Cognitive Science
@@ -89,7 +90,7 @@ While probability allows us to reason under uncertainty, Shannon's information t
 
 The second set of questions were just as philosophically motivated, but differed in their approaches. Individuals from disciplines like biology, especially psychology, neurobiology, then called neurophysiology, began to see that the intelligence of humans and other species may be uncovered by emulating the central nervous system. As we began to understand an infinitesimally small amount about how a given number of neurons can give rise to intelligent behaviour. ++(Pitts, McCulloch) give rise to basic intelligence in simpler species like fruit flies to the advanced intelligence to that of the great apes. +++reference here 
 
-Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine it with our growing knowledge in brain science which eventually leads to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
+Pitts, McCulloch, Rosenblatt, Minsky, and others set out to combine the advances of logic, from Leibniz's logical calculi to Bool's Boolean algebra) and combine them with our growing knowledge in brain science which eventually leads to the creation of the first artificial neural network, named the perceptron. The first neural network which was based in the science of logic pushed forward by the likes of Leibniz and George Boole.
 
 
 
