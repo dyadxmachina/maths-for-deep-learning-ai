@@ -20,6 +20,10 @@ cover-image: artwork/m4dl.png
 # Preface {-}
 ![Our new book](artwork/maths of deep learning.png)
 
+## Chapter Updates
+
+Join over **800+** others to get chapter by chapter updates sent to your email.
+
 **Get chapter updates sent to your email.**
 ```{r echo=FALSE, results="asis"}
 
