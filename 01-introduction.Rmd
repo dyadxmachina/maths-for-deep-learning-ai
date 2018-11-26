@@ -27,9 +27,6 @@ While scientific discoveries continue to redraw the line of what is truly unique
 Rather than focus on the takeover, we will focus here on intelligence and some of the major categorisations that have played a part in today's AI.
 
 
-Logic and Reasoning - a type of intelligence that implies the ability of mental mechanisms to explicitly reason about a phenomenon in the world in a
-Pattern Recognition/Perception - ++a ty +++what is this?
-
 <!-- I will split the term intelligence into three definitions that map roughly unto three intellectual projects, though not perfectly. -->
 <!-- - Logic-based Intelligence as thinking correctly though logic and reasoning (propositional, Boolean algebra, and Jaynes probability theory)  [Explicit] -->
 <!-- - Perception-based Intelligence as advanced intuition and pattern recognition (neural networks, perception, and statistical learning theory) [Implicit] -->
@@ -40,14 +37,15 @@ We will primarily cover the first two subtypes of intelligence in this book and 
 
 ## Intelligence as logic and reasoning
 
+Logic and Reasoning - a type of intelligence that implies the ability of mental mechanisms to explicitly reason about a phenomenon in the world in a
+Pattern Recognition/Perception - ++a ty +++what is this?
+
 Before we had anything like the first computer, Aristotle and others were already forming, what we call logic today. Aristotle concerned himself with what
 
-<<<<<<< HEAD
 - what is thinking and reasoning? 
 
-=======
 - what does it mean to think or reason? 
->>>>>>> 5771178db2f57b54a4338ff3f71e98b88a017003
+
 - what is it to think and reason well?
 
 - can correct reasoning be mechanized?
@@ -58,8 +56,6 @@ These are just some of the questions that the likes of Aristotle, Leibniz, Turin
 
 Let us think about the context of such questions. 
 
-
-## Reasoning and Logic
 Rene Descartes stated "Cogito, ergo sum" which translated means, "I think therefore I am". He arrived at this statement after trying to use pure "reason" to find what was fundamentally true without any doubt. Although he couldn't complete his project, his value of "reason" was not unpopular and is gaining popularity in much of modern culture and can be heard in everyday conversations when we talk about the distinction between our thoughts and body. 
 
 Reasoning starts with logic. 
@@ -74,12 +70,12 @@ The branch and discipline titled logic was originally focused on finding absolut
 
 ## Dealing with Uncertainty and Probability
 
-While Boole was transforming the world of logic, the likes of Kolmogorov, Laplace, Jaynes and others were setting out to find a way for us to better reason when we didn't have complete information and especially when we had data from several different places. 
+While Boole was transforming the world of logic, the likes of Kolmogorov, Laplace, Jaynes and others were setting out to find a way for us to better reason when we didn't have complete information and especially when we have data from several different places. After all, the incomplete knowledge is the only working material a scientist has and science itself is a way to help us make inference with partial information.  
 
 Jaynes even described probability as an extension of logic. But there were others who didn't see them as connected at all.
 
 ### Information Theory
-While logic and probability were now firmly established, Claude Shannon combined probability, logic, to create the mathematical theory of communication which we now call **Information Theory**.
+While logic and probability were now firmly established, Claude Shannon combined probability, and logic, to create the mathematical theory of communication which we now call **Information Theory**.
 
 While probability allows us to reason under uncertainty, Shannon's information theory allowed us to quantify the uncertainty with a measure called $entropy$. This has lead to many concepts including mutual information, KL divergence, and even a very popular deep learning loss function. (Encoder-decoder or data compression strategies)   
 
