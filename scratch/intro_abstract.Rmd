@@ -1,0 +1,50 @@
+
+
+1. What we humans are (are we unique and why)? --> we are different and we are intelligent
+
+
+2. How and why we are intelligent? --> we can reason/think/learn to have consciousness/mind 
+
+
+3. What is intelligence? --> the ability to reason/think/learn 
+
+
+4. Can machines think (like us)? --> mechanize human's ability to reason/think/learn 
+
+
+The history of AI:
+Start from the initial attempt made by Aristotle uses syllogism and later logic to reason and tell right and wrong. They believe the reason and logic is the key to help us think and make us intelligent. On the other hand, people consistently trying to mechanize the thinking and reasoning process. By combining both, we develop better and better theories(in symbolic reasoning and neuroscience) and machines to mechanize this process until the point we start to believe it is possible to make the machine thinks like human given the right guidance. The start of AI. There are some other scientists find out that we humans are different because our ability to sense and some even believe the knowledge is in the world we are just learning from there which led us to explore the possibilities. We have robots with bodies. The current development of deep learning make machines an perception/pattern matching experts that can learn from the data. The next step, consciousness?
+
+
+
+
+
+
+SOME OTHER QUESTIONS 
+
+-  what is knowledge? --> sense experience
+
+- 
+
+
+THEMES
+
+- Logical Positivism: a statement is meaningful only if it is either purely formal (mathematics and logic) or capable of empirical verification. Rejection of metaphysics on the grounds that it is unverificable. It implies that all scientific propositions can be expressed, usually by means of various 'reduction' or explications' of the terms of the science to the terms of another more fundamental one. 
+
+
+- Metaphysics: the nature of existence, being and the world. Foundation of philosophy (Aristotle calls 'first philosophy or just 'wisdom'), says it is the subject that deals with 'first causes' and the principles of things'.
+Aristotle originally split metaphysics into 3 main sections: 
+
++ Ontology: the study of being and existence, including the definition and classification of entities, physical or mental, the nature of their properties, and the nature of change.
+
++ Natural Theology: the study of God, including the nature of religion and the world, exisence of divine, questions about the screation, and the various other religious or spiritual issues.
+
++ Universal Science: the study of first principles of logic and reasoning, such as the law of noncontradiction. 
+
+In sum, it implies an idea about the world or the universe, which may seem reasonable but it is ultimately not empirically verificable, testable or provable.
+
+
+- Materialism: all things are composed of material and the only thing can be truly proven to exist is matter --> mind-body problem --> robot needs a body to learn from the world 
+
+
+- Phenomenology: study of experience and how we experience. 
