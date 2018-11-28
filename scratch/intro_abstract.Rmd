@@ -37,7 +37,12 @@ If one may define general intelligence it is within these abilities
 - Small n learning (learning from a small number of observations )
 - Plan and apply knowledge flexibly 
 - Flexibility of Knowledge
+- Learning to Learn
 
+
+AGI will take on many shapes and new improvements in reasoning, perception, and learning will enable us to make machines that can truly make sense of the world, plan, and act flexibly.
+
+This book will be a learning journey for the readers and the authors alike. Understanding the foundations mathematics for deep learning and AI will help us get closet to building  the future of artificial general intellgience.
 
 
 
