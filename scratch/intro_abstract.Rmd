@@ -14,12 +14,12 @@
 
 
 The history of AI:
-Start from the initial attempt made by Aristotle uses syllogism and later logic to reason to tell right from wrong. They believe that reason and logic is the key to help us think and makes us intelligent. On the other hand, people consistently try to mechanize the thinking and reasoning process. By combining both, we develop better and better theories(in symbolic reasoning and neuroscience) and machines to mechanize this process until the point we start to believe it is possible to make a machine tat thinks like human given the right guidance. The start of AI. There are other scientists who find out why we humans are different > because our ability to sense and some even believe that knowledge is in the world and we are just learning from there which leads us to explore the possibilities. We have robots with bodies. The current development of deep learning make machines an perception/pattern matching experts that can learn from the data. The next step, consciousness?
+Start from the initial attempt made by Aristotle uses syllogism and later logic to reason to tell right from wrong. They believe that reason and logic is the key to help us think and makes us intelligent. On the other hand, people consistently try to mechanize the thinking and reasoning process. By combining both, we develop better and better theories(in symbolic reasoning and neuroscience) and machines to mechanize this process until the point we start to believe it is possible to make a machine that thinks like human given the right guidance. The start of AI. There are other scientists who find out why we humans are different > because our ability to sense and some even believe that knowledge is in the world and we are just learning from there which leads us to explore the possibilities. We have robots with bodies. The current development of deep learning make machines an perception/pattern matching experts that can learn from the data. The next step, consciousness?
 
 
 
 Missing:
-- the next step is to approach AGI (artificial intelligence). If computers beat humans in every perception task they won't have reached AGI if we define general intelligence as we do below  
+- the next step is to approach AGI (artificial general intelligence). If computers beat humans in every perception task they won't have reached AGI if we define general intelligence as we do below  
 - who were the groups of people? were they mostly mathematicians by title? when did the neuroscientists come in?
 - You suggest that intelligence shifted from logic to perception but I think we should mount this into a shift that consider perception as a major component of intelligence. More than people could have imagined.
 
