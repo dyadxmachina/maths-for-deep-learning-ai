@@ -1,5 +1,5 @@
 
-0. Why do we need to be unique?
+0. Why do we need to be unique? (why we exist)
 
 1. What are we humans (are we unique and why)? --> we are different because we are intelligent
 
@@ -31,12 +31,16 @@ Intelligence is now, or always has been, multi-facetd and the grand theory of de
 
 
 If one may define general intelligence it is within these abilities
-- Pattern Recognition - The learning problem
+- Pattern Recognition - The learning problem (mainly solved by deep learning)
 - Reasoning - model the world and relations between objects and concepts logically
 - Build adaptive mental models of the world
 - Small n learning (learning from a small number of observations )
 - Plan and apply knowledge flexibly 
-- Flexibility of Knowledge
+- Meaning of Knowledge
+- Knowledge is not neutral and 
+- Knowledgbe itself cannot drive learning
+- We need the system that can feel right/wrong to selectively make their decision based on the knowledge 
+- We need a ethical system that first has the moral codes embedded
 - Learning to Learn
 
 
@@ -44,6 +48,28 @@ AGI will take on many shapes and new improvements in reasoning, perception, and 
 
 This book will be a learning journey for the readers and the authors alike. Understanding the foundations mathematics for deep learning and AI will help us get closet to building  the future of artificial general intellgience.
 
+
+
+**My Question after AGI vido**
+
+If the future of AI is to reverse engineer theintelligence and to make machine learn and become intelligent as a human does.
+
+Marvin Minsky stated that "The question is not whether intelligent machines can have any emotions, but whether machines can be intelligent without any emotions" 
+
+I am wondering how this can be achieved with the emotions/feelings?
+
+We human learns by feedback. The feedback signals are largely composed by our feelings. We rarely reason through our decision instead we feed through our actions and the interactions with the world.
+
+The best way to teach a human or even an animal is to set up a reward and punishment system that they can navigate through. When we feel the punishment when we feel the pain of the punishment we learn our lesson and the valuable learning is largely encoded as a feeling that we know to avoide in the future.
+
+The same mechanism for reward. When we anticipate the reward, the feeling of pleasure, we are motivated to do the things that is associated with that reward. 
+
+Over time, we became increasingly skilled at associating the events/objects with the rewards/punishments that we encountered in the past. We even set up our internal reward and punishment system based on the moral and civilization training throughout our life. 
+
+This is one of the primary reasons that we learn. It helps us to behave 'regular'normal'and communicate regularly with each other. Also, it is also the reason we make prediction of a strange object/things through our memory and the feeling encoded with that memory to avoid the bad feeling (through the experience or the observation of the associated punishment) and to pursue the reward with the required efforts (through the anticipated reward attached with the actions).
+
+
+How could an intelligent system survive without the feeling embedded with them.
 
 
 
