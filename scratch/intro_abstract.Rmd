@@ -62,7 +62,11 @@ AGI will take on many shapes and new improvements in reasoning, perception, and 
 
 This book will be a learning journey for the readers and the authors alike. Understanding the foundations mathematics for deep learning and AI will help us get closet to building  the future of artificial general intellgience.
 
+Few more new trends:
 
+* Safety AI 
+
+* 
 
 **My Question after AGI vido**
 
