@@ -1,5 +1,5 @@
 
-0. Why do we need to be unique? (why we exist)
+0. Why do we need to be unique? (why do we exist)
 
 1. What are we humans (are we unique and why)? --> we are different because we are intelligent
 
@@ -68,6 +68,8 @@ Few more new trends:
 
 * 
 
+Weak(Narrow) AI vs. Strong AI(AGI)
+
 **My Question after AGI vido**
 
 If the future of AI is to reverse engineer intelligence and to make machine learn and become intelligent as a human does.
@@ -120,3 +122,24 @@ In sum, it implies an idea about the world or the universe, which may seem reaso
 
 
 - Phenomenology: study of experience and how we experience. 
+
+# 
+
+## AI Safety & Ethics
+- control problem
+
+# Artificial General Intelligence (AGI)
+- Definition of intelligence
+	- Elements
+	- Overlap between 
+
+- Weak AI (Industrial AI) 
+- Strong AI (Approaching Human Intelligence)
+
+- Blank Slate () 
+- Evolved Components (Evolutionary biology)
+
+# Cognitive Science
+Motivations 
+- Understand humans
+- Build tools for intelligence action
