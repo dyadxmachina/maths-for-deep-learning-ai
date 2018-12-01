@@ -30,6 +30,20 @@ As it turns out, the neuroscience around intelligent is neither precisely define
 Intelligence is now, or always has been, multi-facetd and the grand theory of deep learning will eventually find it's place beneath the hype, not as intelligence but as a necessary component of it; just as logic and higher-order reasoning.
 
 
+From the current technology and resources perspective, we are mainly focusing on approaching intelligence from the following aspects: 
+
+1. Probabilistic inference model - to capture the goal-oriented mental model and reasoning process as well as some of the cause inference 
+i.e. Hierarchical Bayes for learning to learn and learning from sparse data
+
+2. Symbolic representation or language in which we can represent our knowledge in an abstract way 
+
+3. Pattern Recognition which has been largely solved by deep learning and neural network 
+
+
+As what we operate in the world, we have a large amount visual sensory input collected from the external world and process in our brain for the decision making. We also intended to help machine to develop their own advanced visual sensing ability so that they can correctly capture and make sense of the captured information and combined with their memeory to make decisions.
+
+
+
 If one may define general intelligence it is within these abilities
 - Pattern Recognition - The learning problem (mainly solved by deep learning)
 - Reasoning - model the world and relations between objects and concepts logically
@@ -48,17 +62,21 @@ AGI will take on many shapes and new improvements in reasoning, perception, and 
 
 This book will be a learning journey for the readers and the authors alike. Understanding the foundations mathematics for deep learning and AI will help us get closet to building  the future of artificial general intellgience.
 
+Few more new trends:
 
+* Safety AI 
+
+* 
 
 **My Question after AGI vido**
 
-If the future of AI is to reverse engineer theintelligence and to make machine learn and become intelligent as a human does.
+If the future of AI is to reverse engineer intelligence and to make machine learn and become intelligent as a human does.
 
 Marvin Minsky stated that "The question is not whether intelligent machines can have any emotions, but whether machines can be intelligent without any emotions" 
 
 I am wondering how this can be achieved with the emotions/feelings?
 
-We human learns by feedback. The feedback signals are largely composed by our feelings. We rarely reason through our decision instead we feed through our actions and the interactions with the world.
+We human learns by feedback. The feedback signals are largely composed by our feelings. We rarely reason through our decision instead we feel through our actions and the interactions with the world.
 
 The best way to teach a human or even an animal is to set up a reward and punishment system that they can navigate through. When we feel the punishment when we feel the pain of the punishment we learn our lesson and the valuable learning is largely encoded as a feeling that we know to avoide in the future.
 
