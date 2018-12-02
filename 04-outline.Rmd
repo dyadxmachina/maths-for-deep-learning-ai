@@ -1,0 +1,30 @@
+---
+title: "04-outline"
+author: "Christian Ramsey"
+date: "12/2/2018"
+output: html_document
+---
+
+# Introduction
+## Defining what makes us human.
+
+
+## Thinking and Reasoning
+
+## Neurobiology & Learning
+
+## AGI and it's discontents
+
+
+### Definitions
+### Safety & Ethics
+### Consilience
+### Pursuits
+
+## Applied AI
+### Cars
+### Robots
+### Voice Assistants
+### Recommended 
+
+## Conclusion
