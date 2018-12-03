@@ -1,0 +1,42 @@
+---
+title: "04-outline"
+author: "Christian Ramsey"
+date: "12/2/2018"
+output: html_document
+---
+
+# Introduction
+## Intro 
+### Defining what makes us human.
+### Neurobiology
+### Philosophy
+### Artificial Intelligence
+
+## Thinking and Reasoning
+### Logic
+### Probability
+### Symbolic AI & Expert Systems
+
+## Neurobiology & Learning
+
+### Learning Theory
+### Behaviourism and Reinforcement Learning
+### Artificial Neurons
+### Cognitive Revolution
+
+## AGI and it's discontents
+
+### Definitions
+### Safety & Ethics
+### Consilience
+### Pursuits
+
+## Applied AI
+### Cars
+### Robots
+### Voice Assistants
+### Recommended 
+
+## Conclusion
+### What makes us human?
+### Opportunities
