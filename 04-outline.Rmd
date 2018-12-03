@@ -6,15 +6,25 @@ output: html_document
 ---
 
 # Introduction
-## Defining what makes us human.
-
+## Intro 
+### Defining what makes us human.
+### Neurobiology
+### Philosophy
+### Artificial Intelligence
 
 ## Thinking and Reasoning
+### Logic
+### Probability
+### Symbolic AI & Expert Systems
 
 ## Neurobiology & Learning
 
-## AGI and it's discontents
+### Learning Theory
+### Behaviourism and Reinforcement Learning
+### Artificial Neurons
+### Cognitive Revolution
 
+## AGI and it's discontents
 
 ### Definitions
 ### Safety & Ethics
@@ -28,3 +38,5 @@ output: html_document
 ### Recommended 
 
 ## Conclusion
+### What makes us human?
+### Opportunities
