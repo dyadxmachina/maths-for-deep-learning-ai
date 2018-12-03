@@ -10,8 +10,8 @@ output: html_document
 
 As Aristotle said, the essence of a man is to know and to desire to know. Man, by his rational intellect, is meant to seek truth and to understand the reality in which he exists. Aristotle regards our intellect as the way to define human. It seems like a very appealing definition. But is that all what makes us human?
 
-Some may also argue, humans have mind. Mind consists of intellect and will. In a sense, the intellect is knowledge and the will is active choice. We human have mind and our free will to choose. You may also argue, we are special because our ability to create and to malnipulate symbols i.e. language. Our language and memory allow us to create and maintain the culture from one generation to another and this is what meant to be human. 
+Some may argue, humans have mind. Mind consists of intellect and will. In a sense, the intellect is knowledge and the will is active choice. We human have mind and our free will to choose. You may also argue, we are special because our ability to create and to malnipulate symbols i.e. language. Our language and memory allow us to create and maintain the culture from one generation to another and this is what meant to be a human. 
 
 Moreover, some may also consider the fact that we are distinguished by our awareness of our own death. 
 
-You are all right. All of these make us what we are a human being. 
+You are all right. All of these make us what we are - a human being. 
