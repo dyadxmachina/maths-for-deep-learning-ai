@@ -25,9 +25,13 @@ You may also argue, we are special because our ability to create and to malnipul
 ## Logic 
 Logic and AI has a long and interwined history. As the one of the first steps we human took to uncover the truth of being a human, many scientists especially logicians have came to the same conclution that what makes human unique is our ability to think and reason. Logic was developed as the main tool to support this goal. 
 
-[Aristotle](https://en.wikipedia.org/wiki/Aristotle) (384-322 BCE), as one of the first pioneers in developing the subject of logic, he set out to conduct the formal study of what is now known as 'formal logic'. His logic was concerned with the form, and not the content of statements or propositions. Basically, Aristotle's system of logic introduced "hypothetical syllogism", "temporal model logic" and "inductive logic".
+Dating back to 300 BC, their were major figures across many the field of philosophy, sociology, economics, and mathematics have looked to reasoning as one of the key distinctions of humankind. Our ability to take a set of propositions and to know their truth and false values. Only from this base of propositions can we begin to conclude or make logical combinations to create valid knowledge.
 
-Followed his footstep, Rene Descartes also came up with the best-known quotations in philosophy:"Cogito, ergo sum" ("I think, therefore I am"). Besides being a 'rational' philosopher, his contribution to mathematics was also of the first order, he is the inventor of Cartesian coordinate system and the founder of analytics geometry which has laid the foundation of the later developed calculus and mathematical analysis.
+[Aristotle](https://en.wikipedia.org/wiki/Aristotle) (384-322 BCE), as one of the first pioneers in developing the subject of logic, he set out to conduct the formal study of what is now known as 'formal logic'. He called humans "animal rationale", in his treatise, On the Soul,  who saw humans as distinguised by their rationality, proposed the syllogism; Which was one of the first formulations of logic around 300 B.C. found in the Organon.
+
+ In 1275, Ramon Llull, a spanish Theologian wrote the Ars Magna (Art of Finding Truth), which provided a method based in logic to produce new knowledge.
+ 
+Followed their footstep, Rene Descartes also came up with the best-known quotations in philosophy:"Cogito, ergo sum" ("I think, therefore I am"). Besides being a 'rational' philosopher, his contribution to mathematics was also of the first order, he is the inventor of Cartesian coordinate system and the founder of analytics geometry which has laid the foundation of the later developed calculus and mathematical analysis.
 
 [Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) (1646-1716), along with Rene Descartes, was a major figure in the Continental Rationalism movement. His contributions to logic were perhaps the most important between Aristotle and the later extended model symbolic logic. As the inventor of calculus, and as the discoverer of the binary system. He suggested that a universal calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressed in the universal language.
 
@@ -45,6 +49,8 @@ As the inventor of Turing machine and famous Turing test, [Alan Turing](https://
 All of those people have brought logic to life and step by step helped the invention of the early computer and the birth of AI. 
 
 ## Probability 
+
+Although logic gave us a way to reason under specific conditions, those conditions didn't match the real world. As we wonder about the world we often don't have enough information to make absolutely correct decisions.
 
 Logic, as the proxy to human reasoning and thinking, itself is not complete and it also has its extension that plays an crucial role in our daily reasoning - Probabilistic Reasoning/Logic. 
 
