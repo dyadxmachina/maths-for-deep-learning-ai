@@ -44,8 +44,6 @@ As the inventor of Turing machine and famous Turing test, [Alan Turing](https://
 
 All of those people have brought logic to life and step by step helped the invention of the early computer and the birth of AI. 
 
-It is undeniable that logic is still one of the most well-accepted element of human intelligence broadly and the reason that makes human unique.
-
 ## Probability 
 
 Logic, as the proxy to human reasoning and thinking, itself is not complete and it also has its extension that plays an crucial role in our daily reasoning - Probabilistic Reasoning/Logic. 
