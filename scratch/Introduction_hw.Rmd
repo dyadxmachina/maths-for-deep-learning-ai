@@ -39,6 +39,8 @@ Dating back to 300 BC, their were major figures across many the field of philoso
  
 Followed their footstep, Rene Descartes also came up with one of the best-known quotations in philosophy:"Cogito, ergo sum" ("I think, therefore I am"). Besides being a 'rational' philosopher, his contribution to mathematics was also of the first order, he is the inventor of Cartesian coordinate system and the founder of analytics geometry which has laid the foundation of the later developed calculus and mathematical analysis.=
 
+%Charles Babbage 
+
 %add the even pf rene insteadof thesummary 
 
 [Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) (1646-1716), along with Rene Descartes, was a major figure in the Continental Rationalism movement. His contributions to logic were perhaps the most important between Aristotle and the later extended model symbolic logic. As the inventor of calculus, and as the discoverer of the binary system. He suggested that a universal calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressinged in the universal language.
@@ -59,6 +61,8 @@ As the inventor of Turing machine and famous Turing test, [Alan Turing](https://
 
 %rewrite the alanturing story and events and highly correlatedwith logic 
 
+Claude Shannon (1916-2001) is noted for having founded information theory with a landmark paper, A Mathematical Theory of Communication, that he published in 1948. He is, perhaps, equally well known for founding digital circuit design theory in 1937, when—as a 21-year-old master's degree student at the Massachusetts Institute of Technology (MIT)—he wrote his thesis demonstrating that electrical applications of Boolean algebra could construct any logical numerical relationship
+
 All of those people have brought logic to life and step by step helped the invention of the early computer and the birth of AI. 
 
 ## Reason Under Uncertainty 
@@ -67,20 +71,36 @@ Although logic gave us a way to reason under specific conditions, those conditio
 
 Logic, as the proxy to human reasoning and thinking, itself is not complete and it also has its extension that plays an crucial role in our daily reasoning - Probabilistic Reasoning/Logic. 
 
+> The true logic of this world is to be found in theory of probability.
+- James Clark Maxwell
+
 By definition, probabilistic reasoning is to combine the capacity of probability theory to handle uncertainty with the capacity of deductive logic to exploit structure of formal argument. Probability theory itself as the branch of mathematics could be considered as the tool that helps us reason under uncertainty. 
 
-Jacob Bernoulli is one of the founders of calculus of variations. However, his most important contribution was in the field of probability, where he derived the first version of the *law of large numbers*  in his work Ars Conjectandi.
+Blaise Pascal (1623-1662) in his book Pensées used a probabilistic argument, Pascal's Wager, to justify belief in God and a virtuous life. The work done by Fermat and Pascal into the calculus of probabilities laid important groundwork for Leibniz' formulation of the calculus. Besides that, he also started some pioneering work on calculating machines when was still a teenager in 1642. After 3 years of effoft and 50 prototypes, he built 20 finished machines called Pascal's calculators, eastablishing him as one of the first 2 inventors ofthe machanical calculator.
 
+Pierre de Fermat (1607-1665) is given credit for early development that led to infinitesimal calculus. Together with René Descartes, Fermat was one of the two leading mathematicians of the first half of the 17th century. According to Peter L. Bernstein, in his book Against the Gods, Fermat "was a mathematician of rare power... In the course of what turned out to be an extended correspondence with Pascal, he made a significant contribution to the theory of probability. But Fermat's crowning achievement was in the theory of numbers."
 
-Thomas Bayes, as one of most well-known pioneers in developing probability theory, is known for formulating a specific caseof the theorem that bears his name: Bayes' Theorem. However, Bayes himself may not have embraced the broad interpretation now called Bayesian, which was in fact pioneered and popularized by Pierre-Simon Laplace. 
+Jacob Bernoulli (1654-1705) is one of the founders of calculus of variations. However, his most important contribution was in the field of probability, where he derived the first version of the *law of large numbers*  in his work Ars Conjectandi. James Bernoulli proved that the frequency method and the classical method are consistent with one another in his book Ars Conjectandi in
+1713.
 
-Pierre-Simon Laplace
+De Moivre (1667-1754)provided many tools to make the classical method more useful, including the multiplication rule, in his book The Doctrine of Chances in 1718 which is said to have been prized by gamblers. De Moivre first discovered Binet's formula, the closed-form expression for Fibonacci numbers linking the nth power of the golden ratio φ to the nth Fibonacci number. He also was the first to postulate the central limit theorem, a cornerstone of probability theory.
 
-Ludwig Boltzmann
+Thomas Bayes (1701-1761), as one of most well-known pioneers in developing probability theory, is known for formulating a specific caseof the theorem that bears his name: Bayes' Theorem. However, Bayes himself may not have embraced the broad interpretation now called Bayesian, which was in fact pioneered and popularized by Pierre-Simon Laplace. 
 
-Josiah Willard Gibbs
+As mentioned earlier, the Bayesian interpretation of probability was developed mainly by Laplace. Pierre-Simon Laplace (1749-1827) presented a mathematical theory of probability with an emphasis on scientific applications in his 1812 book Theorie Analytique des Probabilities.  
+
+Andrey Kolmogorov (1903-1987) developed the first rigorous approach to probability in his 1933 monograph Grundbegriffe der Wahrscheinlichkeitsrechnun. His pioneering work, About the Analytical Methods of Probability Theory, was published (in German) in 1931. In 1933, Kolmogorov published his book, Foundations of the Theory of Probability, laying the modern axiomatic foundations of probability theory and establishing his reputation as the world's leading expert in this field. 
+
+Ludwig Boltzmann (1844-1906)
+
+Josiah Willard Gibbs (1839-1903)
 
 Ronald Fisher
+
+ET Jaynes (1922-1998) wrote extensively on statistical mechanics and on foundations of probability and statistical inference, initiating in 1957 the maximum entropy interpretation of thermodynamics as being a particular application of more general Bayesian/information theory techniques. Jaynes strongly promoted the interpretation of probability theory as an extension of logic. His posthumous book, Probability Theory: The Logic of Science (2003) gathers various threads of modern thinking about Bayesian probability and statistical inference, develops the notion of probability theory as extended logic, and contrasts the advantages of Bayesian techniques with the results of other approaches. 
+
+
+Judea Pearl (1936-) is best known for championing the probabilistic approach to artificial intelligence and the development of Bayesian networks. He is the 2011 winner of the ACM Turing Award, the highest distinction in computer science, "for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning".
 
 
 
