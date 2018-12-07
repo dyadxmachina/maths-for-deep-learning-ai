@@ -67,37 +67,71 @@ All of those people have brought logic to life and step by step helped the inven
 
 ## Reason Under Uncertainty 
 
-Although logic gave us a way to reason under specific conditions, those conditions didn't match the real world. As we wonder about the world we often don't have enough information to make absolutely correct decisions.
-
-Logic, as the proxy to human reasoning and thinking, itself is not complete and it also has its extension that plays an crucial role in our daily reasoning - Probabilistic Reasoning/Logic. 
+Logic, as the proxy to human reasoning and thinking, gave us a way to reason under specific conditions, those conditions didn't match the typical type of problem a human comes into contact with in the real world. As we orient ourselves towards concrete and abstract goals we often have to settle with an incomplete picture, lacking the certainty of propositions that logic requires. So we needed a way to reason under uncertainty, this brought on the theory of probabilities. 
 
 > The true logic of this world is to be found in theory of probability.
-- James Clark Maxwell
+  - James Clark Maxwell
 
 By definition, probabilistic reasoning is to combine the capacity of probability theory to handle uncertainty with the capacity of deductive logic to exploit structure of formal argument. Probability theory itself as the branch of mathematics could be considered as the tool that helps us reason under uncertainty. 
 
-Blaise Pascal (1623-1662) in his book Pensées used a probabilistic argument, Pascal's Wager, to justify belief in God and a virtuous life. The work done by Fermat and Pascal into the calculus of probabilities laid important groundwork for Leibniz' formulation of the calculus. Besides that, he also started some pioneering work on calculating machines when was still a teenager in 1642. After 3 years of effoft and 50 prototypes, he built 20 finished machines called Pascal's calculators, eastablishing him as one of the first 2 inventors ofthe machanical calculator.
+The start of probability really dates back to 1550 by Cardan, but wouldn't be of practical use until the correspondence of Pierre de Fermat (1607-1665) and Blaise Pascal (1623-1662) in 1654. 
 
-Together with René Descartes, Pierre de Fermat (1607-1665) was one of the two leading mathematicians of the first half of the 17th century. Through their correspondence in 1654, Fermat and Blaise Pascal helped lay the foundation for the theory of probability. They are now regarded as joint founders of probability theory. In his work Methodus ad disquirendam maximam et minimam and in De tangentibus linearum curvarum published in 1636, Fermat developed a method (adequality) for determining maxima, minima, and tangents to various curves that was equivalent to differential calculus.
+Pascal was an important mathematician, helping create two major new areas of research: he wrote a significant treatise on the subject of projective geometry at the age of 16. Besides that, he also started some pioneering work on calculating machines when was still a teenager in 1642. After 3 years of effoft and 50 prototypes, he built 20 finished machines called Pascal's calculators, eastablishing him as one of the first 2 inventors ofthe machanical calculator. 
 
-Christiaan Huygens (1629-1695) was a pioneer on probability and wrote his first treatise on probability theory in 1657 with the work Van Rekeningh in Spelen van Gluck. Frans van Schooten, who was the private tutor of Huygens, translated the work as De ratiociniis in ludo aleae ("On Reasoning in Games of Chance"). The work is a systematic treatise on probability and deals with games of chance and in particular the problem of points. The modern concept of probability grew out of the use of expectation values by Huygens and Blaise Pascal.
+Together with René Descartes, Fermat was one of the two leading mathematicians of the first half of the 17th century. He has pioneered the work in determining maxima, minima, and tangents to various curves that was equivalent to differential calculus in his work Methodus ad disquirendam maximam et minimam and in De tangentibus linearum curvarum published in 1636.
+ 
+Pascal and Fermet were discussing the problem that Chevalier de Méré proposed to Pascal, titled the problem of points. 
 
-These probability pioneers has established the method that is now called *classical approach* to compute probabilities. However, this method is limited by its assumption that the possibility of all outcomes of an event has to be equal.
+The game went as follows:
 
-Jacob Bernoulli (1654-1705) proved that the frequency method and the classical method are consistent with one another in his book Ars Conjectandi in 1713. He is also one of the founders of calculus of variations. However, his most important contribution was in the field of probability, where he derived the first version of the *law of large numbers*  in his work Ars Conjectandi. 
+Suppose two players who have equal chance of wining each round. Their is a prize pot where they have both contributed 50% each. The game has a priori number of rounds and who every wins the most rounds takes the prize pot. But let us suppose that the game is interupptd before the end of the game. How does one divide the pot fairly?
 
-Abraham de Moivre (1667-1754) provided many tools to make the classical method more useful, including the multiplication rule, in his book The Doctrine of Chances in 1718 which is said to have been prized by gamblers. De Moivre first discovered Binet's formula, the closed-form expression for Fibonacci numbers linking the nth power of the golden ratio φ to the nth Fibonacci number. He also was the first to postulate the central limit theorem, a cornerstone of probability theory.
+There were others how attempted to solve this problem but the current outcomes lead to edge cases that were unintuitive and were mostly based on the past games.
+
+Pascal and Ferment made a breakthrough by considering (from the interruption forward) the possible futures that might be possible if the players had continued until the end. 
+
+$$ r = rounds\ for\ p1\ to\ win $$
+$$ s = rounds\ for\ p2\ to\ win $$
+ $$ r + s - 1 $$
+ 
+ $$ Number\ of\ possible\ outcomes\ 2^{r+s-1} $$ 
+ Odds vs. expectations
+ Soon after Pascale improving on Ferment's results, Christiaan Huygens, used Pascal's result to create the first treatise of modern Probability based on expectation.s
+ 
+> For example, the probability of throwing a 6 on a die twice is 1⁄6 x 1⁄6 = 1⁄36 ("and" works like multiplication); the probability of throwing either a 3 or a 6 is 1⁄6 + 1⁄6 = 1⁄3 ("or" works like addition).
+ 
+ This formalisation would lead to the foundation of modern probability. 
+ 
+ The work done by Fermat and Pascal into the calculus of probabilities laid important groundwork for Leibniz' formulation of the calculus. They are now regarded as joint founders of probability theory.
+ 
+  Later Pascal would go on to use probability in his most notable work, Pensees, used a probabilistic argument, Pascal's Wager, where he made a convincing argument to justify belief in God and a virtuous life. 
+ 
+ Around the same time, Christiaan Huygens (1629-1695) also started his work in probability and wrote his first treatise on probability theory in 1657 with the work Van Rekeningh in Spelen van Gluck. Frans van Schooten translated the work as De ratiociniis in ludo aleae ("On Reasoning in Games of Chance"). The work is a systematic treatise on probability and deals with games of chance and in particular the problem of points.
+ 
+ The modern concept of probability grew out of the use of expectation values by Huygens and Blaise Pascal.  
+ 
+ These probability pioneers has established the method that is now called *classical approach* to compute probabilities.
+ 
+A few decades later Jacob Bernoulli (1654-1705) proved that the frequency method and the classical method are consistent with one another in his book Ars Conjectandi in 1713. His significant contributions to probability also include the derivation of the first version of the *law of large numbers*  in his work Ars Conjectandi and the start of some early work on the probability inference. 
+ 
+ However, *classical approach* is limited by its assumption that the possibility of all outcomes of an event has to be equal.
+
+ Nearly a centruy later, following the work of Fermet, Pascal and Huygens, Abraham de Moivre (1667-1754) gave the first statement of the formula for the normal distribution. De Moivre provided many tools to make the classical method more useful, including the multiplication rule, in his book The Doctrine of Chances in 1718 which is said to have been prized by gamblers. De Moivre first discovered Binet's formula, the closed-form expression for Fibonacci numbers linking the nth power of the golden ratio φ to the nth Fibonacci number. He also was the first to postulate the central limit theorem, a cornerstone of probability theory.
 
 By then, the probability has gradually moved from games of chance to a scientific subject. A new era of probability was began from 18th century. 
 
 As one of the leading figures in formulating Bayes' Theorem, Thomas Bayes (1701-1761) proposed the unique solution to a problem of inverse probability that was presented in "An Essay towards solving a Problem in the Doctrine of Chances" which was read to the Royal Society in 1763 after Bayes' death. This specific case of the probability theorem bears his name: Bayes' Theorem, however, Bayes himself may not have embraced the broad interpretation now called Bayesian, which was in fact pioneered and popularized by Pierre-Simon Laplace. 
 
-As mentioned earlier, the Bayesian interpretation of probability was developed mainly by Laplace. Pierre-Simon Laplace (1749-1827) presented a mathematical theory of probability with an emphasis on scientific applications in his 1812 book Theorie Analytique des Probabilities.
+As mentioned earlier, the Bayesian interpretation of probability was developed mainly by Laplace. Pierre-Simon Laplace (1749-1827) presented a mathematical theory of probability with an emphasis on scientific applications in his 1812 book Theorie Analytique des Probabilities, where he elucidates the use of probablity theory to scientific and practical problems in statistical mechanics, actuarial mathematics, error, and so on.
 
 However, Laplace has only considered the classical method, leaving no indication on how the method was to be applied to general problems.
 
+ 
+ Probability became a general workhorse. Andrey Andreyevich Markov introduced the Markov chains in 1906 when he produced the first theoretical results for stochastic processes by using the term “chain” for the first time. In 1913 he calculated letter sequences of the Russian language. 
+ 
+ A generalization to countable infinite state spaces was given by Kolmogorov (1931). Markov chains are related to Brownian motion and the ergodic hypothesis, two topics in physics which were important in the early years of the twentieth century. But Markov appears to have pursued this out of a mathematical motivation, namely the extension of the law of large numbers to dependent events. Out of this approach grew a general stw a general statistical instrument, the so-called stochastic Markov process. 
 
-Andrey Kolmogorov (1903-1987) developed the first rigorous approach to probability in his 1933 monograph Grundbegriffe der Wahrscheinlichkeitsrechnun. His pioneering work, About the Analytical Methods of Probability Theory, was published (in German) in 1931. In 1933, Kolmogorov published his book, Foundations of the Theory of Probability, in which he combined the notion of sample space, introduced by Richard von Mises, and measure theory and presented his axiom system for probability theory in his book. This became the mostly undisputed axiomatic basis for modern probability theory.
+Andrey also developed the first rigorous approach to probability in his 1933 monograph Grundbegriffe der Wahrscheinlichkeitsrechnun. His pioneering work, About the Analytical Methods of Probability Theory, was published (in German) in 1931. In 1933, Kolmogorov published his book, Foundations of the Theory of Probability, in which he combined the notion of sample space, introduced by Richard von Mises, and measure theory and presented his axiom system for probability theory in his book. This became the mostly undisputed axiomatic basis for modern probability theory.
 
 ET Jaynes (1922-1998) wrote extensively on statistical mechanics and on foundations of probability and statistical inference, initiating in 1957 the maximum entropy interpretation of thermodynamics as being a particular application of more general Bayesian/information theory techniques. Jaynes strongly promoted the interpretation of probability theory as an extension of logic. His posthumous book, Probability Theory: The Logic of Science (2003) gathers various threads of modern thinking about Bayesian probability and statistical inference, develops the notion of probability theory as extended logic, and contrasts the advantages of Bayesian techniques with the results of other approaches. 
 
