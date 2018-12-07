@@ -59,9 +59,9 @@ It now becomes clear for us that AI is both a tool and a mirror. The hype will a
 
 ## Thinking and Reasoning
 ### Logic
-Logic and AI has a long and interwined history. As the one of the first steps we human took to uncover the truth of being a human, many scientists especially logicians have came to the same conclution that what makes human unique is our ability to think and reason. Logic was developed as the main tool to support this goal. 
+Logic and AI has a long and interwined history. Dating back to 300 BC through the present, major figures across diverse fields as philosophy, sociology, economics, and mathematics have looked to reasoning as a salvation to methodological issues as well as philosophical ones. Many then and now see logic as the key to pushing man from lowly animal to symbolic and intellectual man.
+And so started the science of logic and reasoning. 
 
-Dating back to 300 BC, their were major figures across many the field of philosophy, sociology, economics, and mathematics have looked to reasoning as one of the key distinctions of humankind. Our ability to take a set of propositions and to know their truth and false values. Only from this base of propositions can we begin to conclude or make logical combinations to create valid knowledge.
 
 %connect peoplewith the otherperson not just thelist of events
 

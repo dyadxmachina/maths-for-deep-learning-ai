@@ -1,8 +1,9 @@
 ---
-title: "hw_intro"
-author: "hw"
-date: "December 3, 2018"
-output: html_document
+title: Intro + Logic Reasoning
+description: |
+  Edited version of logic
+date: "`r Sys.Date()`"
+output: radix::radix_article
 ---
 
 # Intro 
@@ -104,7 +105,7 @@ $$ s = rounds\ for\ p2\ to\ win $$
  
  The work done by Fermat and Pascal into the calculus of probabilities laid important groundwork for Leibniz' formulation of the calculus. They are now regarded as joint founders of probability theory.
  
-  Later Pascal would go on to use probability in his most notable work, Pensees, used a probabilistic argument, Pascal's Wager, where he made a convincing argument to justify belief in God and a virtuous life. 
+  Later Pascal would go on to use probability in his most notable work, Pensees, used a probabilistic argument, Pascal's Wager, to justify belief in God and a virtuous life. 
  
  Around the same time, Christiaan Huygens (1629-1695) also started his work in probability and wrote his first treatise on probability theory in 1657 with the work Van Rekeningh in Spelen van Gluck. Frans van Schooten translated the work as De ratiociniis in ludo aleae ("On Reasoning in Games of Chance"). The work is a systematic treatise on probability and deals with games of chance and in particular the problem of points.
  
