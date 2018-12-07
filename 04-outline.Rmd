@@ -59,8 +59,52 @@ It now becomes clear for us that AI is both a tool and a mirror. The hype will a
 
 ## Thinking and Reasoning
 ### Logic
+Logic and AI has a long and interwined history. As the one of the first steps we human took to uncover the truth of being a human, many scientists especially logicians have came to the same conclution that what makes human unique is our ability to think and reason. Logic was developed as the main tool to support this goal. 
+
+Dating back to 300 BC, their were major figures across many the field of philosophy, sociology, economics, and mathematics have looked to reasoning as one of the key distinctions of humankind. Our ability to take a set of propositions and to know their truth and false values. Only from this base of propositions can we begin to conclude or make logical combinations to create valid knowledge.
+
+%connect peoplewith the otherperson not just thelist of events
+
+[Aristotle](https://en.wikipedia.org/wiki/Aristotle) (384-322 BCE), as one of the first pioneers in developing the subject of logic, he set out to conduct the formal study of what is now known as 'formal logic'. He called humans "animal rationale", in his treatise, 
+
+%On the Soul,  who saw humans as distinguised by their rationality, proposed the syllogism; Which was one of the first formulations of logic around 300 B.C. found in the Organon.
+
+ In 1275, Ramon Llull, a spanish Theologian wrote the Ars Magna (Art of Finding Truth), which provided a method based in logic to produce new knowledge.
+ 
+ %connectedback to labniz
+ 
+Followed their footstep, Rene Descartes also came up with one of the best-known quotations in philosophy:"Cogito, ergo sum" ("I think, therefore I am"). Besides being a 'rational' philosopher, his contribution to mathematics was also of the first order, he is the inventor of Cartesian coordinate system and the founder of analytics geometry which has laid the foundation of the later developed calculus and mathematical analysis.=
+
+%Charles Babbage 
+
+%add the even pf rene insteadof thesummary 
+
+[Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) (1646-1716), along with Rene Descartes, was a major figure in the Continental Rationalism movement. His contributions to logic were perhaps the most important between Aristotle and the later extended model symbolic logic. As the inventor of calculus, and as the discoverer of the binary system. He suggested that a universal calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressinged in the universal language.
+
+
+%add tje principle of mathematics 
+
+Symbolic logic was not fully developed until the invention of Boolean Algebra. As the inventor of the Boolean Algebra, [George Boole](https://en.wikipedia.org/wiki/George_Boole) (1815-1864) is also a philosopher and logician who proposed that:
+> No general method for the solution of questions in the theory of probabilities can be established which does not explicitly recognise, not only the special numerical bases of the science, but also those universal laws of thought which are the basis of all reasoning, and which, whatever they may be as to their essence, are at least mathematical as to their form.
+
+After George Boole, plenty of other well-known logician and mathematicians joined the force to push the development of logic and helped to establish the unshakable status of logic as one of the most important properties of human. 
+
+%discovery vs Inventiom
+
+[Gottlob Frege](https://en.wikipedia.org/wiki/Gottlob_Frege) (1848-1925) %discovered predicate logic. He is well-acknowledged by many to be the father of analytic philosophy, concentrating on the philosophy of language and mathematics. His work was later brought to the center of the attention by Giuseppe Peano (1858–1932) and Bertrand Russell (1872–1970) and served as the beginning point for an enormous outpouring of work in formal logic. 
+
+As the inventor of Turing machine and famous Turing test, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) is widely considered to be the father of theoretical computer science and artificial intelligence. The Turing machine that he designed is a mathematical model of computation which is capable of simulating that algorithm's logic can be constructed.
+
+%rewrite the alanturing story and events and highly correlatedwith logic 
+
+Claude Shannon (1916-2001) is noted for having founded information theory with a landmark paper, A Mathematical Theory of Communication, that he published in 1948. He is, perhaps, equally well known for founding digital circuit design theory in 1937, when—as a 21-year-old master's degree student at the Massachusetts Institute of Technology (MIT)—he wrote his thesis demonstrating that electrical applications of Boolean algebra could construct any logical numerical relationship
+
+All of those people have brought logic to life and step by step helped the invention of the early computer and the birth of AI. 
+
 ### Probability
 ### Symbolic AI & Expert Systems
+### Computation
+
 
 ## Neurobiology & Learning
 
