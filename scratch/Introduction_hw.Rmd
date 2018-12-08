@@ -145,4 +145,58 @@ Speaking about Bayesian inference, Judea Pearl (1936-) is best known for develop
  Probability theory was initially derived from the gambling puzzles and has graduadully evolved to be the most powerful tool for inference. It is still debatable whether probability theory should be considered as extended logic. It is clear for us that most handy tools to help us reason under uncertainty. Together with logic, probability is part of the fomal study of reasoning.
  
  
+ 
+ ##Symbolic AI and Expert System
+ 
+ As mentioned at the beginning, one of the way humans are intelligent is our ability to manipulate symbols i.e. language and hence it also became the way we communicate with each other. 
+ 
+ 
+ As for the term Symbolic Artificial Intelligence which is also known as "Good Old-Fashioned Artificial Intelligence(GOFAI)" is given by John Haugeland  in his 1985 book Artificial Intelligence.
+ 
+ > The Very Idea, which explored the philosophical implications of artificial intelligence research. In robotics the analogous term is GOFR ("Good Old-Fashioned Robotics").
+ 
+  Symbolic was once the dominant paradigm in AI community from the post-War era until the late 1980s. We will discuss the turn after the symbolic AI more in depth in the later chapters.
+ 
+ Symbolic AI is made to make use of strings and symbols to represent real-world enetities or concepts. These strings are often manually or incrementally stored in a knowledge base and made available to the interfacing human/machine when requested. It is especially useful when used to make intelligent conclusions and decisions based on the memorized facts and rules put together by propositional logic or first-order predicate calculus techniques. Implementations of symbolic reasoning are called rules engines or Expert systems or Knowledge graphs. 
+ 
+ In constrast to symbolic AI, non-symbolic AI is a system that is designed to not rely on the symbols and signs but given just the ability to learn from the empirical data. 
+ 
 
+ One of the most famous projects in designing and implemening symbolic is Cyc. Douglas Lenat began the project CYC in July 1984 at MCC, and it is the world's longest-lived artificial intelligence project, attempting to assemble a comprehensive ontology and knowledge base that spans the basic concepts and "rules of thumb" about how the world works (think common sense knowledge but focusing more on things that rarely get written down or said, in contrast with facts one might find somewhere on the internet or retrieve via a search engine or Wikipedia), with the goal of enabling AI applications to perform human-like reasoning and be less "brittle" when confronted with novel situations that were not preconceived.
+ 
+
+Follow the simmilar blueprint, Google also made a gaint knowledge graph for their search system which is used to provide the information in the top box under your query when you search. What these systems shared in common is that they are essentially piles of nested if-then statements attempting to draw concolution about entities and their relations. 
+ 
+
+ 
+However, symbolic AI has long and worth mentioning history before it got popularized in 1980s.
+
+%A von Neumann architecture machine, designed by physicist and mathematician John von Neumann (1903–1957) is a theoretical design for a stored program computer that serves as the basis for almost all modern computers.
+
+
+In 1959, Newell, Shaw and Simon developed a system called General Problem Solver (GPS), which is a summary of the thinking activity for people to solve problems. GPS was the first computer program in history which is able to separate its knowledge of problems (rules represented as input data) from its strategy of how to solve problems (a generic solver engine). It has set an promising example for the later symbolic AI projects. 
+
+
+%As mentioned earlier, Expert systems is also considered as a brach of Symbolic AI. It ws introduced around 1965 by the Stanford Heuristic Programming Project led by Edward Feigenbaum,
+An expert system is divided into two subsystems: the inference engine and the knowledge base. The knowledge base represents facts and rules. The inference engine applies the rules to the known facts to deduce new facts. Inference engines can also include explanation and debugging abilities.
+
+%Since then, MIT has developed the MACSYMA system [3], as a mathematician's assistant, which uses heuristics to transform algebraic expressions. After continuous expansion, it can solve more than 600 kinds of mathematical problems, including calculus, matrix operation, solving equation, etc. The successful development of these systems makes the expert system widely concerned by academia and engineering
+
+Later in 1968, MIT has also developed a symbolic manipulator system called Macsyma which stands for MAC's SYmbolic MAnipulator. As a mathematician's assistant, it uses heuristics to transform algebraic expressions. After continuous expansion, it can solve more than 600 kinds of mathematical problems, including calculus, matrix operation, solving equation, etc. The successful development of these systems makes the expert system widely concerned by academia and engineering. In 1982, Macsyma was licensed to Symbolics and became a commercial product. In 1992, Symbolics Macsyma was spun off to Macsyma, Inc., which continued to develop Macsyma until 1999. That version is still available for Microsoft's Windows XP operating system.
+
+
+
+
+Expert systems were introduced around 1965[11] by the Stanford Heuristic Programming Project led by Edward Feigenbaum,
+
+
+
+ Allen Newell, Cliff Shaw, and Herbert Simon’s, Logic Theorist. The Logic Theorist was a program designed to mimic the problem solving skills of a human and was funded by Research and Development (RAND) Corporation.
+
+
+**Symbolic AI vs Deep Learning **
+When talking about AI many people will natually think of deep learning when they hope for the future. However, there are some obvious flaws of deep learning such as its lack of model interpretability and the amount of data that deep neural networks require so as to learn. 
+
+Symbolic AI, as one of the other branches of AI, provided some hints on how to solve these issues. Research in deep symbolic learning has shown to enable deep neural network to manipulate, generate and otherwise cohabitate with concepts expressed in strings of characters, could extend its explainability. 
+
+ By feeing it human-readable information related to what you think and communicate, Symbolic AI provides us a powerful and useful framework to design an intelligent system. 
