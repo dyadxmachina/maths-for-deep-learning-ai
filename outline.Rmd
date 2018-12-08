@@ -1,8 +1,9 @@
 ---
-title: "04-outline"
-author: "Christian Ramsey"
-date: "12/2/2018"
-output: html_document
+title: Logic & Reasoning
+description: |
+  Edited version of logic
+date: "`r Sys.Date()`"
+output: radix::radix_article
 ---
 
 # Introduction
