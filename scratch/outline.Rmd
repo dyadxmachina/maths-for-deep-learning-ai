@@ -62,15 +62,9 @@ It now becomes clear for us that AI is both a tool and a mirror. The hype will a
 ### Logic
 Logic and AI has a long and interwined history. Dating back to 300 BC through to the present, there have been major figures across diverse fields as philosophy, sociology, economics, and mathematics that have looked to reasoning as a way of distinguising their discipline and grounding their philosophy. Many then and now see logic as the key to elevating man from lowly animal towards the higher reaches of the purely symbolic or intellectual man. The formalisation of logic began with Aristotle's Oregano. 
 
-[Aristotle](https://en.wikipedia.org/wiki/Aristotle) (384-322 BCE), as one of the pioneers of reasoning, he set out to conduct the formal study of what is now known as 'formal logic'. He was convinced that we were equal in every way to other animals but we maintained an element that they do not, and this element was none other than rationality. This is most notably viewed in his treatise, On the Soul, where he said that man is animal + rationale. 
+[Aristotle](https://en.wikipedia.org/wiki/Aristotle) (384-322 BCE), as one of the pioneers of reasoning, he set out to conduct the formal study of what is now known as 'formal logic'. He was convinced that we were equal in every way to other animals but we maintained an element that they do not, and this element was none other than rationality. This is most notably viewed in his treatise, On the Soul, where he said that man is animal + rationale. Aristotle's formal logic would begin with the syllogism, which was found in his collected works entitled the Organon.
 
-Aristotle would continue 
-
-
-
-%On the Soul,  who saw humans as distinguised by their rationality, proposed the syllogism; Which was one of the first formulations of logic around 300 B.C. found in the Organon.
-
- In 1275, Ramon Llull, a spanish Theologian wrote the Ars Magna (Art of Finding Truth), which provided a method based in logic to produce new knowledge.
+In 1275, Ramon Llull, a spanish Theologian wrote the Ars Magna (Art of Finding Truth), which provided a method based in logic to produce new knowledge.
  
  %connectedback to labniz
  
@@ -80,7 +74,7 @@ Followed their footstep, Rene Descartes also came up with one of the best-known 
 
 %add the even pf rene insteadof thesummary 
 
-[Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) (1646-1716), along with Rene Descartes, was a major figure in the Continental Rationalism movement. His contributions to logic were perhaps the most important between Aristotle and the later extended model symbolic logic. As the inventor of calculus, and as the discoverer of the binary system. He suggested that a universal calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressinged in the universal language.
+[Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) (1646-1716), along with Rene Descartes, Leibiniz was a major figure in the Rationalism movement. His contributions to logic were perhaps the most important between Aristotle and the later extended model of symbolic logic. As the inventor of calculus, and the discoverer of the binary system. He suggested that a universal calculus of reasoning could be devised which would provide an automatic method of solution for all problems which could be expressinged in the universal language. This was one of the most profound views of  endowing mathematics with the ability to mechanise human thought. This would be extended through to machines. 
 
 
 %add tje principle of mathematics 
