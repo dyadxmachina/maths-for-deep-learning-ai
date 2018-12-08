@@ -177,8 +177,11 @@ However, symbolic AI has long and worth mentioning history before it got popular
 In 1959, Newell, Shaw and Simon developed a system called General Problem Solver (GPS), which is a summary of the thinking activity for people to solve problems. GPS was the first computer program in history which is able to separate its knowledge of problems (rules represented as input data) from its strategy of how to solve problems (a generic solver engine). It has set an promising example for the later symbolic AI projects. 
 
 
-%As mentioned earlier, Expert systems is also considered as a brach of Symbolic AI. It ws introduced around 1965 by the Stanford Heuristic Programming Project led by Edward Feigenbaum,
-An expert system is divided into two subsystems: the inference engine and the knowledge base. The knowledge base represents facts and rules. The inference engine applies the rules to the known facts to deduce new facts. Inference engines can also include explanation and debugging abilities.
+%As mentioned earlier, Expert systems is also considered as a brach of Symbolic AI. It was introduced around 1965 by the Stanford Heuristic Programming Project led by Edward Feigenbaum, who is often called the 'father of expert systems'.
+
+Similar to the previously introduced symbolic AI system, An expert system could be divided into two subsystems: the inference engine and the knowledge base. The knowledge base represents facts and rules. The inference engine applies the rules to the known facts to deduce new facts. Inference engines can also include explanation and debugging abilities. 
+
+As a result, an expert system (ES) could be used to solve problems within specialized domain that ordinary requires a human expert. By mimicking the thinking of the expert, the program can perform the analysis, design, or monitoring, make decisions and many more other tasks. 
 
 %Since then, MIT has developed the MACSYMA system [3], as a mathematician's assistant, which uses heuristics to transform algebraic expressions. After continuous expansion, it can solve more than 600 kinds of mathematical problems, including calculus, matrix operation, solving equation, etc. The successful development of these systems makes the expert system widely concerned by academia and engineering
 
