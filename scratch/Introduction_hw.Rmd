@@ -148,35 +148,29 @@ Speaking about Bayesian inference, Judea Pearl (1936-) is best known for develop
  
  ##Symbolic AI and Expert System
  
- As mentioned at the beginning, one of the way humans are intelligent is our ability to manipulate symbols i.e. language and hence it also became the way we communicate with each other. 
+ As mentioned at the beginning, one of the way humans are intelligent is our ability to manipulate symbols i.e. language and hence it has also evolved to be a primary way we communicate with each other. 
  
  
  As for the term Symbolic Artificial Intelligence which is also known as "Good Old-Fashioned Artificial Intelligence(GOFAI)" is given by John Haugeland  in his 1985 book Artificial Intelligence.
  
  > The Very Idea, which explored the philosophical implications of artificial intelligence research. In robotics the analogous term is GOFR ("Good Old-Fashioned Robotics").
  
-  Symbolic was once the dominant paradigm in AI community from the post-War era until the late 1980s. We will discuss the turn after the symbolic AI more in depth in the later chapters.
+Symbolic was once the dominant paradigm in AI community from the post-War era until the late 1980s.
  
- Symbolic AI is made to make use of strings and symbols to represent real-world enetities or concepts. These strings are often manually or incrementally stored in a knowledge base and made available to the interfacing human/machine when requested. It is especially useful when used to make intelligent conclusions and decisions based on the memorized facts and rules put together by propositional logic or first-order predicate calculus techniques. Implementations of symbolic reasoning are called rules engines or Expert systems or Knowledge graphs. 
+ As for its mechanism, symbolic AI is made to make use of strings and symbols to represent real-world enetities or concepts. These strings are often manually or incrementally stored in a knowledge base and made available to the interfacing human/machine when requested. It is especially useful when used to make intelligent conclusions and decisions based on the memorized facts and rules put together by propositional logic or first-order predicate calculus techniques. Implementations of symbolic reasoning are called rules engines or Expert systems or Knowledge graphs. 
  
  In constrast to symbolic AI, non-symbolic AI is a system that is designed to not rely on the symbols and signs but given just the ability to learn from the empirical data. 
  
+ 
+One of the first program that was deliberately engineered to mimic the grammar skills of a human being is called Logic Theorist developed in 1950-1951 by Allen Newell, Cliff Shaw, and Herbert Simon. The Logic Theorist was a program designed to mimic the problem solving skills of a human being and is called 'the first artificial intelligence program'.
+
+Later in 1959, they developed a system called General Problem Solver (GPS), which is a summary of the thinking activity for people to solve problems. GPS was the first computer program in history which is able to separate its knowledge of problems (rules represented as input data) from its strategy of how to solve problems (a generic solver engine). It has set an promising example for the later symbolic AI projects. 
 
  One of the most famous projects in designing and implemening symbolic is Cyc. Douglas Lenat began the project CYC in July 1984 at MCC, and it is the world's longest-lived artificial intelligence project, attempting to assemble a comprehensive ontology and knowledge base that spans the basic concepts and "rules of thumb" about how the world works (think common sense knowledge but focusing more on things that rarely get written down or said, in contrast with facts one might find somewhere on the internet or retrieve via a search engine or Wikipedia), with the goal of enabling AI applications to perform human-like reasoning and be less "brittle" when confronted with novel situations that were not preconceived.
  
-
 Follow the simmilar blueprint, Google also made a gaint knowledge graph for their search system which is used to provide the information in the top box under your query when you search. What these systems shared in common is that they are essentially piles of nested if-then statements attempting to draw concolution about entities and their relations. 
- 
- One of the first program that was deliberately engineered to mimic the grammar skills of a human being is called Logic Theorist developed in 1950-1951 by Allen Newell, Cliff Shaw, and Herbert Simon’s. The Logic Theorist was a program designed to mimic the problem solving skills of a human and was funded by Research and Development (RAND) Corporation.
 
- 
-However, symbolic AI has long and worth mentioning history before it got popularized in 1980s.
-
-
-In 1959, Newell, Shaw and Simon developed a system called General Problem Solver (GPS), which is a summary of the thinking activity for people to solve problems. GPS was the first computer program in history which is able to separate its knowledge of problems (rules represented as input data) from its strategy of how to solve problems (a generic solver engine). It has set an promising example for the later symbolic AI projects. 
-
-
-As mentioned earlier, Expert systems is also considered as a brach of Symbolic AI. It was introduced around 1965 by the Stanford Heuristic Programming Project led by Edward Feigenbaum, who is often called the 'father of expert systems'. Their initial incentive was trying to use machine to perform that tasks where expertise was highly valued and complex, i.e. diagnosing infectious diseases.  As Feigenbaum said, the idea that 
+The most successful form of symbolic AI is expert systems, which rely on a network of production rules. It was introduced around 1965 by the Stanford Heuristic Programming Project led by Edward Feigenbaum, who is often called the 'father of expert systems'. Their initial incentive was trying to use machine to perform that tasks where expertise was highly valued and complex, i.e. diagnosing infectious diseases.  As Feigenbaum said, the idea that 
 
 > intelligent systems drive their power from the knowledge they possess rather than from the specific formalisms and inference schemes they use.
 
@@ -186,26 +180,26 @@ Similar to the previously introduced symbolic AI system, An expert system could 
 
 As a result, an expert system (ES) could be used to solve problems within specialized domain that ordinary requires a human expert. By mimicking the thinking of the expert, the program can perform the analysis, design, or monitoring, make decisions and many more other tasks. Let's look at some remarkable research and applications in the do,main of expert systems. 
 
-In 
-
 In 1968, MIT has developed a symbolic manipulator system called Macsyma which stands for MAC's SYmbolic MAnipulator. As a mathematician's assistant, it uses heuristics to transform algebraic expressions. After continuous expansion, it can solve more than 600 kinds of mathematical problems, including calculus, matrix operation, solving equation, etc. The successful development of these systems makes the expert system widely concerned by academia and engineering. In 1982, Macsyma was licensed to Symbolics and became a commercial product. In 1992, Symbolics Macsyma was spun off to Macsyma, Inc., which continued to develop Macsyma until 1999. That version is still available for Microsoft's Windows XP operating system.
 
+The first expert system to be used in a design capacity for a large-scale product was the Synthesis of Integral Design - SID software program developed in 1982. The input to the software was a set of rules created by a couple of expert logic designers. SID can expand the rules and generate software logic synthesis routines many times in the design that exceeds the capabilities of the experts themselves. 
 
+Up until the current time, expert system is still in use of many leading business application suits vendors such as SAP Oracle. Typically, a expert system is used as a way of specifying business logic - rule engines are no longer simply for defining the rules but rather for any type of comples, volatile and critical business logic. They often go hand in hand with business process automation and integration environments. 
 
-Expert systems were introduced around 1965[11] by the Stanford Heuristic Programming Project led by Edward Feigenbaum,
-
-
-
- Allen Newell, Cliff Shaw, and Herbert Simon’s, Logic Theorist. The Logic Theorist was a program designed to mimic the problem solving skills of a human and was funded by Research and Development (RAND) Corporation.
-
+However, as time passes by, symbolic AI is no longer at the center of the AI research. Nevertheless, it was intended to produce general, human-like intelligence in a machine, where as most modern research is directed to different specific sub-problems i.e. perception. Research into general intelligence is now a wildly studied topic in the sub-field of artificial general intelligence.
 
 **Symbolic AI vs Deep Learning **
-When talking about AI many people will natually think of deep learning when they hope for the future. However, there are some obvious flaws of deep learning such as its lack of model interpretability and the amount of data that deep neural networks require so as to learn. 
+Currently, whenever speaking about AI many people will natually think of deep learning when they hope for the future. 
 
-Symbolic AI, as one of the other branches of AI, provided some hints on how to solve these issues. Research in deep symbolic learning has shown to enable deep neural network to manipulate, generate and otherwise cohabitate with concepts expressed in strings of characters, could extend its explainability. 
+Apart from the framework used by symbolic AI which is initially designed to formulate output based on the inputs that were represented by symbols, the representation done by deep learning could be considered as 'fuzzy logic' which is wildly used when uncertainty is involved in the data. 
+
+However, there are some obvious flaws of deep learning such as its lack of model interpretability and the amount of data that deep neural networks require so as to learn. 
+
+It brough our attention back to symbolic AI. How can we fuse the ability of deep neural network to learn probabilistic correlation from scratch alongside abstract and higher-order concepts? Research in deep symbolic learning has shown to enable deep neural network to manipulate, generate and otherwise cohabitate with concepts expressed in strings of characters, could extend its explainability. 
 
  By feeing it human-readable information related to what you think and communicate, Symbolic AI provides us a powerful and useful framework to design an intelligent system. 
 
+Another opponents of the symbolic approach include roboticists i.e. Rodney Brooks, who aims to produce antonomous robots without symbolic representation and computational intelligence researchers for which we will expand more in the later chapter. 
 
 
 ##Computation 
