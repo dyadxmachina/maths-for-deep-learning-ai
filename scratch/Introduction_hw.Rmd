@@ -208,13 +208,42 @@ We have discussed a lot about the start of AI. The start of AI is a human self-d
 
 Ever since we deemed reasoning as one of our human specific properties, many scientists have set out to mechanize this process.
 
+The earliest known tool for use in computation is the Sumerian abacus, and it was thought to have been invented in Babylon c. 2700–2300 BC. Its original style of usage was by lines drawn in sand with pebbles. Abaci, of a more modern design, are still used as calculation tools today.
+
+In c. 1050–771 BC, the south-pointing chariot was invented in ancient China. It was the first known geared mechanism to use a differential gear, which was later used in analog computers. Later around 2nd century BC Chinese also invented a more sophisticaed abacus which is known as the Chinese abacus.
+
+In the 3rd century BC, Archimedes used the mechanical principle of balance (see Archimedes Palimpsest#Mathematical content) to calculate mathematical problems, such as the number of grains of sand in the universe (The sand reckoner), which also required a recursive notation for numbers (e.g., the myriad myriad).
+
 The Antikythera mechanism is believed to be the earliest mechanical analog "computer", according to Derek J. de Solla Price. It was designed to calculate astronomical positions. It was discovered in the Antikythera wreck off the Greek island of Antikythera, between Kythera and Crete, and has been dated to c. 100 BC.
 
-Charles Babbage & Ada Lovelace worked on programmable mechanical calculating machines
+ Raymon Lull (1230-1315), a Spanish courtier and later converted monk and apologist, is the first person in history known to have devised a "logic" machine—a machine that computes logical proofs rather than doing arithmetic. 
+ 
+Apart from its eccentricities, Lull's machine is founded on two significant ideas or beliefs. First, language and concepts may be represented sufficiently using physical symbols. Secondly, truths can be generated or computed using mechanical methods. These ideas influenced a number of individuals succeeding him.
+
+
+Next, we move ahead several centuries and to Scotland. John Napier was born in 1550 near Edinburgh. He discovered that the multiplication and division of numbers could be performed by the addition and subtraction, respectively, of the logarithms of those numbers. It was at this point that he designed his 'Napier's bones', an abacus-like device that greatly simplified calculations that involved multiplication and division.
+ 
+ After John Napier, there followed a period of considerable progress by scientists in making calculating tools. 
+ 
+ As mentioned earlier, Blaise Pascal (1623-1662), an 18-year-old in 1642, invented what has come to be known as the "Pascaline" (his name was "numerical wheel calculator") to facilitate his father's work as a French tax collector based in Paris.  The numerical wheel calculator, or Pascaline, consisted of a rectangular box employing eight movable cogwheels or dials exploiting base ten to perform addition of sums up to eight figures long. 
+ 
+ His successor Gottfried Wilhem von Leibniz (1646-1716) studied Pascal's original notes and drawings to created a machine that  improved upon the Pascaline.   Leibniz's machine could add, subtract, multiply and divide. Leibniz modified the machine to include a stepped-drum gear design, called the Leibniz Wheel.  
+ 
+The apex of this early era of formal computing can be seen in the difference engine and its successor the analytical engine, both by Charles Babbage and Ada Lovelace. The analytical engine combined concepts from his work and that of others to create a device that if constructed as designed would have possessed many properties of a modern electronic computer. 
+Babbage's devices could be reprogramed to solve new problems by the entry of new data, and act upon previous calculations within the same series of instructions. Ada Lovelace took this concept one step further, by creating a program for the analytical engine to calculate Bernoulli numbers, a complex calculation requiring a recursive algorithm.
+
+While Babbage and Lovelace labored to implement digital computing instruments, James Thomson developed an analogue computer in the form of a mechanical integrator to predict the tides using harmonic analysis. Thomson completed his work between 1861 and 1864. 
+Alan Turing modelled computation in terms of a one-dimensional storage tape, leading to the idea of the Turing machine and Turing-complete programming systems.
+
+**From Calculator to Computers**
+
+
+
+
 Before von Neumann architecture machine, designed by physicist and mathematician John von Neumann (1903–1957) is a theoretical design for a stored program computer that serves as the basis for almost all modern computers.
 self -replicaing machines 
 
-Von Neumann investigated the question of whether modelling evolution on a digital computer could solve the complexity problem in programming.[172]
+Von Neumann investigated the question of whether modelling evolution on a digital computer could solve the complexity problem in programming.
 
 Beginning in 1949, von Neumann's design for a self-reproducing computer program is considered the world's first computer virus, and he is considered to be the theoretical father of computer virology.[1
 
