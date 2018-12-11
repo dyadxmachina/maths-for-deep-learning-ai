@@ -202,9 +202,9 @@ It brough our attention back to symbolic AI. How can we fuse the ability of deep
 Another opponents of the symbolic approach include roboticists i.e. Rodney Brooks, who aims to produce antonomous robots without symbolic representation and computational intelligence researchers for which we will expand more in the later chapter. 
 
 
-## Computation 
+## Computation and Machines
 
-We have discussed a lot about the start of AI. The start of AI is a human self-discovery journey. It may have started from a philosophical query about our existence, however, the development of it has never apart from the physical carrier.  
+We have discussed about the origin of AI. The start of AI could be considered as a human self-discovery journey. It began with a philosophical query about our existence, however, the development of AI has never departed from the physical carrier.  
 
 Ever since we deemed reasoning as one of our human specific properties, many scientists have set out to mechanize this process.
 
@@ -232,13 +232,36 @@ Next, we move ahead several centuries and to Scotland. John Napier was born in 1
 The apex of this early era of formal computing can be seen in the difference engine and its successor the analytical engine, both by Charles Babbage and Ada Lovelace. The analytical engine combined concepts from his work and that of others to create a device that if constructed as designed would have possessed many properties of a modern electronic computer. 
 Babbage's devices could be reprogramed to solve new problems by the entry of new data, and act upon previous calculations within the same series of instructions. Ada Lovelace took this concept one step further, by creating a program for the analytical engine to calculate Bernoulli numbers, a complex calculation requiring a recursive algorithm.
 
-While Babbage and Lovelace labored to implement digital computing instruments, James Thomson developed an analogue computer in the form of a mechanical integrator to predict the tides using harmonic analysis. Thomson completed his work between 1861 and 1864. 
-Alan Turing modelled computation in terms of a one-dimensional storage tape, leading to the idea of the Turing machine and Turing-complete programming systems.
+**Analoge Computers**
+
+The earliest computing  machines in general were not digital but analog. In analog representation, properties of the representational medium ape properties of the represented state-of-affairs. 
+While Babbage and Lovelace labored to implement digital computing instruments, James Thomson developed an analogue computer in the form of a mechanical integrator to predict the tides using harmonic analysis. Thomson completed his work between 1861 and 1864.
+
+
+**Logic Machines**
+Right around the same time, Augustus de Morgan and George Boole showed that propositions in logic could be treated algebraically. This led to a breakthrough for designing a machine that could mechanically proces logical propositions using these laws. 
+
+The best known of them was the *Lgoci piano* designed by Willian Jevons. 
+
+Though logic machines did not have any practical significance but they reinforced the relationship between logic and computing. They also paved the way for an important theoretical paper on computing later wrote by Alan Turing. 
+
+**The Universal Turing Machine**
+
+Around 1930s, Alan Turing invented the princile of the modern computer in which he desribed an abstract digital computing machine. 
+
+Based on his design, the machine should have a limitless memeory and a scanner that moves back and forth through the memory, symbol by symbol, reading what it finds and writing futhre symbols. 
+
+This computing machine of 1936 is now known as the universal Turing machine. 
+
+Besides that, Alan Turing also came up with the futuristic view of a computing machins that can 
+
+* LEARN from experience and 
+
+* solve problems by means of searching through the space of possible solutions, guided by rule-of-thumb principles (the modern term for this idea is called 'heuristic search')
 
 **From Calculator to Computers**
 
-
-
+The first fully functioning eletronic digital computer was Colossus, used by the Bletchley Park cryptanalysts from 1944. 
 
 Before von Neumann architecture machine, designed by physicist and mathematician John von Neumann (1903–1957) is a theoretical design for a stored program computer that serves as the basis for almost all modern computers.
 self -replicaing machines 
