@@ -161,6 +161,11 @@ Symbolic was once the dominant paradigm in AI community from the post-War era un
  
  In constrast to symbolic AI, non-symbolic AI is a system that is designed to not rely on the symbols and signs but given just the ability to learn from the empirical data. 
  
+ Before we jump into the real applications, let's take some time to look at one of the first high-level programming language used in 1960s AI field - Lisp. 
+ 
+ **Symbolic Computations**
+
+Lisp (historically, LISP) is fully parenthesized prefix notation. Originally specified in 1958, Lisp was created as a practical mathematical notation for computer programs, influenced by the notation of Alonzo Church's lambda calculus. It quickly became the favored programming language for artificial intelligence (AI) research. As one of the earliest programming languages, Lisp pioneered many ideas in computer science, including tree data structures, automatic storage management, dynamic typing, conditionals, higher-order functions, recursion, the self-hosting compiler, and the read–eval–print loop.
  
 One of the first program that was deliberately engineered to mimic the grammar skills of a human being is called Logic Theorist developed in 1950-1951 by Allen Newell, Cliff Shaw, and Herbert Simon. The Logic Theorist was a program designed to mimic the problem solving skills of a human being and is called 'the first artificial intelligence program'.
 
@@ -214,7 +219,7 @@ In c. 1050–771 BC, the south-pointing chariot was invented in ancient China. I
 
 In the 3rd century BC, Archimedes used the mechanical principle of balance (see Archimedes Palimpsest#Mathematical content) to calculate mathematical problems, such as the number of grains of sand in the universe (The sand reckoner), which also required a recursive notation for numbers (e.g., the myriad myriad).
 
-The Antikythera mechanism is believed to be the earliest mechanical analog "computer", according to Derek J. de Solla Price. It was designed to calculate astronomical positions. It was discovered in the Antikythera wreck off the Greek island of Antikythera, between Kythera and Crete, and has been dated to c. 100 BC.
+The Antikythera mechanism is believed to be the earliest mechanical analog "computer", according to Derek J. de Solla Price. It was designed to calculate astronomical positions. It was discovered in the Antikythera wreck off the Greek island of Antikythera, between Kythera and Crete, and has been dated to 100 BC.
 
  Raymon Lull (1230-1315), a Spanish courtier and later converted monk and apologist, is the first person in history known to have devised a "logic" machine—a machine that computes logical proofs rather than doing arithmetic. 
  
@@ -255,23 +260,32 @@ This computing machine of 1936 is now known as the universal Turing machine.
 
 Besides that, Alan Turing also came up with the futuristic view of a computing machins that can 
 
-* LEARN from experience and 
+* Learn from experience and 
 
 * solve problems by means of searching through the space of possible solutions, guided by rule-of-thumb principles (the modern term for this idea is called 'heuristic search')
 
 **From Calculator to Computers**
 
-The first fully functioning eletronic digital computer was Colossus, used by the Bletchley Park cryptanalysts from 1944. 
+The 1937 Atanasoff–Berry computer design was the first digital electronic computer (though not programmable), and the Z3 computer from 1941, by German inventor Konrad Zuse was the first working programmable, fully automatic computing machine.
 
-Before von Neumann architecture machine, designed by physicist and mathematician John von Neumann (1903–1957) is a theoretical design for a stored program computer that serves as the basis for almost all modern computers.
-self -replicaing machines 
-
-Von Neumann investigated the question of whether modelling evolution on a digital computer could solve the complexity problem in programming.
-
-Beginning in 1949, von Neumann's design for a self-reproducing computer program is considered the world's first computer virus, and he is considered to be the theoretical father of computer virology.[1
+The first fully functioning eletronic digital computer was Colossus, used by the Bletchley Park cryptanalysts from 1944.  The Colossus was a joint effort by many people. The Colossus made Boolean comparisons between two strings and was used specifically to decode German messages.
 
 
+The ENIAC (Electronic Numerical Integrator And Computer) was the first electronic general-purpose computer built in the US, constructed at the Moore School of Elebrical Engineering and announced to the public in 1946. It was Turing-complete, digital, and capable of being reprogrammed to solve a full range of computing problems. 
 
-Lisp (historically, LISP) is a family of computer programming languages with a long history and a distinctive, fully parenthesized prefix notation.[3] Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Only Fortran is older, by one year.[4][5] Lisp has changed since its early days, and many dialects have existed over its history. Today, the best known general-purpose Lisp dialects are Clojure, Common Lisp, and Scheme.
+In 1944, John von Neumann joined the ENIAC group. He had become ‘intrigued' with Turing's universal machine while Turing was at Princeton University during 1936–1938. At the Moore School, von Neumann emphasised the importance of the stored-program concept for electronic computing, including the possibility of allowing the machine to modify its own program in useful ways while running. 
 
-Lisp was originally created as a practical mathematical notation for computer programs, influenced by the notation of Alonzo Church's lambda calculus. It quickly became the favored programming language for artificial intelligence (AI) research. As one of the earliest programming languages, Lisp pioneered many ideas in computer science, including tree data structures, automatic storage management, dynamic typing, conditionals, higher-order functions, recursion, the self-hosting compiler,[6] and the read–eval–print loop.[7]
+Von Neumann has made some significent contribution to the concept of a high-speed stored-program digital computer widely known through his writings and public addresses.Von Neumann investigated the question of whether modelling evolution on a digital computer could solve the complexity problem in programming. As a result, he designed a self-reproducing computer program is considered the world's first computer virus, and he is considered to be the theoretical father of computer virology and the machine is referred as ‘von Neumann machines’.
+
+
+**Commecial Computers**
+
+The first commercial computer was the Ferranti Mark 1, built by Ferranti and delivered to the University of Manchester in February 1951.
+
+Around 1970s, Intel released the first microprocessor which was a special integrated circuit that was able to process four bits of data at a time. 
+
+The 1980s brought about significant advances with microprocessor that greatly impacted the fields of engineering and other sciences. The Motorola 68000 microprocessor had a processing speed that was far superior to the other microprocessors being used at the time. 
+
+Lisa was the first personal computer with graphical user interface (GUI) that was sold commercially, she ran on the Motorola 68000, dual floppy disk drives, a 5 MB hard drive and had 1MB of RAM .
+
+In 1983, Apple released Lisa which was the first personal computer with graphical user interface (GUI) that was sold commercially.
