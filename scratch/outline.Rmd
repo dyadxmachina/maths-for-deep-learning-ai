@@ -96,8 +96,36 @@ Claude Shannon (1916-2001) is noted for having founded information theory with a
 
 All of those people have brought logic to life and step by step helped the invention of the early computer and the birth of AI. 
 
+
 ### Probability
+
 ### Symbolic AI & Expert Systems
+
+> A physical symbol system has the necessary and sufficient means for general intelligent action." - Allen Newell and Herbert A. Simon
+
+#### This is a quote from Allen Newell and Herbert Simon's "" is called "the physical symbol systems hypothesis".  
+
+> The hypothesis [is] that intelligence is the work of symbol systems. Stated a little more formally, the hypothesis is that a physical symbol system ... has the necessary and sufficient means for general intelligent action. - Herbert Simon, The Sciences of the Artificial
+
+#### Herbert Simon and Allen Newell worked on symbolic systems 
+
+> A physical symbol system holds a set of entities, called symbols. These are physical patterns (e.g., chalk marks on a blackboard) that can occur as components of symbol structures. In the case of computers, a symbol system also possesses a number of simple processes that operate upon symbol structures - processes that create, modify, copy and destroy symbols. A physical symbol system is a machine that, as it moves through time, produces an evolving collection of symbol structures. Symbol structures can, and commonly do, sever as internal representations (e.g., "mental images") of the environment to which the symbol system is seeking to adapt. They allow it to model that environment with greater or less veridicality and in greater or less detail, and consequently to reason about it. Of course, for this capability to be of any use to the symbol system, it must have windows on the world and hands, too. It must have means for acquiring information from the external environment that can be encoded into internal symbols, as well as means for producing symbols that initiate action upon the environment. Thus it must use symbols to designate objects and relations and actions in the world external to the system,
+
+#### Expert systems
+
+####The physical symbol systems hypothesis []
+
+#### Alan Turing and Alonzo Church - Church–Turing thesis
+
+#### Separating knowledge from inference
+
+#### Judea Pearl and causal reasoning
+
+#### Symbolic AI and The Chinese room
+#### Searle posited that 
+
+#### Gary Marcus and Yann Lecunn and neuro-symbolic AI
+
 ### Computation
 
 
