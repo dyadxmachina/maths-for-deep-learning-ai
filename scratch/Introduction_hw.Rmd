@@ -289,3 +289,56 @@ The 1980s brought about significant advances with microprocessor that greatly im
 Lisa was the first personal computer with graphical user interface (GUI) that was sold commercially, she ran on the Motorola 68000, dual floppy disk drives, a 5 MB hard drive and had 1MB of RAM .
 
 In 1983, Apple released Lisa which was the first personal computer with graphical user interface (GUI) that was sold commercially.
+
+
+
+
+# Neurobiolgoy + Learning 
+
+
+## Neuroscience 
+
+As we shall see from the previous discussion, the most basic inqury behind AI is our question about our existence and in search of the meaning of human intelligence. 
+
+From this perspective, we can think of the AI research and neuroscientists are actually dealing with a set of very resembled age-old goal: to understand the essence of intelligence. 
+
+As Aude Oliva siad: 
+
+
+"The fundamental questions cognitive neuroscientists and computer scientists seek to answer are similar, they have a complex system made of components - for one, it's called neurons and for the other it's called units."
+
+
+Despite different tools and questions that are explored by both disciplines, they constantly learn from each other and inspired each other.
+
+Here let's take a look at this long and interwined hishostry between AI and neuroscience. 
+
+
+As we call know that human brain might be the best representation of intelligence known, with unsurpassed ability to do complex reasonining, real-time perception and decision making with such a rich and dynamic world we live in. 
+
+
+Human brain undoubfully is one of most elegant instruments that many AI researchers and computer scientists try to imitate and learn from. 
+
+
+Most recent advances in Nueroscience certainly provide the guide for AI researchers to pursue a more brain-inspired apporach to AI.
+
+But how?
+
+
+We all know that neuroscience is the subject of biology that focuses on the study of anatomy and phsiology of human brain, including structures, neurons, and molecules to help us better depict the mechanisms, functions, and systems that are behind our cognitive behaviors.
+
+
+One of the earliest attempt to bridge this 2 disciplines is from Warren McCulloch and Wlter Pitts. Around 1943, they published a paper "A logical Calculus of the ideas immanent in Nervous Activity".
+
+Warren McCulloch is a neuroscientist and Walter Pitts is a logician. Their collaboration gave birth to the first computational theory and prototype of mind and brain. Their paper is also considered as the starting point in neuro network research. 
+
+What was novel in their paper was a theory that employed logic and mathematical notion of computation - introduced by Alan Turing (1936) - to explain how neural mechanism might realize mental functions and unlock the key to our reasoning and intelligence. 
+
+
+Deep learning is also a branch of AI that is deeply rooted in neuroscience. Deep learning is also known as Artificial Neural Networks. 
+
+> With so mcuh at stake, the need for the filed of nueroscience and AI to come together is now more urgent than ever before.
+
+
+
+
+
