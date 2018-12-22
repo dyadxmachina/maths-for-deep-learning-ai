@@ -101,28 +101,42 @@ All of those people have brought logic to life and step by step helped the inven
 
 ### Symbolic AI & Expert Systems
 
+> The hypothesis [is] that intelligence is the work of symbol systems ... the hypothesis is that a physical symbol system ... has the necessary and sufficient means for *general intelligent action*. - Herbert Simon, The Sciences of the Artificial
+
+
+Most of the work in AI so far, fits into the symbolic AI paradigm. Claude Shannon's master thesis (1937), A Symbolic Analysis of Relay and Switching Circuits, placed symbolic logic (Boole's) at the center of today's computing machinery. 
+
+
 > A physical symbol system has the necessary and sufficient means for general intelligent action." - Allen Newell and Herbert A. Simon
 
-#### This is a quote from Allen Newell and Herbert Simon's "" is called "the physical symbol systems hypothesis".  
+#### This is a quote from Allen Newell and Herbert Simon's "" is called "the physical symbol systems hypothesis". 
 
-> The hypothesis [is] that intelligence is the work of symbol systems. Stated a little more formally, the hypothesis is that a physical symbol system ... has the necessary and sufficient means for general intelligent action. - Herbert Simon, The Sciences of the Artificial
+> A physical symbol system holds a set of entities, called symbols. These are physical patterns (e.g., chalk marks on a blackboard) that can occur as components of symbol structures. In the case of computers, a symbol system also possesses a number of simple processes that operate upon symbol structures - processes that create, modify, copy and destroy symbols. A physical symbol system is a machine that, as it moves through time, produces an evolving collection of symbol structures. Symbol structures can, and commonly do, serve as internal representations (e.g., "mental images") of the environment to which the symbol system is seeking to adapt. They allow it to model that environment with greater or less veridicality and in greater or less detail, and consequently to reason about it. Of course, for this capability to be of any use to the symbol system, it must have windows on the world and hands, too. It must have means for acquiring information from the external environment that can be encoded into internal symbols, as well as means for producing symbols that initiate action upon the environment. Thus it must use symbols to designate objects and relations and actions in the world external to the system,
 
-#### Herbert Simon and Allen Newell worked on symbolic systems 
-
-> A physical symbol system holds a set of entities, called symbols. These are physical patterns (e.g., chalk marks on a blackboard) that can occur as components of symbol structures. In the case of computers, a symbol system also possesses a number of simple processes that operate upon symbol structures - processes that create, modify, copy and destroy symbols. A physical symbol system is a machine that, as it moves through time, produces an evolving collection of symbol structures. Symbol structures can, and commonly do, sever as internal representations (e.g., "mental images") of the environment to which the symbol system is seeking to adapt. They allow it to model that environment with greater or less veridicality and in greater or less detail, and consequently to reason about it. Of course, for this capability to be of any use to the symbol system, it must have windows on the world and hands, too. It must have means for acquiring information from the external environment that can be encoded into internal symbols, as well as means for producing symbols that initiate action upon the environment. Thus it must use symbols to designate objects and relations and actions in the world external to the system,
+Unpacking the symbol
 
 #### Expert systems
+
+Expert systems were one of the main application areas of symbolic AI which lead to much industry success then and now. Expert systems takes a hybrid apprach to human-machine interaction. Given we are aware that there are many human experts, experts systems engineers ask, how can we take an experts knowledge and teach a machine to make decisions like the human does. The question is answered by encoding those rules directly into the system. This means taking an experts knowledge and converting it into a set of rules and facts. The power of expert systems not from being a knowledge database but the ability to reason or deduce over these facts.
+This separation between knowledge (facts and rules) and inference (deductions) was one of the first of its kind and has become a key part of symbolic AI. 
+
+The first of these systems (recorded) were in the 1960s. Edward Feigenbaum, often titled the father of expert systems, where he and others worked on the Stanford Heuristic Programming Project.
+
+He would also worked on Mycin, Dendral, all expert systems technology
 
 ####The physical symbol systems hypothesis []
 
 #### Alan Turing and Alonzo Church - Church–Turing thesis
 
-#### Separating knowledge from inference
-
 #### Judea Pearl and causal reasoning
 
 #### Symbolic AI and The Chinese room
-#### Searle posited that 
+
+#### In 1980, provided Searle posited that 
+
+#### Simulated thinking vs actually thinking
+
+> The Chinese room argument is a thought experiment of John Searle (1980a) and associated (1984) derivation. It is one of the best known and widely credited counters to claims of artificial intelligence (AI)---that is, to claims that computers do or at least can (someday might) think. According to Searle's original presentation, the argument is based on two key claims: brains cause minds and syntax doesn't suffice for semantics. Its target is what Searle dubs "strong AI." According to strong AI, Searle says, "the computer is not merely a tool in the study of the mind, rather the appropriately programmed computer really is a mind in the sense that computers given the right programs can be literally said to understand and have other cognitive states" (1980a, p. 417). Searle contrasts strong AI with "weak AI." According to weak AI, computers just simulate thought, their seeming understanding isn't real understanding (just as-if), their seeming calculation is only as-if calculation, etc. Nevertheless, computer simulation is useful for studying the mind (as for studying the weather and other things).
 
 #### Gary Marcus and Yann Lecunn and neuro-symbolic AI
 
