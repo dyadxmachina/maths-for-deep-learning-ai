@@ -334,7 +334,16 @@ Warren McCulloch is a neuroscientist and Walter Pitts is a logician. Their colla
 What was novel in their paper was a theory that employed logic and mathematical notion of computation - introduced by Alan Turing (1936) - to explain how neural mechanism might realize mental functions and unlock the key to our reasoning and intelligence. 
 
 
-Deep learning is also a branch of AI that is deeply rooted in neuroscience. Deep learning is also known as Artificial Neural Networks. 
+Let's take a more recent example - Deep learning, a branch of AI, it also has the deep root in the science of brain. Deep learning is also known as Artificial Neural Networks which was designed to emulate the structure of the neurons. Beyond the similarities of the structured architectures including dedicated systems for attention, recursion and special forms of long- and short- term memory storage, there are also plenty of other techniques and new features were invented in the deep learning realm that are inspired by neuroscience.
+
+For example, the mechanism of deep networks when applied to Imagenet dataset seems to mimic not only the recognition perfomrance, but also the tuning properties of the real neurons in our cortical areas. The original idea of this came from basic neuroscience work in visual cortex by Hubel and Wiesel who recorded in 1960s how the simple and complex celss in the primary visual cortext work. Their work suggests a hierarchy of simple, complex and hyper-complex cells are structured in a sequence of layers of units to support more and more xomples features and greater invariance. 
+
+
+Nevertheless to say the framework i.e. transfer learning in contemporary AI research, to be able to deal with the novel scenarios with the existing knowledge. Human have nailed this task since we can operate freely on different type of eletronic devices with ease and deal with different social dynamics with our existing social skills. 
+
+
+Even in the field like dream and imagination that is so unique to human also shed light on the recent AI research i.e. DeepDream and in turn help us to better understand who we are. 
+
 
 > With so mcuh at stake, the need for the filed of nueroscience and AI to come together is now more urgent than ever before.
 
